@@ -295,6 +295,24 @@ SWIFT_CLASS("_TtC10MiniPlengi4Area")
 @end
 
 
+typedef SWIFT_ENUM(NSInteger, CarDetectionEngineStatus, open) {
+  CarDetectionEngineStatusSTARTED = 1,
+  CarDetectionEngineStatusSTOPPED = -1,
+};
+
+typedef SWIFT_ENUM(NSInteger, CarDetectionResult, open) {
+  CarDetectionResultSUCCESS = 0,
+  CarDetectionResultFAIL = -1,
+  CarDetectionResultNOT_STARTED = -2,
+  CarDetectionResultALREADY_STARTED = -8,
+  CarDetectionResultNOT_INITIALIZED = -9,
+};
+
+typedef SWIFT_ENUM(NSInteger, CarDetectionStatus, open) {
+  CarDetectionStatusFOUND = 1,
+  CarDetectionStatusLOST = -1,
+};
+
 
 /// <code>PlengiResponse</code> 로부터 인식된 복합몰의 결과값을 저장하는 객체입니다.
 /// important:
@@ -641,9 +659,14 @@ enum Result : NSInteger;
 ///   </li>
 /// </ul>
 + (void)requestAlwaysLocationAuthorization;
-/// 추적 권한을 요청합니다.
-/// iOS 14.5부터 IDFA(광고아이디)를 사용하기 위하여 유저가 권한을 부여해야 합니다.
-+ (void)requestTrackingAuthorizationWithCompletion:(void (^ _Nonnull)(void))completion;
+@end
+
+
+SWIFT_AVAILABILITY(ios,introduced=9.0)
+@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isDebug;)
++ (BOOL)isDebug SWIFT_WARN_UNUSED_RESULT;
++ (void)setIsDebug:(BOOL)value;
 @end
 
 enum ResponseType : NSInteger;
