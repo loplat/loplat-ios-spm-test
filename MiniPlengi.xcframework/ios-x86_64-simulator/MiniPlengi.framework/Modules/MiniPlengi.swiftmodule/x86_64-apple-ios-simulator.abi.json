@@ -1918,6 +1918,49 @@
           },
           {
             "kind": "Function",
+            "name": "requestTrackingAuthorization",
+            "printedName": "requestTrackingAuthorization(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MiniPlengi@objc(cs)Plengi(cm)requestTrackingAuthorizationWithCompletion:",
+            "mangledName": "$s10MiniPlengi0B0C28requestTrackingAuthorization10completionyyyc_tFZ",
+            "moduleName": "MiniPlengi",
+            "static": true,
+            "objc_name": "requestTrackingAuthorizationWithCompletion:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getDelegate",
             "printedName": "getDelegate()",
             "children": [
@@ -8558,6 +8601,13 @@
       },
       {
         "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
         "name": "AdSupport.ASIdentifierManager",
         "printedName": "AdSupport.ASIdentifierManager",
         "declKind": "Import",
@@ -13685,6 +13735,13 @@
         "moduleName": "MiniPlengi"
       },
       {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
         "kind": "TypeDecl",
         "name": "EngineStatus",
         "printedName": "EngineStatus",
@@ -16297,14 +16354,14 @@
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/LocationTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 2513,
+      "offset": 2439,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/LocationTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 5289,
+      "offset": 5215,
       "length": 4,
       "value": "true"
     },
@@ -16631,6 +16688,27 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2876,
+      "length": 58,
+      "value": "\"outbound-campaign-stream-staging-ufgttfcema-an.a.run.app\""
+    },
+    {
+      "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2978,
+      "length": 58,
+      "value": "\"outbound-campaign-stream-develop-2mzbux77lq-uc.a.run.app\""
+    },
+    {
+      "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3075,
+      "length": 50,
+      "value": "\"outbound-campaign-stream-2mzbux77lq-uc.a.run.app\""
+    },
+    {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Extension\/Property+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 975,
@@ -16738,7 +16816,7 @@
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceSearch.swift",
       "kind": "BooleanLiteral",
-      "offset": 39794,
+      "offset": 40737,
       "length": 5,
       "value": "false"
     },
@@ -16789,7 +16867,7 @@
       "kind": "StringLiteral",
       "offset": 864,
       "length": 9,
-      "value": "\"1.4.4.1\""
+      "value": "\"1.4.5.1\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/ZIPEngine\/BitByteData\/MsbBitWriter.swift",
@@ -23711,97 +23789,97 @@
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "StringLiteral",
       "offset": 800,
-      "length": 59,
-      "value": "\"https:\/\/v6-dot-staging-test-dot-loplat-beagle.appspot.com\""
+      "length": 52,
+      "value": "\"https:\/\/staging-test-dot-loplat-beagle.appspot.com\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "BooleanLiteral",
-      "offset": 1003,
+      "offset": 996,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "IntegerLiteral",
-      "offset": 1266,
+      "offset": 1259,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "StringLiteral",
-      "offset": 1353,
+      "offset": 1346,
       "length": 21,
       "value": "\"space_tracker_start\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "StringLiteral",
-      "offset": 1415,
+      "offset": 1408,
       "length": 20,
       "value": "\"space_tracker_stop\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "StringLiteral",
-      "offset": 1477,
+      "offset": 1470,
       "length": 21,
       "value": "\"space_tracker_found\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "StringLiteral",
-      "offset": 1539,
+      "offset": 1532,
       "length": 20,
       "value": "\"space_tracker_lost\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "IntegerLiteral",
-      "offset": 3031,
+      "offset": 3024,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "BooleanLiteral",
-      "offset": 3079,
+      "offset": 3072,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "IntegerLiteral",
-      "offset": 3815,
+      "offset": 3808,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "BooleanLiteral",
-      "offset": 3862,
+      "offset": 3855,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "IntegerLiteral",
-      "offset": 4640,
+      "offset": 4633,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "BooleanLiteral",
-      "offset": 4688,
+      "offset": 4681,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "BooleanLiteral",
-      "offset": 17539,
+      "offset": 17532,
       "length": 5,
       "value": "false"
     },
@@ -23996,57 +24074,92 @@
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
-      "kind": "StringLiteral",
-      "offset": 4622,
-      "length": 18,
-      "value": "\"loplat_bleMetaDB\""
-    },
-    {
-      "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
-      "kind": "StringLiteral",
-      "offset": 4684,
-      "length": 26,
-      "value": "\"loplat_ble_meta_data.zip\""
-    },
-    {
-      "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
-      "kind": "StringLiteral",
-      "offset": 4747,
-      "length": 25,
-      "value": "\"loplat_dl_temporary_dir\""
+      "kind": "IntegerLiteral",
+      "offset": 4564,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 4890,
+      "offset": 4597,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 4951,
+      "offset": 4628,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4662,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4703,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
+      "kind": "StringLiteral",
+      "offset": 4824,
+      "length": 18,
+      "value": "\"loplat_bleMetaDB\""
+    },
+    {
+      "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
+      "kind": "StringLiteral",
+      "offset": 4886,
+      "length": 26,
+      "value": "\"loplat_ble_meta_data.zip\""
+    },
+    {
+      "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
+      "kind": "StringLiteral",
+      "offset": 4949,
+      "length": 25,
+      "value": "\"loplat_dl_temporary_dir\""
+    },
+    {
+      "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5092,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5153,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "BooleanLiteral",
-      "offset": 5599,
+      "offset": 5801,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "BooleanLiteral",
-      "offset": 5829,
+      "offset": 6031,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "BooleanLiteral",
-      "offset": 19899,
+      "offset": 19389,
       "length": 4,
       "value": "true"
     },
@@ -24158,6 +24271,13 @@
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/ServerLeavePlace.swift",
       "kind": "StringLiteral",
+      "offset": 511,
+      "length": 17,
+      "value": "\"searchplace_gps\""
+    },
+    {
+      "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/ServerLeavePlace.swift",
+      "kind": "StringLiteral",
       "offset": 193,
       "length": 6,
       "value": "\"none\""
@@ -24192,36 +24312,43 @@
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/ServerLeavePlace.swift",
+      "kind": "StringLiteral",
+      "offset": 511,
+      "length": 17,
+      "value": "\"searchplace_gps\""
+    },
+    {
+      "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/ServerLeavePlace.swift",
       "kind": "BooleanLiteral",
-      "offset": 1103,
+      "offset": 1273,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/ServerLeavePlace.swift",
       "kind": "IntegerLiteral",
-      "offset": 1155,
+      "offset": 1325,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/ServerLeavePlace.swift",
       "kind": "IntegerLiteral",
-      "offset": 1198,
+      "offset": 1368,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/ServerLeavePlace.swift",
       "kind": "IntegerLiteral",
-      "offset": 1241,
+      "offset": 1411,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/ServerLeavePlace.swift",
       "kind": "StringLiteral",
-      "offset": 1284,
+      "offset": 1454,
       "length": 2,
       "value": "\"\""
     },
@@ -25502,7 +25629,7 @@
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/ClientLogTableViewController.swift",
       "kind": "StringLiteral",
-      "offset": 307,
+      "offset": 282,
       "length": 24,
       "value": "\"ClientLogTableViewCell\""
     },
@@ -25544,7 +25671,14 @@
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/BackgroundWorker.swift",
       "kind": "BooleanLiteral",
-      "offset": 8933,
+      "offset": 5270,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/BackgroundWorker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9602,
       "length": 4,
       "value": "true"
     },
@@ -25824,114 +25958,128 @@
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngie\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 8596,
+      "offset": 8597,
       "length": 45,
       "value": "\"PlaceEngine:: initRun:: engineStatus : stop\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngie\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 8841,
+      "offset": 8842,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngie\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 8942,
+      "offset": 8943,
       "length": 45,
       "value": "\"PlaceEngine:: initRun:: engineStatus : none\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngie\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 9114,
+      "offset": 9115,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngie\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 9263,
+      "offset": 9264,
       "length": 46,
       "value": "\"PlaceEngine:: initRun:: engineStatus : start\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngie\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 9459,
+      "offset": 9460,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngie\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 9519,
+      "offset": 9520,
       "length": 46,
       "value": "\"PlaceEngine:: initRun:: engineStatus : pause\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngie\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 10051,
+      "offset": 10052,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngie\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 16476,
+      "offset": 16477,
       "length": 49,
       "value": "\"PlaceEngine:: start:: engine is already started\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngie\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 16571,
+      "offset": 16572,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngie\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 17103,
+      "offset": 17104,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngie\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 22396,
+      "offset": 22397,
       "length": 48,
       "value": "\"PlaceEngine:: requestPlace:: searchType - none\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngie\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 22511,
+      "offset": 22512,
       "length": 85,
       "value": "\"PlaceEngine:: requestPlace:: searchType - \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngie\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 22576,
+      "offset": 22577,
       "length": 1,
       "value": "\" : getPlaceInternal\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngie\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 23003,
+      "offset": 23004,
       "length": 85,
       "value": "\"PlaceEngine:: requestPlace:: searchType - \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngie\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 23068,
+      "offset": 23069,
       "length": 1,
       "value": "\" : getPlaceManually\""
+    },
+    {
+      "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngie\/PlaceEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 23253,
+      "length": 82,
+      "value": "\"PlaceEngine:: requestPlace:: searchType - \""
+    },
+    {
+      "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngie\/PlaceEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 23318,
+      "length": 1,
+      "value": "\" : getPlaceForce\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngie\/PlaceEngine.swift",
@@ -27140,77 +27288,77 @@
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "IntegerLiteral",
-      "offset": 272,
+      "offset": 303,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "IntegerLiteral",
-      "offset": 293,
+      "offset": 324,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "IntegerLiteral",
-      "offset": 272,
+      "offset": 303,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "IntegerLiteral",
-      "offset": 293,
+      "offset": 324,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "IntegerLiteral",
-      "offset": 364,
+      "offset": 395,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "IntegerLiteral",
-      "offset": 397,
+      "offset": 428,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "IntegerLiteral",
-      "offset": 430,
+      "offset": 461,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "IntegerLiteral",
-      "offset": 364,
+      "offset": 395,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "IntegerLiteral",
-      "offset": 397,
+      "offset": 428,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "IntegerLiteral",
-      "offset": 430,
+      "offset": 461,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "BooleanLiteral",
-      "offset": 14672,
+      "offset": 15241,
       "length": 4,
       "value": "true"
     },
@@ -27287,147 +27435,147 @@
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/ClientLogTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 349,
+      "offset": 325,
       "length": 3,
       "value": "153"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/ClientLogTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 353,
+      "offset": 329,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/ClientLogTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 365,
+      "offset": 341,
       "length": 3,
       "value": "153"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/ClientLogTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 369,
+      "offset": 345,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/ClientLogTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 380,
+      "offset": 356,
       "length": 3,
       "value": "153"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/ClientLogTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 384,
+      "offset": 360,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/ClientLogTableViewCell.swift",
       "kind": "FloatLiteral",
-      "offset": 396,
+      "offset": 372,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/ClientLogTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 446,
+      "offset": 422,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/ClientLogTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 469,
+      "offset": 445,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/ClientLogTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 528,
+      "offset": 504,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/ClientLogTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 675,
+      "offset": 651,
       "length": 2,
       "value": "27"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/ClientLogTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 678,
+      "offset": 654,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/ClientLogTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 690,
+      "offset": 666,
       "length": 2,
       "value": "26"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/ClientLogTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 693,
+      "offset": 669,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/ClientLogTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 704,
+      "offset": 680,
       "length": 2,
       "value": "27"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/ClientLogTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 707,
+      "offset": 683,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/ClientLogTableViewCell.swift",
       "kind": "FloatLiteral",
-      "offset": 719,
+      "offset": 695,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/ClientLogTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 769,
+      "offset": 745,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/ClientLogTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 792,
+      "offset": 768,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/ClientLogTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 823,
+      "offset": 799,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/ClientLogTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 881,
+      "offset": 857,
       "length": 5,
       "value": "false"
     },
