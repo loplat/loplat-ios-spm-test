@@ -25,6 +25,7 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os
 public enum UserStatus : Swift.Int {
+  case FAST_MOVE
   case MOVE
   case STAY
   case LONG_STAY
