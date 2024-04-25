@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		U1c6XbKrVBz/cGZK6LgXSfL9kJM=
+		eY23jbmvZbEgikfZUAcG38faOwo=
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,15 +34,11 @@
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JkOUJKZDtcXWunJRdpt+PSMOlFY=
+		0OMdq0VYpjV/mfE6Ef6qVThrEic=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		DMO6nhy/Vstaz0ZF9viyEn7lLUM=
-		</data>
-		<key>PrivacyInfo.xcprivacy</key>
-		<data>
-		ITWhlbAt9udq8mxkhzyDd+na8lA=
 		</data>
 		<key>loplatActivityRecognition.mlmodelc/analytics/coremldata.bin</key>
 		<data>
@@ -50,7 +46,7 @@
 		</data>
 		<key>loplatActivityRecognition.mlmodelc/coremldata.bin</key>
 		<data>
-		HcMZxkofXGZ4X/5uSiTARaMp6v8=
+		Trs3GguPShdNvKWCEIvz/1cC8Fk=
 		</data>
 		<key>loplatActivityRecognition.mlmodelc/metadata.json</key>
 		<data>
@@ -97,7 +93,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0OZ8ReuBnJ5XAha0TstbfrmDfiDVNtws5OTixRwxBj4=
+			HjHEDTNXIuodXWg5xLgNKFBSIEVw4rKxwyao8+ce2tw=
 			</data>
 		</dict>
 		<key>Modules/MiniPlengi.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -125,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rUaPqSI/1k8sZdfmvfc6hoYkgmjWhafGhRqBRcSuHVo=
+			CSdcls0X9HavM6F7/8cHpmmwnxHsJOKh+U/qrVgw5O8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -133,13 +129,6 @@
 			<key>hash2</key>
 			<data>
 			4slI4sKQuIyxeKp6f0Aw3yaobzOMEXvkSq8T7QRX5V0=
-			</data>
-		</dict>
-		<key>PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/85NTKuJsUmo+SQ/RHB3ahSw3OfySAmTFiBwpOXpo68=
 			</data>
 		</dict>
 		<key>loplatActivityRecognition.mlmodelc/analytics/coremldata.bin</key>
@@ -153,7 +142,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B9k/Z4wB5pbYoa0UM9UmautemaTfCyWQudVnLJZRIR8=
+			jgZotpD7+hY1wLSpYSNy670S69c5D13R93VR4/oJaEo=
 			</data>
 		</dict>
 		<key>loplatActivityRecognition.mlmodelc/metadata.json</key>

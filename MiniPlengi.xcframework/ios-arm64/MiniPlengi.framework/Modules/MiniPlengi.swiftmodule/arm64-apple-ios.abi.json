@@ -17290,1155 +17290,1155 @@
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 8054,
+      "offset": 8111,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 8642,
+      "offset": 8768,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 9003,
+      "offset": 9129,
       "length": 4,
       "value": "1400"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 9009,
+      "offset": 9135,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 9052,
+      "offset": 9178,
       "length": 111,
       "value": "\"GPS Queue[\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 9085,
+      "offset": 9211,
       "length": 1,
       "value": "\"], First,Last 거리 \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 9117,
+      "offset": 9243,
       "length": 1,
       "value": "\"m, Average \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 9152,
+      "offset": 9278,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 9157,
+      "offset": 9283,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 9161,
+      "offset": 9287,
       "length": 1,
       "value": "\"m\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 9498,
+      "offset": 9624,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 9505,
+      "offset": 9631,
       "length": 9,
       "value": "\"FAST_MOVE -> MOVE\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 9641,
+      "offset": 9767,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 9648,
+      "offset": 9774,
       "length": 4,
       "value": "\"MOVE -> STAY\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 9889,
+      "offset": 10015,
       "length": 45,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 9896,
+      "offset": 10022,
       "length": 4,
       "value": "\" same wifi, 위치요청 안할꺼임\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 10042,
+      "offset": 10168,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 10049,
+      "offset": 10175,
       "length": 5,
       "value": "\"still Stay\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 10219,
+      "offset": 10345,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 10315,
+      "offset": 10441,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 10322,
+      "offset": 10448,
       "length": 5,
       "value": "\"still Long Stay\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 10386,
+      "offset": 10512,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 10541,
+      "offset": 10667,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 10578,
+      "offset": 10704,
       "length": 26,
       "value": "\"heading is 0, still stay\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 10776,
+      "offset": 10902,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 10788,
+      "offset": 10914,
       "length": 1,
       "value": "\"m out MOVE\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 10892,
+      "offset": 11018,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 10899,
+      "offset": 11025,
       "length": 4,
       "value": "\"STAY -> FAST MOVE\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 11030,
+      "offset": 11156,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 11037,
+      "offset": 11163,
       "length": 4,
       "value": "\"STAY -> MOVE\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 11332,
+      "offset": 11458,
       "length": 24,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 11339,
+      "offset": 11465,
       "length": 5,
       "value": "\"still Fast Move.\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 11466,
+      "offset": 11592,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 11473,
+      "offset": 11599,
       "length": 4,
       "value": "\"FAST Move -> MOVE\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 11667,
+      "offset": 11793,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 11674,
+      "offset": 11800,
       "length": 4,
       "value": "\"Move -> FAST MOVE\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 11805,
+      "offset": 11931,
       "length": 19,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 11812,
+      "offset": 11938,
       "length": 5,
       "value": "\"still Move.\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 11922,
+      "offset": 12048,
       "length": 35,
       "value": "\"GPS Queue[\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 11955,
+      "offset": 12081,
       "length": 1,
       "value": "\"]\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 12197,
+      "offset": 12323,
       "length": 52,
       "value": "\"getHeadingChange:: headingArray: \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 12248,
+      "offset": 12374,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 12290,
+      "offset": 12416,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 12398,
+      "offset": 12524,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 12454,
+      "offset": 12580,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 12484,
+      "offset": 12610,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 12543,
+      "offset": 12669,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 12615,
+      "offset": 12741,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 12666,
+      "offset": 12792,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 12730,
+      "offset": 12856,
       "length": 3,
       "value": "360"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 12756,
+      "offset": 12882,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 12848,
+      "offset": 12974,
       "length": 3,
       "value": "360"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 12900,
+      "offset": 13026,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 13012,
+      "offset": 13138,
       "length": 32,
       "value": "\"getHeadingChange:: aoc: \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 13043,
+      "offset": 13169,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 13094,
+      "offset": 13220,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 13411,
+      "offset": 13537,
       "length": 59,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 13418,
+      "offset": 13544,
       "length": 17,
       "value": "\" compareScannedBLE:: isWifiNil :\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 13469,
+      "offset": 13595,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 13569,
+      "offset": 13695,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 13768,
+      "offset": 13894,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 13801,
+      "offset": 13927,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 13842,
+      "offset": 13968,
       "length": 68,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 13854,
+      "offset": 13980,
       "length": 4,
       "value": "\" stay 상태에서 다른비콘 스캔됨, 위치요청\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 13991,
+      "offset": 14117,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 14953,
+      "offset": 15079,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 15061,
+      "offset": 15187,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 15066,
+      "offset": 15192,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 15728,
+      "offset": 15854,
       "length": 113,
       "value": "\"GpsQueue LocationData isNIL start[\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 15784,
+      "offset": 15910,
       "length": 1,
       "value": "\"], end[\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 15810,
+      "offset": 15936,
       "length": 1,
       "value": "\"], point[\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 15839,
+      "offset": 15965,
       "length": 1,
       "value": "\"]\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 15970,
+      "offset": 16096,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 15975,
+      "offset": 16101,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 16069,
+      "offset": 16195,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 16832,
+      "offset": 16958,
       "length": 49,
       "value": "\"checkNeedSearchPlace:: wifi 바뀌어서 호출\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 16992,
+      "offset": 17118,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 17155,
+      "offset": 17281,
       "length": 5,
       "value": "\"lat\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 17228,
+      "offset": 17354,
       "length": 5,
       "value": "\"lng\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 17302,
+      "offset": 17428,
       "length": 10,
       "value": "\"accuracy\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 17350,
+      "offset": 17476,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 17355,
+      "offset": 17481,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 17372,
+      "offset": 17498,
       "length": 11,
       "value": "\"timestamp\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 17588,
+      "offset": 17714,
       "length": 41,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 17609,
+      "offset": 17735,
       "length": 5,
       "value": "\"ENTER \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 17628,
+      "offset": 17754,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 17773,
+      "offset": 17899,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 18215,
+      "offset": 18341,
       "length": 41,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 18236,
+      "offset": 18362,
       "length": 5,
       "value": "\"ENTER \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 18255,
+      "offset": 18381,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 18435,
+      "offset": 18561,
       "length": 41,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 18456,
+      "offset": 18582,
       "length": 5,
       "value": "\"ENTER \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 18475,
+      "offset": 18601,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 20061,
+      "offset": 20187,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 20101,
+      "offset": 20227,
       "length": 56,
       "value": "\"Staying period:\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 20128,
+      "offset": 20254,
       "length": 1,
       "value": "\"s\/\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 20155,
+      "offset": 20281,
       "length": 1,
       "value": "\"s\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 20542,
+      "offset": 20668,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 20757,
+      "offset": 20883,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 20868,
+      "offset": 20994,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 20874,
+      "offset": 21000,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 20905,
+      "offset": 21031,
       "length": 70,
       "value": "\"isStayingHeading: \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 20940,
+      "offset": 21066,
       "length": 1,
       "value": "\", headingAverage:\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 20974,
+      "offset": 21100,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 21411,
+      "offset": 21537,
       "length": 100,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 21418,
+      "offset": 21544,
       "length": 20,
       "value": "\" setGcuLocationUpdate:: isAuthorizedAlways: \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 21483,
+      "offset": 21609,
       "length": 1,
       "value": "\", userStatus: \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 21510,
+      "offset": 21636,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 23485,
+      "offset": 23611,
       "length": 33,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 23492,
+      "offset": 23618,
       "length": 1,
       "value": "\":: startSLCLocationUpdate\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 23536,
+      "offset": 23662,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 23779,
+      "offset": 23905,
       "length": 29,
       "value": "\"[GCU] stopGcuLocationUpdate\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 24004,
+      "offset": 24130,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 24433,
+      "offset": 24559,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 24469,
+      "offset": 24595,
       "length": 135,
       "value": "\"LocationUpdateFailureCount [\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 24532,
+      "offset": 24658,
       "length": 1,
       "value": "\"], userStatus[\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 24559,
+      "offset": 24685,
       "length": 1,
       "value": "\"], isAuthorizedAlways[\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 24602,
+      "offset": 24728,
       "length": 1,
       "value": "\"]\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 24750,
+      "offset": 24876,
       "length": 47,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 24757,
+      "offset": 24883,
       "length": 27,
       "value": "\"handleLocationUpdateFailure:: Long Stay\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 25021,
+      "offset": 25147,
       "length": 5,
       "value": "\"lat\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 25085,
+      "offset": 25211,
       "length": 5,
       "value": "\"lng\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 25311,
+      "offset": 25437,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 25316,
+      "offset": 25442,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 25375,
+      "offset": 25501,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 25417,
+      "offset": 25543,
       "length": 83,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 25429,
+      "offset": 25555,
       "length": 27,
       "value": "\"handleLocationUpdateFailure:: Long Stay :: \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 25483,
+      "offset": 25609,
       "length": 1,
       "value": "\" > 80. enterMove\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 25609,
+      "offset": 25735,
       "length": 88,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 25621,
+      "offset": 25747,
       "length": 27,
       "value": "\"handleLocationUpdateFailure:: Long Stay :: \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 25675,
+      "offset": 25801,
       "length": 1,
       "value": "\" < 80. still LongStay\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 25918,
+      "offset": 26044,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 25969,
+      "offset": 26095,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "FloatLiteral",
-      "offset": 26262,
+      "offset": 26388,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 26284,
+      "offset": 26410,
       "length": 5,
       "value": "\"lat\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "FloatLiteral",
-      "offset": 26348,
+      "offset": 26474,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 26369,
+      "offset": 26495,
       "length": 5,
       "value": "\"lng\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "FloatLiteral",
-      "offset": 26434,
+      "offset": 26560,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 26455,
+      "offset": 26581,
       "length": 10,
       "value": "\"accuracy\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 26494,
+      "offset": 26620,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 26499,
+      "offset": 26625,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 26520,
+      "offset": 26646,
       "length": 11,
       "value": "\"timestamp\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 26921,
+      "offset": 27047,
       "length": 45,
       "value": "\"GCU Update가 없어서 강제 위치요청\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 27090,
+      "offset": 27216,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 27667,
+      "offset": 27793,
       "length": 41,
       "value": "\"isHeadingUpdateFailure:: array is empty\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 27758,
+      "offset": 27884,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 27792,
+      "offset": 27918,
       "length": 63,
       "value": "\"isHeadingUpdateFailure:: heading 고장남, threashold 변경\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 27910,
+      "offset": 28036,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 27966,
+      "offset": 28092,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 28041,
+      "offset": 28167,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 28099,
+      "offset": 28225,
       "length": 45,
       "value": "\"isHeadingUpdateFailure:: array is not empty\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 28195,
+      "offset": 28321,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 28247,
+      "offset": 28373,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 28755,
+      "offset": 28881,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "FloatLiteral",
-      "offset": 29005,
+      "offset": 29131,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "FloatLiteral",
-      "offset": 29144,
+      "offset": 29270,
       "length": 5,
       "value": "120.0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "FloatLiteral",
-      "offset": 29152,
+      "offset": 29278,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "FloatLiteral",
-      "offset": 29273,
+      "offset": 29399,
       "length": 4,
       "value": "40.0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "FloatLiteral",
-      "offset": 29280,
+      "offset": 29406,
       "length": 4,
       "value": "20.0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 29482,
+      "offset": 29608,
       "length": 157,
       "value": "\"Last Accuracy:\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 29512,
+      "offset": 29638,
       "length": 1,
       "value": "\", Avg Accuracy:\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 29545,
+      "offset": 29671,
       "length": 1,
       "value": "\", isInner:\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 29564,
+      "offset": 29690,
       "length": 1,
       "value": "\", 기존 Stay판정:\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 29593,
+      "offset": 29719,
       "length": 1,
       "value": "\", Horizontal추가 기준:\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 29638,
+      "offset": 29764,
       "length": 2,
       "value": "\"\""
     },
@@ -33992,86 +33992,107 @@
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+BGFetch.swift",
       "kind": "StringLiteral",
-      "offset": 2402,
+      "offset": 2469,
       "length": 104,
       "value": "\"PlaceEngine:: registerBgFetchOnly:: BG Fetch not working. ips is not activated from SDKConfig, No Auth\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+BGFetch.swift",
       "kind": "BooleanLiteral",
-      "offset": 2579,
+      "offset": 2646,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+BGFetch.swift",
       "kind": "StringLiteral",
-      "offset": 3100,
+      "offset": 3167,
       "length": 67,
       "value": "\"PlaceEngine:: handleBgFetch:: schedule & execute background fetch\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+BGFetch.swift",
       "kind": "IntegerLiteral",
-      "offset": 3259,
+      "offset": 3326,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+BGFetch.swift",
       "kind": "IntegerLiteral",
-      "offset": 4219,
+      "offset": 4286,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+BGFetch.swift",
       "kind": "IntegerLiteral",
-      "offset": 4224,
+      "offset": 4291,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+BGFetch.swift",
       "kind": "StringLiteral",
-      "offset": 4375,
+      "offset": 4442,
       "length": 95,
       "value": "\"PlaceEngine:: scheduleBgFetch:: BGAppRefreshTaskRequest submiited minimum interval 15 minutes\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+BGFetch.swift",
       "kind": "StringLiteral",
-      "offset": 4515,
+      "offset": 4582,
       "length": 98,
       "value": "\"PlaceEngine:: scheduleBgFetch:: BGAppRefreshTaskRequest Could not schedule app refresh: \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+BGFetch.swift",
       "kind": "StringLiteral",
-      "offset": 4612,
+      "offset": 4679,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+BGFetch.swift",
       "kind": "StringLiteral",
-      "offset": 4834,
+      "offset": 4901,
       "length": 26,
       "value": "\"run backgroundFetchBlock\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+BGFetch.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5169,
-      "length": 4,
-      "value": "true"
+      "kind": "StringLiteral",
+      "offset": 5177,
+      "length": 60,
+      "value": "\"PlaceEngine:: backgroundFetchBlock:: start background task\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+BGFetch.swift",
       "kind": "StringLiteral",
-      "offset": 5259,
-      "length": 60,
-      "value": "\"PlaceEngine:: backgroundFetchBlock:: start background task\""
+      "offset": 5698,
+      "length": 31,
+      "value": "\"backgroundFetchBlock:: always\""
+    },
+    {
+      "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+BGFetch.swift",
+      "kind": "StringLiteral",
+      "offset": 6159,
+      "length": 34,
+      "value": "\"backgroundFetchBlock:: whenInUse\""
+    },
+    {
+      "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+BGFetch.swift",
+      "kind": "StringLiteral",
+      "offset": 6719,
+      "length": 31,
+      "value": "\"backgroundFetchBlock:: noAuth\""
+    },
+    {
+      "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+BGFetch.swift",
+      "kind": "StringLiteral",
+      "offset": 6986,
+      "length": 29,
+      "value": "\"backgroundFetchBlock:: else\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/ZIPEngine\/ZIP\/ByteReader+Zip.swift",
@@ -40194,266 +40215,266 @@
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "BooleanLiteral",
-      "offset": 2151,
+      "offset": 2239,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "IntegerLiteral",
-      "offset": 2339,
+      "offset": 2427,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2636,
+      "offset": 2724,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "StringLiteral",
-      "offset": 2723,
+      "offset": 2811,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "BooleanLiteral",
-      "offset": 2875,
+      "offset": 2963,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3093,
+      "offset": 3181,
       "length": 107,
       "value": "\"PlaceEngine:: searchPlaceIp:: WiFi is connecting, not same local ip \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3180,
+      "offset": 3268,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3199,
+      "offset": 3287,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3348,
+      "offset": 3436,
       "length": 103,
       "value": "\"PlaceEngine:: searchPlaceIp:: WiFi is connecting, same local ip \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3431,
+      "offset": 3519,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3450,
+      "offset": 3538,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "BooleanLiteral",
-      "offset": 3551,
+      "offset": 3639,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "IntegerLiteral",
-      "offset": 3739,
+      "offset": 3827,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "BooleanLiteral",
-      "offset": 3833,
+      "offset": 3921,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "StringLiteral",
-      "offset": 3895,
+      "offset": 3983,
       "length": 72,
       "value": "\"PlaceEngine:: searchPlaceIp:: VPN is validate, not called requestPlace\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "BooleanLiteral",
-      "offset": 4052,
+      "offset": 4140,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "StringLiteral",
-      "offset": 4322,
+      "offset": 4410,
       "length": 15,
       "value": "\"VPN activated\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "StringLiteral",
-      "offset": 4607,
+      "offset": 4695,
       "length": 61,
       "value": "\"PlaceEngine:: longDisconnectionLeaveEvent:: leave, reset ip\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "BooleanLiteral",
-      "offset": 4735,
+      "offset": 4823,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "BooleanLiteral",
-      "offset": 5056,
+      "offset": 5259,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "StringLiteral",
-      "offset": 5082,
+      "offset": 5285,
       "length": 156,
       "value": "\"PlaceEngine:: wifiConnected:: needIpLocation : \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "BooleanLiteral",
-      "offset": 5170,
+      "offset": 5373,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "StringLiteral",
-      "offset": 5176,
+      "offset": 5379,
       "length": 1,
       "value": "\", current : \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "BooleanLiteral",
-      "offset": 5231,
+      "offset": 5434,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "StringLiteral",
-      "offset": 5237,
+      "offset": 5440,
       "length": 29,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "BooleanLiteral",
-      "offset": 5671,
+      "offset": 5937,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "StringLiteral",
-      "offset": 5763,
+      "offset": 6029,
       "length": 71,
       "value": "\"PlaceEngine:: wifiConnected:: dupricated searchPlaceIp for dupricated\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "BooleanLiteral",
-      "offset": 6522,
+      "offset": 6759,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "BooleanLiteral",
-      "offset": 7475,
+      "offset": 7712,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "BooleanLiteral",
-      "offset": 7526,
+      "offset": 7763,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "StringLiteral",
-      "offset": 7626,
+      "offset": 7863,
       "length": 143,
       "value": "\"PlaceEngine:: wifiDisconnected:: needIpLocation : \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "StringLiteral",
-      "offset": 7715,
+      "offset": 7952,
       "length": 1,
       "value": "\", current : \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "StringLiteral",
-      "offset": 7768,
+      "offset": 8005,
       "length": 29,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "IntegerLiteral",
-      "offset": 8342,
+      "offset": 8579,
       "length": 4,
       "value": "1800"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "IntegerLiteral",
-      "offset": 8359,
+      "offset": 8596,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "BooleanLiteral",
-      "offset": 8450,
+      "offset": 8687,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "StringLiteral",
-      "offset": 8538,
+      "offset": 8775,
       "length": 81,
       "value": "\"PlaceEngine:: wifiDisconnected:: Run Loop Register Leave event after 30 minutes\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+IPLocation.swift",
       "kind": "BooleanLiteral",
-      "offset": 10321,
+      "offset": 10558,
       "length": 4,
       "value": "true"
     },
@@ -41895,392 +41916,392 @@
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 14499,
+      "offset": 14337,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 15032,
+      "offset": 14870,
       "length": 38,
       "value": "\"PlaceEngine:: stop:: already stopped\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 15116,
+      "offset": 14954,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 15202,
+      "offset": 15040,
       "length": 22,
       "value": "\"PlaceEngine:: stop::\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 15434,
+      "offset": 15272,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 16192,
+      "offset": 16030,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 16285,
+      "offset": 16123,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 16484,
+      "offset": 16322,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 17626,
+      "offset": 17464,
       "length": 49,
       "value": "\"PlaceEngine:: start:: engine is already started\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 17721,
+      "offset": 17559,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 18253,
+      "offset": 18091,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 18352,
+      "offset": 18190,
       "length": 50,
       "value": "\"PlaceEngine:: resume:: engine is already started\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 18494,
+      "offset": 18332,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 18564,
+      "offset": 18402,
       "length": 71,
       "value": "\"PlaceEngine:: resume:: SDK has been disabled by settings.(force_stop)\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 18834,
+      "offset": 18672,
       "length": 45,
       "value": "\"PlaceEngine:: resume:: engine is not paused\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 19557,
+      "offset": 19395,
       "length": 23,
       "value": "\"loplat X(Gravity) is \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 19607,
+      "offset": 19445,
       "length": 8,
       "value": "\"enable\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 19618,
+      "offset": 19456,
       "length": 9,
       "value": "\"disable\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 19631,
+      "offset": 19469,
       "length": 12,
       "value": "\"\nNoti is \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 19674,
+      "offset": 19512,
       "length": 8,
       "value": "\"enable\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 19685,
+      "offset": 19523,
       "length": 9,
       "value": "\"disable\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 19717,
+      "offset": 19555,
       "length": 35,
       "value": "\"PlaceEngine:: resume:: \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 19751,
+      "offset": 19589,
       "length": 29,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 19947,
+      "offset": 19785,
       "length": 50,
       "value": "\"PlaceEngine:: resume:: app restart on background\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 20247,
+      "offset": 20085,
       "length": 85,
       "value": "\"PlaceEngine:: resume:: IP Location not Working. ips is not activated from SDKConfig\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 21710,
+      "offset": 21548,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 21751,
+      "offset": 21589,
       "length": 79,
       "value": "\"PlaceEngine:: resume:: Bluetooth.run() updating... Bluetooth metadata on init\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 22767,
+      "offset": 22605,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "FloatLiteral",
-      "offset": 23576,
+      "offset": 23414,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 23857,
+      "offset": 23695,
       "length": 132,
       "value": "\"PlaceEngine:: requestPlace:: requested in 5 seconds from last request. \ntry again after \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 23980,
+      "offset": 23818,
       "length": 7,
       "value": "\" seconds\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 24194,
+      "offset": 24032,
       "length": 48,
       "value": "\"PlaceEngine:: requestPlace:: searchType - none\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 24361,
+      "offset": 24199,
       "length": 85,
       "value": "\"PlaceEngine:: requestPlace:: searchType - \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 24426,
+      "offset": 24264,
       "length": 1,
       "value": "\" : getPlaceInternal\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 24883,
+      "offset": 24721,
       "length": 85,
       "value": "\"PlaceEngine:: requestPlace:: searchType - \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 24948,
+      "offset": 24786,
       "length": 1,
       "value": "\" : getPlaceManually\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 25132,
+      "offset": 24970,
       "length": 82,
       "value": "\"PlaceEngine:: requestPlace:: searchType - \""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 25197,
+      "offset": 25035,
       "length": 1,
       "value": "\" : getPlaceForce\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 25834,
+      "offset": 25672,
       "length": 27,
       "value": "\"PlaceEngine:: setConfig::\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 25879,
+      "offset": 25717,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 26557,
+      "offset": 26395,
       "length": 71,
       "value": "\"PlaceEngine:: setConfig:: updating... Bluetooth metadata on setConfig\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 26891,
+      "offset": 26729,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 27142,
+      "offset": 26980,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 27188,
+      "offset": 27026,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 27238,
+      "offset": 27076,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 27276,
+      "offset": 27114,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 27371,
+      "offset": 27209,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 29176,
+      "offset": 29014,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 29649,
+      "offset": 29487,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 29991,
+      "offset": 29829,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 30285,
+      "offset": 30123,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 30627,
+      "offset": 30465,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 30778,
+      "offset": 30616,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 30931,
+      "offset": 30769,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 30965,
+      "offset": 30803,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 31027,
+      "offset": 30865,
       "length": 5,
       "value": "false"
     },
@@ -44297,8 +44318,8 @@
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/ManagingVersion.swift",
       "kind": "StringLiteral",
       "offset": 540,
-      "length": 7,
-      "value": "\"1.5.0\""
+      "length": 11,
+      "value": "\"1.5.4-rc1\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/ZIPEngine\/Deflate\/Deflate+Constants.swift",
