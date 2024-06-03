@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MiniPlengi
+// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MiniPlengi
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AdSupport.ASIdentifierManager
 import AdSupport
@@ -12,7 +12,6 @@ import CoreLocation
 import CoreML
 import CoreMotion
 import Foundation
-import MessageUI
 @_exported import MiniPlengi
 import NetworkExtension
 import SQLite3
@@ -35,58 +34,13 @@ public enum MonitoringType : Swift.Int {
     get
   }
 }
-@available(iOS 9.0, *)
-open class TEST_SDKConfig {
-  public var config_id: Swift.Int {
-    get
-  }
-  public var period_move: Swift.Int {
-    get
-  }
-  public var period_stay: Swift.Int {
-    get
-  }
-  public var use_adid: Swift.Bool {
-    get
-  }
-  public var force_stop: Swift.Bool {
-    get
-  }
-  public var manual_api: Swift.Bool {
-    get
-  }
-  public var ble_url: Swift.String {
-    get
-  }
-  public var ad_url: Swift.String {
-    get
-  }
-  public var place_url: Swift.String {
-    get
-  }
-  public var sdk_mode: MiniPlengi.MonitoringType {
-    get
-  }
-  public var interval: Swift.Int {
-    get
-  }
-  public var significant_location: Swift.Bool {
-    get
-  }
-  public var background_use: Swift.Bool {
-    get
-  }
-  public var crash_reporter: Swift.Bool {
-    get
-  }
-  public init(sdkConfig: Any?)
-  @objc deinit
+extension MiniPlengi.Deflate {
+  public static func compress(data: Foundation.Data) -> Foundation.Data
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class Plengi : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
   @available(iOS 14.0, *)
   @objc public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
-  public static var isTestServer: MiniPlengi.TestModeStatus
   @objc deinit
 }
 public enum DeflateError : Swift.Error {
@@ -120,41 +74,19 @@ public enum DeflateError : Swift.Error {
   @objc override dynamic public init()
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class ManagingVersion {
-  public static var version: Swift.String
-  public static func main()
+@_inheritsConvenienceInitializers @objc open class District : ObjectiveC.NSObject, Foundation.NSCoding {
+  @objc public var lv0_code: Swift.String
+  @objc public var lv1_name: Swift.String
+  @objc public var lv2_name: Swift.String
+  @objc public var lv3_name: Swift.String
+  @objc public var lv1_code: Swift.String
+  @objc public var lv2_code: Swift.String
+  @objc public var lv3_code: Swift.String
+  convenience public init?(_ data: Any?)
+  @objc required convenience public init?(coder aDecoder: Foundation.NSCoder)
+  @objc public func encode(with aCoder: Foundation.NSCoder)
+  @objc override dynamic public init()
   @objc deinit
-}
-@available(iOS 9.0, *)
-extension MiniPlengi.Plengi {
-  public class func TEST_sdkVersion() -> Swift.String?
-  public class func TEST_userPersonalData() -> (ID: Swift.String?, secret: Swift.String?, code: Swift.String?)
-  public class func TEST_requestLocationPermission()
-  public class func TEST_uuidList(lat: Swift.Double, lng: Swift.Double) -> Swift.Array<Swift.String>
-  public class func TEST_currentWifiInfo() -> (ssid: Swift.String?, bssid: Swift.String?)
-  public class func changeMode(sdkMode: MiniPlengi.MonitoringType)
-  @available(iOS 10.0, *)
-  public class func fetchLogs(page: Swift.Int? = nil) -> [(message: Swift.String, time: Swift.Int64, plengiResponse: Foundation.Data?)]
-  public class func fetchLog() -> Swift.String
-  @available(iOS 10.0, *)
-  public class func removeAllLog()
-  @available(iOS 9.0, *)
-  public class func getIdfa() -> Swift.String?
-  public class func getDeviceInfo() -> Swift.String?
-  @objc public static var isDebug: Swift.Bool {
-    @objc get
-    @objc set
-  }
-  public class func startLogViewTimer()
-  public class func forceUpdateConfig()
-  public class func setFastMove()
-  public class func setMove()
-  public class func setStay()
-  public class func setLongStay()
-  public class func restart()
-  public class func appendGPS(_ distance: CoreLocation.CLLocationDistance)
-  public class func logging(msg: Swift.String)
-  public class func setLogUpdateDelegate(delegate: any MiniPlengi.LogUpdateDelegate)
 }
 @_inheritsConvenienceInitializers @objc open class Place : ObjectiveC.NSObject, Foundation.NSCoding {
   @objc public var loplat_id: Swift.Int
@@ -182,23 +114,9 @@ extension MiniPlengi.Plengi {
 extension UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) public func topMostViewController() -> UIKit.UIViewController
 }
-@objc public enum CarDetectionEngineStatus : Swift.Int {
-  case STARTED = 1
-  case STOPPED = -1
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc public enum CarDetectionStatus : Swift.Int {
-  case FOUND = 1
-  case LOST = -1
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
+@_hasMissingDesignatedInitializers public class Deflate {
+  public static func decompress(data: Foundation.Data) throws -> Foundation.Data
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @objc open class Location : ObjectiveC.NSObject, Foundation.NSCoding {
   @objc public var provider: Swift.String
@@ -213,9 +131,6 @@ extension UIKit.UIViewController {
   @objc public func encode(with aCoder: Foundation.NSCoder)
   @objc override dynamic public init()
   @objc deinit
-}
-public protocol LogUpdateDelegate : ObjectiveC.NSObject {
-  func updateLogs()
 }
 @_inheritsConvenienceInitializers @objc open class Advertisement : ObjectiveC.NSObject, Foundation.NSCoding {
   @objc open var alarm: Swift.String
@@ -236,18 +151,6 @@ public protocol LogUpdateDelegate : ObjectiveC.NSObject {
 }
 extension MiniPlengi.Advertisement {
   public func adSend(phoneNumber: Swift.String)
-}
-@objc public enum CarDetectionResult : Swift.Int {
-  case SUCCESS = 0
-  case FAIL = -1
-  case NOT_STARTED = -2
-  case ALREADY_STARTED = -8
-  case NOT_INITIALIZED = -9
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
 }
 @objc public enum Result : Swift.Int {
   case SUCCESS = 0
@@ -316,6 +219,11 @@ extension MiniPlengi.Advertisement {
   @objc func responsePlaceEvent(_ plengiResponse: MiniPlengi.PlengiResponse)
   @objc optional func responseManualProcess(_ msg: Swift.String)
 }
+@_hasMissingDesignatedInitializers @main public class ManagingVersion {
+  public static var version: Swift.String
+  public static func main()
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @objc open class Area : ObjectiveC.NSObject, Foundation.NSCoding {
   @objc public var id: Swift.Int
   @objc public var name: Swift.String
@@ -328,10 +236,6 @@ extension MiniPlengi.Advertisement {
   @objc override dynamic public init()
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class Deflate {
-  public static func decompress(data: Foundation.Data) throws -> Foundation.Data
-  @objc deinit
-}
 @_inheritsConvenienceInitializers @objc open class Complex : ObjectiveC.NSObject, Foundation.NSCoding {
   @objc public var id: Swift.Int
   @objc public var name: Swift.String
@@ -339,6 +243,19 @@ extension MiniPlengi.Advertisement {
   @objc public var category: Swift.String
   @objc public var category_code: Swift.String
   convenience public init?(_ data: Any?)
+  @objc required convenience public init?(coder aDecoder: Foundation.NSCoder)
+  @objc public func encode(with aCoder: Foundation.NSCoder)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class Nearbys : ObjectiveC.NSObject, Foundation.NSCoding {
+  @objc public var loplat_id: Swift.Int
+  @objc public var placename: Swift.String
+  @objc public var tags: Swift.String
+  @objc public var floor: Swift.Int
+  @objc public var lat: Swift.Double
+  @objc public var lng: Swift.Double
+  @objc public var accuracy: Swift.Double
   @objc required convenience public init?(coder aDecoder: Foundation.NSCoder)
   @objc public func encode(with aCoder: Foundation.NSCoder)
   @objc override dynamic public init()
@@ -372,7 +289,6 @@ extension MiniPlengi.Plengi {
   @objc dynamic public class func stop() -> MiniPlengi.Result
   @objc dynamic public class func start() -> MiniPlengi.Result
   @objc dynamic public class func start(_ interval: Swift.Int) -> MiniPlengi.Result
-  @objc dynamic public class func isEngineInitialized() -> MiniPlengi.Result
   @objc dynamic public class func requestAlwaysLocationAuthorization()
   @objc dynamic public class func requestTrackingAuthorization(completion: @escaping () -> Swift.Void)
   @objc dynamic public class func getSdkVersion() -> Swift.String?
@@ -400,61 +316,11 @@ extension MiniPlengi.Plengi {
   public class func registerBgFetch()
   public class func setLocationAuthorizationAlert(title: Swift.String, message: Swift.String)
 }
-public enum UserStatus : Swift.Int {
-  case FAST_MOVE
-  case MOVE
-  case STAY
-  case LONG_STAY
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@_inheritsConvenienceInitializers @objc open class District : ObjectiveC.NSObject, Foundation.NSCoding {
-  @objc public var lv0_code: Swift.String
-  @objc public var lv1_name: Swift.String
-  @objc public var lv2_name: Swift.String
-  @objc public var lv3_name: Swift.String
-  @objc public var lv1_code: Swift.String
-  @objc public var lv2_code: Swift.String
-  @objc public var lv3_code: Swift.String
-  convenience public init?(_ data: Any?)
-  @objc required convenience public init?(coder aDecoder: Foundation.NSCoder)
-  @objc public func encode(with aCoder: Foundation.NSCoder)
-  @objc override dynamic public init()
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc open class Nearbys : ObjectiveC.NSObject, Foundation.NSCoding {
-  @objc public var loplat_id: Swift.Int
-  @objc public var placename: Swift.String
-  @objc public var tags: Swift.String
-  @objc public var floor: Swift.Int
-  @objc public var lat: Swift.Double
-  @objc public var lng: Swift.Double
-  @objc public var accuracy: Swift.Double
-  @objc required convenience public init?(coder aDecoder: Foundation.NSCoder)
-  @objc public func encode(with aCoder: Foundation.NSCoder)
-  @objc override dynamic public init()
-  @objc deinit
-}
-extension MiniPlengi.Deflate {
-  public static func compress(data: Foundation.Data) -> Foundation.Data
-}
 extension MiniPlengi.MonitoringType : Swift.Equatable {}
 extension MiniPlengi.MonitoringType : Swift.Hashable {}
 extension MiniPlengi.MonitoringType : Swift.RawRepresentable {}
 extension MiniPlengi.DeflateError : Swift.Equatable {}
 extension MiniPlengi.DeflateError : Swift.Hashable {}
-extension MiniPlengi.CarDetectionEngineStatus : Swift.Equatable {}
-extension MiniPlengi.CarDetectionEngineStatus : Swift.Hashable {}
-extension MiniPlengi.CarDetectionEngineStatus : Swift.RawRepresentable {}
-extension MiniPlengi.CarDetectionStatus : Swift.Equatable {}
-extension MiniPlengi.CarDetectionStatus : Swift.Hashable {}
-extension MiniPlengi.CarDetectionStatus : Swift.RawRepresentable {}
-extension MiniPlengi.CarDetectionResult : Swift.Equatable {}
-extension MiniPlengi.CarDetectionResult : Swift.Hashable {}
-extension MiniPlengi.CarDetectionResult : Swift.RawRepresentable {}
 extension MiniPlengi.Result : Swift.Equatable {}
 extension MiniPlengi.Result : Swift.Hashable {}
 extension MiniPlengi.Result : Swift.RawRepresentable {}
@@ -470,6 +336,3 @@ extension MiniPlengi.EngineStatus : Swift.RawRepresentable {}
 extension MiniPlengi.TestModeStatus : Swift.Equatable {}
 extension MiniPlengi.TestModeStatus : Swift.Hashable {}
 extension MiniPlengi.TestModeStatus : Swift.RawRepresentable {}
-extension MiniPlengi.UserStatus : Swift.Equatable {}
-extension MiniPlengi.UserStatus : Swift.Hashable {}
-extension MiniPlengi.UserStatus : Swift.RawRepresentable {}

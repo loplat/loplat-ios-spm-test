@@ -300,6 +300,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
+SWIFT_CLASS("_TtC10MiniPlengi18ActivityRecognizer") SWIFT_AVAILABILITY(ios,introduced=13.0)
+@interface ActivityRecognizer : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 @class NSString;
 @class NSCoder;
 
@@ -342,24 +349,72 @@ SWIFT_CLASS("_TtC10MiniPlengi4Area")
 @end
 
 
+/// SDK를 Background에서 계속 살려주기 위한 class
+SWIFT_CLASS("_TtC10MiniPlengi16BackgroundWorker") SWIFT_AVAILABILITY(ios,introduced=9.0)
+@interface BackgroundWorker : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
 
-typedef SWIFT_ENUM(NSInteger, CarDetectionEngineStatus, open) {
-  CarDetectionEngineStatusSTARTED = 1,
-  CarDetectionEngineStatusSTOPPED = -1,
-};
+@class CLLocationManager;
+@class CLLocation;
+@class CLRegion;
+@class CLVisit;
 
-typedef SWIFT_ENUM(NSInteger, CarDetectionResult, open) {
-  CarDetectionResultSUCCESS = 0,
-  CarDetectionResultFAIL = -1,
-  CarDetectionResultNOT_STARTED = -2,
-  CarDetectionResultALREADY_STARTED = -8,
-  CarDetectionResultNOT_INITIALIZED = -9,
-};
+SWIFT_AVAILABILITY(ios,introduced=9.0)
+@interface BackgroundWorker (SWIFT_EXTENSION(MiniPlengi)) <CLLocationManagerDelegate>
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didEnterRegion:(CLRegion * _Nonnull)region;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didExitRegion:(CLRegion * _Nonnull)region;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didVisit:(CLVisit * _Nonnull)visit;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
+@end
 
-typedef SWIFT_ENUM(NSInteger, CarDetectionStatus, open) {
-  CarDetectionStatusFOUND = 1,
-  CarDetectionStatusLOST = -1,
-};
+
+
+SWIFT_CLASS("_TtC10MiniPlengi22BeaconMonitoringManger")
+@interface BeaconMonitoringManger : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+@class CLBeacon;
+@class CLBeaconIdentityConstraint;
+@class CLBeaconRegion;
+
+@interface BeaconMonitoringManger (SWIFT_EXTENSION(MiniPlengi)) <CLLocationManagerDelegate>
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didRangeBeacons:(NSArray<CLBeacon *> * _Nonnull)beacons satisfyingConstraint:(CLBeaconIdentityConstraint * _Nonnull)beaconConstraint SWIFT_AVAILABILITY(ios,introduced=13.0);
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didRangeBeacons:(NSArray<CLBeacon *> * _Nonnull)beacons inRegion:(CLBeaconRegion * _Nonnull)region;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didExitRegion:(CLRegion * _Nonnull)region;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didEnterRegion:(CLRegion * _Nonnull)region;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager monitoringDidFailForRegion:(CLRegion * _Nullable)region withError:(NSError * _Nonnull)error;
+@end
+
+
+/// App Launch 개인화 모니터링을 위한 BeaconRegion 객체
+SWIFT_CLASS("_TtC10MiniPlengi12BeaconRegion")
+@interface BeaconRegion : NSObject <NSCoding>
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC10MiniPlengi9Bluetooth") SWIFT_AVAILABILITY(ios,introduced=9.0)
+@interface Bluetooth : NSObject <CLLocationManagerDelegate>
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didRangeBeacons:(NSArray<CLBeacon *> * _Nonnull)beacons inRegion:(CLBeaconRegion * _Nonnull)region;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didRangeBeacons:(NSArray<CLBeacon *> * _Nonnull)beacons satisfyingConstraint:(CLBeaconIdentityConstraint * _Nonnull)beaconConstraint SWIFT_AVAILABILITY(ios,introduced=13.0);
+- (void)locationManager:(CLLocationManager * _Nonnull)manager monitoringDidFailForRegion:(CLRegion * _Nullable)region withError:(NSError * _Nonnull)error;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager rangingBeaconsDidFailForRegion:(CLBeaconRegion * _Nonnull)region withError:(NSError * _Nonnull)error;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didFailRangingBeaconsForConstraint:(CLBeaconIdentityConstraint * _Nonnull)beaconConstraint error:(NSError * _Nonnull)error SWIFT_AVAILABILITY(ios,introduced=13.0);
+@end
+
+
+
+
 
 
 /// <code>PlengiResponse</code> 로부터 인식된 복합몰의 결과값을 저장하는 객체입니다.
@@ -428,6 +483,16 @@ SWIFT_CLASS("_TtC10MiniPlengi8Geofence")
 @end
 
 
+/// App Launch 개인화 모니터링을 위한 GeofenceRegion 객체
+SWIFT_CLASS("_TtC10MiniPlengi14GeofenceRegion")
+@interface GeofenceRegion : NSObject <NSCoding>
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 /// <code>PlengiResponse</code> 로부터 인식된 기기의 위경도 결과값을 저장하는 객체입니다.
 /// important:
 /// 해당 객체는 무조건 <code>responsePlaceEvent</code> delegate 로부터 전달받은 <code>plengiResponse</code> 안 <code>location</code> 객체만을 사용해야합니다.
@@ -443,6 +508,46 @@ SWIFT_CLASS("_TtC10MiniPlengi8Location")
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+SWIFT_CLASS("_TtC10MiniPlengi15LocationTracker") SWIFT_AVAILABILITY(ios,introduced=9.0)
+@interface LocationTracker : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_AVAILABILITY(ios,introduced=9.0)
+@interface LocationTracker (SWIFT_EXTENSION(MiniPlengi)) <CLLocationManagerDelegate>
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
+@end
+
+
+/// 타임 스탬프와 rssi 값을 기록하기 위한 비콘 커스텀 클래스
+SWIFT_CLASS("_TtC10MiniPlengi12LoplatBeacon")
+@interface LoplatBeacon : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+/// 연결된 Wifi 저장을 위한 객체
+SWIFT_CLASS("_TtC10MiniPlengi10LoplatWifi")
+@interface LoplatWifi : NSObject <NSCoding>
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC10MiniPlengi13MotionManager")
+@interface MotionManager : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 
 /// <code>PlengiResponse</code> 로부터 인식된 nearby의 결과값을 저장하는 객체입니다.
@@ -506,6 +611,43 @@ SWIFT_PROTOCOL("_TtP10MiniPlengi13PlaceDelegate_")
 - (void)responseManualProcess:(NSString * _Nonnull)msg;
 @end
 
+
+/// SDK를 중앙에서 컨트롤하는 Engine, 각종 상태값과 하위 모듈을 가지고 위치 인식로직을 통제한다.
+/// Engine Life Cycle(init, start, stop…)을 관리한다.
+SWIFT_CLASS("_TtC10MiniPlengi11PlaceEngine") SWIFT_AVAILABILITY(ios,introduced=9.0)
+@interface PlaceEngine : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+
+
+
+SWIFT_AVAILABILITY(ios,introduced=9.0)
+@interface PlaceEngine (SWIFT_EXTENSION(MiniPlengi)) <CLLocationManagerDelegate>
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
+- (void)locationManagerDidChangeAuthorization:(CLLocationManager * _Nonnull)manager SWIFT_AVAILABILITY(ios,introduced=14.0);
+@end
+
+
+
+SWIFT_AVAILABILITY(ios,introduced=9.0)
+@interface PlaceEngine (SWIFT_EXTENSION(MiniPlengi))
+/// MiniPlengi SDK가 적용된 앱이 백그라운드 모드로 전환됬을 경우, 해당 함수를 호출한다.
+/// Background Worker를 호출하고, Background Fetch가 있을 경우 스케쥴링해준다.
+- (void)didEnterBackground;
+/// MiniPlengi SDK가 적용된 앱이 포그라운드 모드로 전환됬을 경우, 해당 함수를 호출한다.
+/// Background Worker를 Stop 시킨다.
+- (void)willEnterForeground;
+/// MiniPlengi SDK가 적용된 앱이 Terminate되기 직전에 해당 함수를 호출
+/// 2023.10.10 bcpaybooc의 Crashlytics -> block_destroy_helper -> keypath_set -> CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER 충돌 원인으로 추측되어 해당 함수 불리지 않도록 처리
+/// 추후에 확인하여 필요하면 다시 활용 가능
+- (void)willTerminate;
+@end
+
+
+
 typedef SWIFT_ENUM(NSInteger, PlaceEvent, open) {
   PlaceEventNOT_AVAILABLE = 0,
   PlaceEventENTER = 1,
@@ -513,7 +655,6 @@ typedef SWIFT_ENUM(NSInteger, PlaceEvent, open) {
   PlaceEventNEARBY = 3,
 };
 
-@class CLLocationManager;
 
 /// 로플랫 SDK (이하 Plengi)는 실내위치를 판별하고, 해당 장소에 들어옴, 나감에 대한 이벤트를 트래킹할 수 있으며, 이러한 정보를 통해 마케팅을 할 수 있는 SDK 입니다.
 /// 자세한 SDK 사용방법은 https://developers.loplat.com 을 참조하세요.
@@ -525,9 +666,29 @@ SWIFT_CLASS("_TtC10MiniPlengi6Plengi")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+enum Result : NSInteger;
+
+@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
+/// 수동으로 현재 위치를 인식하도록 요청합니다.
+/// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
+/// warning:
+/// 테스트 용도로만 사용하셔야 합니다. 테스트를 위해 포그라운드 상태에서만 작동됩니다. !!! 메인 쓰레드에서만 사용가능합니다.
+///
+/// returns:
+/// PlengiResponse.Result: PlengiResponse 객체의 Result
++ (enum Result)manual_refreshPlace_foreground SWIFT_WARN_UNUSED_RESULT;
+/// 수동으로 현재 위치를 인식하도록 요청합니다. (IP Location)
+/// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
+/// warning:
+/// 테스트 용도로만 사용하셔야 합니다. 테스트를 위해 포그라운드 상태에서만 작동됩니다. !!! 메인 쓰레드에서만 사용가능합니다.
+///
+/// returns:
+/// PlengiResponse.Result: PlengiResponse 객체의 Result
++ (enum Result)manual_refreshPlace_ip_location SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=9.0);
+@end
+
 @class UNUserNotificationCenter;
 @class UNNotificationResponse;
-enum Result : NSInteger;
 @class UIApplication;
 @class UILocalNotification;
 
@@ -584,26 +745,6 @@ enum Result : NSInteger;
 
 
 @interface Plengi (SWIFT_EXTENSION(MiniPlengi))
-/// 수동으로 현재 위치를 인식하도록 요청합니다.
-/// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
-/// warning:
-/// 테스트 용도로만 사용하셔야 합니다. 테스트를 위해 포그라운드 상태에서만 작동됩니다. !!! 메인 쓰레드에서만 사용가능합니다.
-///
-/// returns:
-/// PlengiResponse.Result: PlengiResponse 객체의 Result
-+ (enum Result)manual_refreshPlace_foreground SWIFT_WARN_UNUSED_RESULT;
-/// 수동으로 현재 위치를 인식하도록 요청합니다. (IP Location)
-/// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
-/// warning:
-/// 테스트 용도로만 사용하셔야 합니다. 테스트를 위해 포그라운드 상태에서만 작동됩니다. !!! 메인 쓰레드에서만 사용가능합니다.
-///
-/// returns:
-/// PlengiResponse.Result: PlengiResponse 객체의 Result
-+ (enum Result)manual_refreshPlace_ip_location SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=9.0);
-@end
-
-
-@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
 /// MiniPlengi의 delegate을 반환합니다.
 ///
 /// returns:
@@ -656,6 +797,41 @@ enum Result : NSInteger;
 /// returns:
 /// PlengiResponse.Result: PlengiResponse 객체의 Result
 + (enum Result)initWithClientID:(NSString * _Nonnull)ID clientSecret:(NSString * _Nonnull)secret echoCode:(NSString * _Nullable)echoCode SWIFT_METHOD_FAMILY(none) SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("This method will be deprecated loplat SDK v1.3.2\nPlease consider using `Plengi.initialize()` API instead.`");
+/// loplat SDK를 초기화합니다. SDK를 사용하기 위해서는 필수로 호출되어야만 합니다.
+/// warning:
+/// 반드시 AppDelegate didFinishLaunchingWithOptions에서 호출해 주세요.
+///
+/// returns:
+/// PlengiResponse.Result: PlengiResponse 객체의 Result
++ (enum Result)initiate SWIFT_WARN_UNUSED_RESULT;
+/// Initialize internal 함수
+/// start(clientId:clientSecret:)을 호출할 경우 내부에서 호출하는 initiate 메소드.
+/// start에 아무것도 입력하지 않으면 (clientId = “”, clientSecret = “”) return은 .FAIL이 되고
+/// 그렇지 않으면 initialize(clinetID:clientSecret:)을 실행한다.
++ (enum Result)initiateInternal SWIFT_WARN_UNUSED_RESULT;
+/// loplat SDK를 시작합니다.
+/// 성공: PlengiResponse.Result.SUCCESS, 실패: PlengiResponse.Result.FAIL 값 리턴
+/// \param client_id 로플랫에서 발급받은 클라이언트 아이디
+///
+/// \param client_secret 로플랫에서 발급받은 클라이언트 시크릿키
+///
+///
+/// returns:
+/// PlengiResponse.Result: PlengiResponse 객체의 Result
++ (enum Result)startWithClientId:(NSString * _Nonnull)clientId clientSecret:(NSString * _Nonnull)clientSecret SWIFT_WARN_UNUSED_RESULT;
+/// loplat SDK를 시작합니다.
+/// 이 기능은 로플랫과 협의가 되야 사용 가능합니다. 그렇지 않다면 start()와 동일하게 사용됩니다.
+/// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 사유에 해당하는 값이 반환됩니다.
+/// \param client_id 로플랫에서 발급받은 클라이언트 아이디
+///
+/// \param client_secret 로플랫에서 발급받은 클라이언트 시크릿키
+///
+/// \param interval 주기 (최소는 90초)
+///
+///
+/// returns:
+/// PlengiResponse.Result: PlengiResponse 객체의 Result
++ (enum Result)startWithClientId:(NSString * _Nonnull)clientId clientSecret:(NSString * _Nonnull)clientSecret interval:(NSInteger)interval SWIFT_WARN_UNUSED_RESULT;
 /// loplat SDK echo ocde를 세팅합니다.
 /// 성공: PlengiResponse.Result.SUCCESS, 실패: PlengiResponse.Result.FAIL 값 리턴
 /// \param client_id 로플랫에서 발급받은 클라이언트 아이디
@@ -699,8 +875,6 @@ enum Result : NSInteger;
 /// returns:
 /// PlengiResponse.Result: PlengiResponse 객체의 Result
 + (enum Result)start:(NSInteger)interval SWIFT_WARN_UNUSED_RESULT;
-/// engine 값이 있다면 SUCCESS, 없다면 NOT_INITIALIZED
-+ (enum Result)isEngineInitialized SWIFT_WARN_UNUSED_RESULT;
 /// 위치 권한을 요청합니다.
 /// 위치 권한은 iOS 버전별로 요청 시나리오가 상이합니다.
 /// <ul>
@@ -723,14 +897,6 @@ enum Result : NSInteger;
 /// returns:
 /// String형태의 SDK의 버전정보
 + (NSString * _Nullable)getSdkVersion SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
-SWIFT_AVAILABILITY(ios,introduced=9.0)
-@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isDebug;)
-+ (BOOL)isDebug SWIFT_WARN_UNUSED_RESULT;
-+ (void)setIsDebug:(BOOL)value;
 @end
 
 enum ResponseType : NSInteger;
@@ -779,6 +945,24 @@ typedef SWIFT_ENUM(NSInteger, Result, open) {
   ResultNOT_INITIALIZED = -9,
 };
 
+
+/// SDK 설정값을 저장하는 객체입니다.
+SWIFT_CLASS("_TtC10MiniPlengi9SDKConfig") SWIFT_AVAILABILITY(ios,introduced=9.0)
+@interface SDKConfig : NSObject <NSCoding>
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+@end
+
+
+/// 체류를 일정시간이상 한 경우 서버에 리포트하기 위한 클래스
+SWIFT_CLASS("_TtC10MiniPlengi16ServerLeavePlace") SWIFT_AVAILABILITY(ios,introduced=9.0)
+@interface ServerLeavePlace : NSObject <NSCoding>
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 typedef SWIFT_ENUM(NSInteger, TestModeStatus, open) {
   TestModeStatusRELEASE_SERVER = 0,
   TestModeStatusHALF_STAGING_SERVER = 1,
@@ -789,6 +973,14 @@ typedef SWIFT_ENUM(NSInteger, TestModeStatus, open) {
 
 
 
+
+
+/// Class for model loading and prediction
+SWIFT_CLASS("_TtC10MiniPlengi25loplatActivityRecognition") SWIFT_AVAILABILITY(watchos,introduced=4.0) SWIFT_AVAILABILITY(tvos,introduced=11.0) SWIFT_AVAILABILITY(ios,introduced=11.0) SWIFT_AVAILABILITY(macos,introduced=10.13)
+@interface loplatActivityRecognition : NSObject
+/// Construct loplatActivityRecognition instance by automatically loading the model from the app’s bundle.
+- (nonnull instancetype)init SWIFT_DEPRECATED_MSG("Use init(configuration:) instead and handle errors appropriately.");
+@end
 
 #endif
 #if __has_attribute(external_source_symbol)
