@@ -45901,9 +45901,9 @@
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Reachability.swift",
       "kind": "BooleanLiteral",
-      "offset": 7258,
-      "length": 4,
-      "value": "true"
+      "offset": 7219,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Reachability.swift",
@@ -59626,105 +59626,105 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphoneos\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
+      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphonesimulator\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
       "kind": "Array",
       "offset": 776,
       "length": 65,
       "value": "[\"acceleration_x\", \"acceleration_y\", \"acceleration_z\", \"stateIn\"]"
     },
     {
-      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphoneos\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
+      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphonesimulator\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
       "kind": "StringLiteral",
       "offset": 958,
       "length": 16,
       "value": "\"acceleration_x\""
     },
     {
-      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphoneos\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
+      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphonesimulator\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
       "kind": "StringLiteral",
       "offset": 1077,
       "length": 16,
       "value": "\"acceleration_y\""
     },
     {
-      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphoneos\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
+      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphonesimulator\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
       "kind": "StringLiteral",
       "offset": 1196,
       "length": 16,
       "value": "\"acceleration_z\""
     },
     {
-      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphoneos\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
+      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphonesimulator\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
       "kind": "StringLiteral",
       "offset": 1315,
       "length": 9,
       "value": "\"stateIn\""
     },
     {
-      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphoneos\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
+      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphonesimulator\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
       "kind": "StringLiteral",
       "offset": 2623,
       "length": 18,
       "value": "\"labelProbability\""
     },
     {
-      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphoneos\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
+      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphonesimulator\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
       "kind": "StringLiteral",
       "offset": 2814,
       "length": 7,
       "value": "\"label\""
     },
     {
-      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphoneos\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
+      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphonesimulator\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
       "kind": "StringLiteral",
       "offset": 2982,
       "length": 10,
       "value": "\"stateOut\""
     },
     {
-      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphoneos\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
+      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphonesimulator\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
       "kind": "StringLiteral",
       "offset": 3635,
       "length": 18,
       "value": "\"labelProbability\""
     },
     {
-      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphoneos\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
+      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphonesimulator\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
       "kind": "StringLiteral",
       "offset": 3730,
       "length": 7,
       "value": "\"label\""
     },
     {
-      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphoneos\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
+      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphonesimulator\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
       "kind": "StringLiteral",
       "offset": 3771,
       "length": 10,
       "value": "\"stateOut\""
     },
     {
-      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphoneos\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
+      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphonesimulator\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
       "kind": "StringLiteral",
       "offset": 4293,
       "length": 27,
       "value": "\"loplatActivityRecognition\""
     },
     {
-      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphoneos\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
+      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphonesimulator\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
       "kind": "StringLiteral",
       "offset": 4336,
       "length": 10,
       "value": "\"mlmodelc\""
     },
     {
-      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphoneos\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
+      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphonesimulator\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
       "kind": "Array",
       "offset": 14994,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphoneos\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
+      "filePath": "\/Users\/loplat\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-exsumyzuewbwwaawqmvqvlfwppzu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphonesimulator\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
       "kind": "IntegerLiteral",
       "offset": 15060,
       "length": 1,
