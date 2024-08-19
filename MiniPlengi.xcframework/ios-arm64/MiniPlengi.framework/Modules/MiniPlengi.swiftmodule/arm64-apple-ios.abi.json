@@ -24896,7 +24896,7 @@
       "kind": "StringLiteral",
       "offset": 540,
       "length": 11,
-      "value": "\"1.5.4-rc1\""
+      "value": "\"1.5.5-rc4\""
     },
     {
       "filePath": "\/Users\/loplat\/repository\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine+SpaceTracker.swift",
