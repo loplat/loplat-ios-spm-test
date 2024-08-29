@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		FJ3g3J4jZyIgFYygDEI54KrX1hA=
+		G1NFMC1aDmZR9Ma0J2MWRm3v57Q=
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		CBM90QYwow3fu0HP/sljAwnFcVE=
+		5VVuCW3Lnf5A2gFvey5iVJ2WtQU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -141,7 +141,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UdADH+5e0SIMCPKeS2VhxJtTPBBlGKCPYNK9RVcmEH0=
+			PH3CKdBSnoSLy0w9mmSwBvS8ND81pUbz7q1UJlqBB5k=
 			</data>
 		</dict>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -169,7 +169,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w1bXPDsP5Yqm8YGvbPq1mEZlG+N+xqSqzioWsYJue+I=
+			u+fHE8TFdQqCoX9Rs5KwqPngm96Bf/TpfEi3p3ENnos=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
