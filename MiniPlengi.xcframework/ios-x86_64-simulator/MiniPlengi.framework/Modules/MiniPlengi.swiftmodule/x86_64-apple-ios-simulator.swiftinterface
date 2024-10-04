@@ -322,7 +322,7 @@ extension MiniPlengi.Plengi {
   @objc dynamic public class func getEngineStatus() -> MiniPlengi.EngineStatus
   @objc dynamic public class func isEnabledAdNetwork() -> Swift.Bool
   @objc dynamic public class func enableAdNetwork(_ enableAd: Swift.Bool, enableNoti: Swift.Bool = true) -> MiniPlengi.Result
-  @objc dynamic public class func registerFCMToLoplat(fcmToken: Swift.String?)
+  @objc dynamic public class func registerFcm(fcmToken: Swift.String?)
   @_inheritsConvenienceInitializers @objc final public class Notifications : ObjectiveC.NSObject {
     @objc override dynamic public init()
     @objc deinit

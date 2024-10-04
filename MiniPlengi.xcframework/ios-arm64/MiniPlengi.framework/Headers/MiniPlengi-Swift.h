@@ -625,7 +625,7 @@ enum Result : NSInteger;
 /// 토큰을 처음 발급받거나 새로 발급받는 상황에서만 저장합니다.
 /// \param fcmToken 발급받은 FCM 토큰
 ///
-+ (void)registerFCMToLoplatWithFcmToken:(NSString * _Nullable)fcmToken;
++ (void)registerFcmWithFcmToken:(NSString * _Nullable)fcmToken;
 @end
 
 

@@ -1563,8 +1563,8 @@
           },
           {
             "kind": "Function",
-            "name": "registerFCMToLoplat",
-            "printedName": "registerFCMToLoplat(fcmToken:)",
+            "name": "registerFcm",
+            "printedName": "registerFcm(fcmToken:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1587,11 +1587,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@MiniPlengi@objc(cs)Plengi(cm)registerFCMToLoplatWithFcmToken:",
-            "mangledName": "$s10MiniPlengi0B0C19registerFCMToLoplat8fcmTokenySSSg_tFZ",
+            "usr": "c:@CM@MiniPlengi@objc(cs)Plengi(cm)registerFcmWithFcmToken:",
+            "mangledName": "$s10MiniPlengi0B0C11registerFcm8fcmTokenySSSg_tFZ",
             "moduleName": "MiniPlengi",
             "static": true,
-            "objc_name": "registerFCMToLoplatWithFcmToken:",
+            "objc_name": "registerFcmWithFcmToken:",
             "declAttributes": [
               "Dynamic",
               "AccessControl",
@@ -20182,7 +20182,7 @@
       "kind": "StringLiteral",
       "offset": 540,
       "length": 11,
-      "value": "\"1.5.6-rc3\""
+      "value": "\"1.5.6-rc4\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/ZIPEngine\/Deflate\/Deflate+Constants.swift",
