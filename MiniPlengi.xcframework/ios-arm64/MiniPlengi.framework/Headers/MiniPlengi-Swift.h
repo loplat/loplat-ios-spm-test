@@ -633,13 +633,6 @@ enum Result : NSInteger;
 @end
 
 
-/// 대용량 발송 통계 수집을 위한 Notification 오브젝트
-SWIFT_CLASS("_TtCC10MiniPlengi6Plengi13Notifications")
-@interface Notifications : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 @interface Plengi (SWIFT_EXTENSION(MiniPlengi))
 /// loplat SDK를 초기화합니다. SDK를 사용하기 위해서는 필수로 호출되어야만 합니다.
 /// Deprecated:
