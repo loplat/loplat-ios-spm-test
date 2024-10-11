@@ -1046,106 +1046,6 @@
             "funcSelfKind": "NonMutating"
           },
           {
-            "kind": "Var",
-            "name": "isTestServer",
-            "printedName": "isTestServer",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "TestModeStatus",
-                "printedName": "MiniPlengi.TestModeStatus",
-                "usr": "c:@M@MiniPlengi@E@TestModeStatus"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvpZ",
-            "mangledName": "$s10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvpZ",
-            "moduleName": "MiniPlengi",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TestModeStatus",
-                    "printedName": "MiniPlengi.TestModeStatus",
-                    "usr": "c:@M@MiniPlengi@E@TestModeStatus"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvgZ",
-                "mangledName": "$s10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvgZ",
-                "moduleName": "MiniPlengi",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TestModeStatus",
-                    "printedName": "MiniPlengi.TestModeStatus",
-                    "usr": "c:@M@MiniPlengi@E@TestModeStatus"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvsZ",
-                "mangledName": "$s10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvsZ",
-                "moduleName": "MiniPlengi",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvMZ",
-                "mangledName": "$s10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvMZ",
-                "moduleName": "MiniPlengi",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
             "kind": "Function",
             "name": "`init`",
             "printedName": "`init`(clientID:clientSecret:echoCode:)",
@@ -19945,7 +19845,7 @@
       "kind": "StringLiteral",
       "offset": 540,
       "length": 12,
-      "value": "\"1.5.6-rc11\""
+      "value": "\"1.5.6-rc12\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/ZIPEngine\/Deflate\/Deflate+Constants.swift",
