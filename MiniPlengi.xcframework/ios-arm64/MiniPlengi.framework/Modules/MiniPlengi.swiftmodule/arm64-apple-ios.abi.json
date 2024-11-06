@@ -16336,7 +16336,7 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/LocationTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 5066,
+      "offset": 5106,
       "length": 4,
       "value": "true"
     },
@@ -20082,8 +20082,8 @@
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/ManagingVersion.swift",
       "kind": "StringLiteral",
       "offset": 540,
-      "length": 12,
-      "value": "\"1.5.6-rc12\""
+      "length": 7,
+      "value": "\"1.5.6\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/ZIPEngine\/Deflate\/Deflate+Constants.swift",
@@ -27172,7 +27172,7 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "BooleanLiteral",
-      "offset": 16036,
+      "offset": 16276,
       "length": 4,
       "value": "true"
     },
