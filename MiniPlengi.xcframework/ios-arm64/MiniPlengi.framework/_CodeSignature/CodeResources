@@ -4,13 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>GoogleService-Info.plist</key>
-		<data>
-		SW6nFW14Q9AOOrMthGuNUloHaLQ=
-		</data>
 		<key>Headers/MiniPlengi-Swift.h</key>
 		<data>
-		WOlMkwrHnb7qrabIJpQwDZrMEuc=
+		sZ1dAbb4FzyaABiZRLQXVw9Duzs=
 		</data>
 		<key>Headers/MiniPlengi.h</key>
 		<data>
@@ -22,7 +18,7 @@
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		GE7iuS56Th/OTTXwPDcjCt/Li08=
+		+7oqA+BfcdOY2CIg03uAm25Ms4U=
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -38,7 +34,7 @@
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		gj694Xh2Ok73HtmLUHYDSiSs9cA=
+		e/3ufhBD+O381DDHOpAOFy5troI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,7 +50,7 @@
 		</data>
 		<key>loplatActivityRecognition.mlmodelc/coremldata.bin</key>
 		<data>
-		HNbZRjFsD3VGbXKLy62hcb7VRq4=
+		VvuwYdeHf1oYTnm4Xcfj0PiPALs=
 		</data>
 		<key>loplatActivityRecognition.mlmodelc/metadata.json</key>
 		<data>
@@ -83,18 +79,11 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>GoogleService-Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TpUW9rlWmkAYR+AlslWWNzf63QGGNO8Hk8xtUb//YKw=
-			</data>
-		</dict>
 		<key>Headers/MiniPlengi-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q7or5FnO4wHO97pkNTjhYahg+o+tOgfN43pT3lbHgrY=
+			I3UQRYpTh9CgfSkQy4dij3+kyuc3a9GAQV5ru1nLwLU=
 			</data>
 		</dict>
 		<key>Headers/MiniPlengi.h</key>
@@ -108,7 +97,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IoZMgDRWx2J28hosj6W9QdwE9XzL2yoSRLtq7cCxj6I=
+			iHOzJo+MTbNkkUGeRGXCo3Cqjl+A1JDCZmZHLk2PLp8=
 			</data>
 		</dict>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -136,7 +125,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pLVBfcj1GJ48BvFvS5euvAoeb+nMu/xRPGZl8hsujyw=
+			p1lyrGjp4gV2+bOJBUCRd/IzwtamOuj/fKREefRAx5Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -164,7 +153,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9ry2kfZbRpcRRa8C6zm/G/I1dl0k8/epcEG/+VxPEMQ=
+			PJh7Qu/p28DHVKfgSAZgrzQe3LpKw/11HFsgK43DBAM=
 			</data>
 		</dict>
 		<key>loplatActivityRecognition.mlmodelc/metadata.json</key>
