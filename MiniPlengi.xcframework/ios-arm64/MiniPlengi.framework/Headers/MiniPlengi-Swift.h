@@ -513,6 +513,16 @@ SWIFT_CLASS("_TtC10MiniPlengi6Plengi")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+
+@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
+/// 발급받은 FCM 토큰을 기기와 로플랫 서버에 저장합니다.
+/// 토큰을 처음 발급받거나 새로 발급받는 상황에서만 저장합니다.
+/// \param fcmToken 발급받은 FCM 토큰
+///
++ (void)registerFcmWithFcmToken:(NSString * _Nullable)fcmToken;
+@end
+
 @class UNUserNotificationCenter;
 @class UNNotificationResponse;
 enum Result : NSInteger;
@@ -626,11 +636,6 @@ enum Result : NSInteger;
 /// returns:
 /// PlengiResponse.Result: PlengiResponse 객체의 Result
 + (enum Result)enableAdNetwork:(BOOL)enableAd enableNoti:(BOOL)enableNoti SWIFT_WARN_UNUSED_RESULT;
-/// 발급받은 FCM 토큰을 기기와 로플랫 서버에 저장합니다.
-/// 토큰을 처음 발급받거나 새로 발급받는 상황에서만 저장합니다.
-/// \param fcmToken 발급받은 FCM 토큰
-///
-+ (void)registerFcmWithFcmToken:(NSString * _Nullable)fcmToken;
 @end
 
 
