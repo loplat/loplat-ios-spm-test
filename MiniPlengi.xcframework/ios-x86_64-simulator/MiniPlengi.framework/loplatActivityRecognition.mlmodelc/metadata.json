@@ -37,6 +37,9 @@
     "specificationVersion" : 1,
     "license" : "loplat",
     "computePrecision" : "Float16",
+    "stateSchema" : [
+
+    ],
     "isUpdatable" : "0",
     "availability" : {
       "macOS" : "10.13",
@@ -105,19 +108,19 @@
       "session_id" : "session_id",
       "version" : "2",
       "type" : "activity_classifier",
-      "features" : "acceleration_x,acceleration_y,acceleration_z",
       "prediction_window" : "100",
+      "features" : "acceleration_x,acceleration_y,acceleration_z",
       "Sample Rate" : ""
     },
     "neuralNetworkLayerTypeHistogram" : {
       "Concat" : 2,
-      "Slice" : 2,
+      "BatchNorm" : 1,
       "ActivationReLU" : 2,
       "Softmax" : 1,
       "UniDirectionalLSTM" : 1,
-      "BatchNorm" : 1,
-      "Convolution" : 1,
+      "Slice" : 2,
       "InnerProduct" : 2,
+      "Convolution" : 1,
       "Reshape" : 1
     },
     "method" : "predict"

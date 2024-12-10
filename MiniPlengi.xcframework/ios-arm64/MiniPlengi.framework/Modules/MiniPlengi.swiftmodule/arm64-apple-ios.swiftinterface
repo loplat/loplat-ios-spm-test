@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MiniPlengi
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AdSupport.ASIdentifierManager
 import AdSupport
 import AppTrackingTransparency
@@ -131,8 +132,11 @@ public enum AiMessageEventType : Swift.Int {
   @objc override dynamic public init()
   @objc deinit
 }
+extension MiniPlengi.Plengi {
+  @objc dynamic public class func registerFcm(fcmToken: Swift.String?)
+}
 extension UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) public func topMostViewController() -> UIKit.UIViewController
+  @_Concurrency.MainActor @preconcurrency public func topMostViewController() -> UIKit.UIViewController
 }
 @_hasMissingDesignatedInitializers public class Deflate {
   public static func decompress(data: Foundation.Data) throws -> Foundation.Data
@@ -322,11 +326,6 @@ extension MiniPlengi.Plengi {
   @objc dynamic public class func getEngineStatus() -> MiniPlengi.EngineStatus
   @objc dynamic public class func isEnabledAdNetwork() -> Swift.Bool
   @objc dynamic public class func enableAdNetwork(_ enableAd: Swift.Bool, enableNoti: Swift.Bool = true) -> MiniPlengi.Result
-  public class func registerFCMToLoplat(fcmToken: Swift.String?)
-  @_inheritsConvenienceInitializers @objc final public class Notifications : ObjectiveC.NSObject {
-    @objc override dynamic public init()
-    @objc deinit
-  }
 }
 extension MiniPlengi.Plengi {
   @objc dynamic public class func manual_refreshPlace_foreground() -> MiniPlengi.Result
