@@ -16499,50 +16499,43 @@
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "Array",
-      "offset": 1993,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "FloatLiteral",
-      "offset": 2024,
+      "offset": 1980,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "FloatLiteral",
-      "offset": 2056,
+      "offset": 2012,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "FloatLiteral",
-      "offset": 2355,
+      "offset": 2305,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 2545,
+      "offset": 2495,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 2667,
+      "offset": 2617,
       "length": 7,
       "value": "\"cjone\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 5644,
+      "offset": 5594,
       "length": 4,
       "value": "true"
     },
@@ -19482,7 +19475,7 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 8661,
+      "offset": 8816,
       "length": 7,
       "value": "\"queue\""
     },
@@ -20205,7 +20198,7 @@
       "kind": "StringLiteral",
       "offset": 540,
       "length": 11,
-      "value": "\"1.5.7-rc6\""
+      "value": "\"1.5.7-rc7\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/ZIPEngine\/Deflate\/Deflate+Constants.swift",
