@@ -350,25 +350,6 @@ SWIFT_CLASS("_TtC10MiniPlengi4Area")
 
 
 
-typedef SWIFT_ENUM(NSInteger, CarDetectionEngineStatus, open) {
-  CarDetectionEngineStatusSTARTED = 1,
-  CarDetectionEngineStatusSTOPPED = -1,
-};
-
-typedef SWIFT_ENUM(NSInteger, CarDetectionResult, open) {
-  CarDetectionResultSUCCESS = 0,
-  CarDetectionResultFAIL = -1,
-  CarDetectionResultNOT_STARTED = -2,
-  CarDetectionResultALREADY_STARTED = -8,
-  CarDetectionResultNOT_INITIALIZED = -9,
-};
-
-typedef SWIFT_ENUM(NSInteger, CarDetectionStatus, open) {
-  CarDetectionStatusFOUND = 1,
-  CarDetectionStatusLOST = -1,
-};
-
-
 /// <code>PlengiResponse</code> 로부터 인식된 복합몰의 결과값을 저장하는 객체입니다.
 /// important:
 /// 해당 객체는 무조건 <code>responsePlaceEvent</code> delegate 로부터 전달받은 <code>plengiResponse</code> 안 <code>complex</code> 객체만을 사용해야합니다.
@@ -532,41 +513,19 @@ SWIFT_CLASS("_TtC10MiniPlengi6Plengi")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-enum Result : NSInteger;
-
-@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
-/// 수동으로 현재 위치를 인식하도록 요청합니다.
-/// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
-/// warning:
-/// 테스트 용도로만 사용하셔야 합니다. 테스트를 위해 포그라운드 상태에서만 작동됩니다. !!! 메인 쓰레드에서만 사용가능합니다.
-///
-/// returns:
-/// PlengiResponse.Result: PlengiResponse 객체의 Result
-+ (enum Result)manual_refreshPlace_foreground SWIFT_WARN_UNUSED_RESULT;
-/// 수동으로 현재 위치를 인식하도록 요청합니다. (IP Location)
-/// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
-/// warning:
-/// 테스트 용도로만 사용하셔야 합니다. 테스트를 위해 포그라운드 상태에서만 작동됩니다. !!! 메인 쓰레드에서만 사용가능합니다.
-///
-/// returns:
-/// PlengiResponse.Result: PlengiResponse 객체의 Result
-+ (enum Result)manual_refreshPlace_ip_location SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=9.0);
-@end
 
 
 @interface Plengi (SWIFT_EXTENSION(MiniPlengi))
-/// 가장 최근에 인식되었을 떄의 행정구역과, 기기 위경도 인식 정보를 반환합니다.
-/// 성공한 경우 PlengiResponse.Result.SUCCESS / 움직임이 없거나 일정 시간(초기 로딩시간 2~3분)이 흐르지 않은 경우 위치인식 하지 못하여 대기 중인 경우에는 .PENDING을 반환합니다.
-/// \param completion 응답 받을 핸들러 객체
+/// 발급받은 FCM 토큰을 기기와 로플랫 서버에 저장합니다.
+/// 토큰을 처음 발급받거나 새로 발급받는 상황에서만 저장합니다.
+/// \param fcmToken 발급받은 FCM 토큰
 ///
-///
-/// returns:
-/// PlengiResponse.Result: PlengiResponse 객체의 Result
-+ (enum Result)getCurrentLocationInfoWithCompletion:(void (^ _Nonnull)(PlengiResponse * _Nonnull))completion SWIFT_WARN_UNUSED_RESULT;
++ (void)registerFcmWithFcmToken:(NSString * _Nullable)fcmToken;
 @end
 
 @class UNUserNotificationCenter;
 @class UNNotificationResponse;
+enum Result : NSInteger;
 @class UIApplication;
 @class UILocalNotification;
 
@@ -607,6 +566,38 @@ enum Result : NSInteger;
 /// returns:
 /// PlengiResponse.Result: PlengiResponse 객체의 Result
 + (enum Result)processLoplatAdvertisement:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary * _Nullable)launchOptions SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
+/// 수동으로 현재 위치를 인식하도록 요청합니다.
+/// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
+/// warning:
+/// 테스트 용도로만 사용하셔야 합니다. 테스트를 위해 포그라운드 상태에서만 작동됩니다. !!! 메인 쓰레드에서만 사용가능합니다.
+///
+/// returns:
+/// PlengiResponse.Result: PlengiResponse 객체의 Result
++ (enum Result)manual_refreshPlace_foreground SWIFT_WARN_UNUSED_RESULT;
+/// 수동으로 현재 위치를 인식하도록 요청합니다. (IP Location)
+/// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
+/// warning:
+/// 테스트 용도로만 사용하셔야 합니다. 테스트를 위해 포그라운드 상태에서만 작동됩니다. !!! 메인 쓰레드에서만 사용가능합니다.
+///
+/// returns:
+/// PlengiResponse.Result: PlengiResponse 객체의 Result
++ (enum Result)manual_refreshPlace_ip_location SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=9.0);
+@end
+
+
+@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
+/// 가장 최근에 인식되었을 떄의 행정구역과, 기기 위경도 인식 정보를 반환합니다.
+/// 성공한 경우 PlengiResponse.Result.SUCCESS / 움직임이 없거나 일정 시간(초기 로딩시간 2~3분)이 흐르지 않은 경우 위치인식 하지 못하여 대기 중인 경우에는 .PENDING을 반환합니다.
+/// \param completion 응답 받을 핸들러 객체
+///
+///
+/// returns:
+/// PlengiResponse.Result: PlengiResponse 객체의 Result
++ (enum Result)getCurrentLocationInfoWithCompletion:(void (^ _Nonnull)(PlengiResponse * _Nonnull))completion SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -728,14 +719,6 @@ enum Result : NSInteger;
 /// returns:
 /// String형태의 SDK의 버전정보
 + (NSString * _Nullable)getSdkVersion SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
-SWIFT_AVAILABILITY(ios,introduced=9.0)
-@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isDebug;)
-+ (BOOL)isDebug SWIFT_WARN_UNUSED_RESULT;
-+ (void)setIsDebug:(BOOL)value;
 @end
 
 enum ResponseType : NSInteger;
