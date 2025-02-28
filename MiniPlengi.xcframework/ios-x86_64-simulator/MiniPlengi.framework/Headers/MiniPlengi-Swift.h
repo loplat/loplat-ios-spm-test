@@ -350,25 +350,6 @@ SWIFT_CLASS("_TtC10MiniPlengi4Area")
 
 
 
-typedef SWIFT_ENUM(NSInteger, CarDetectionEngineStatus, open) {
-  CarDetectionEngineStatusSTARTED = 1,
-  CarDetectionEngineStatusSTOPPED = -1,
-};
-
-typedef SWIFT_ENUM(NSInteger, CarDetectionResult, open) {
-  CarDetectionResultSUCCESS = 0,
-  CarDetectionResultFAIL = -1,
-  CarDetectionResultNOT_STARTED = -2,
-  CarDetectionResultALREADY_STARTED = -8,
-  CarDetectionResultNOT_INITIALIZED = -9,
-};
-
-typedef SWIFT_ENUM(NSInteger, CarDetectionStatus, open) {
-  CarDetectionStatusFOUND = 1,
-  CarDetectionStatusLOST = -1,
-};
-
-
 /// <code>PlengiResponse</code> 로부터 인식된 복합몰의 결과값을 저장하는 객체입니다.
 /// important:
 /// 해당 객체는 무조건 <code>responsePlaceEvent</code> delegate 로부터 전달받은 <code>plengiResponse</code> 안 <code>complex</code> 객체만을 사용해야합니다.
@@ -554,6 +535,7 @@ enum Result : NSInteger;
 @end
 
 
+
 @interface Plengi (SWIFT_EXTENSION(MiniPlengi))
 /// 가장 최근에 인식되었을 떄의 행정구역과, 기기 위경도 인식 정보를 반환합니다.
 /// 성공한 경우 PlengiResponse.Result.SUCCESS / 움직임이 없거나 일정 시간(초기 로딩시간 2~3분)이 흐르지 않은 경우 위치인식 하지 못하여 대기 중인 경우에는 .PENDING을 반환합니다.
@@ -607,6 +589,7 @@ enum Result : NSInteger;
 /// returns:
 /// PlengiResponse.Result: PlengiResponse 객체의 Result
 + (enum Result)processLoplatAdvertisement:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary * _Nullable)launchOptions SWIFT_WARN_UNUSED_RESULT;
++ (void)logToClient;
 @end
 
 
@@ -718,14 +701,6 @@ enum Result : NSInteger;
 /// returns:
 /// String형태의 SDK의 버전정보
 + (NSString * _Nullable)getSdkVersion SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
-SWIFT_AVAILABILITY(ios,introduced=9.0)
-@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isDebug;)
-+ (BOOL)isDebug SWIFT_WARN_UNUSED_RESULT;
-+ (void)setIsDebug:(BOOL)value;
 @end
 
 enum ResponseType : NSInteger;
