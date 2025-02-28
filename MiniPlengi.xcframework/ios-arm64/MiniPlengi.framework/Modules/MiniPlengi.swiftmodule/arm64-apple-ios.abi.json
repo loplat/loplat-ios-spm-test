@@ -21705,112 +21705,112 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 14425,
+      "offset": 14701,
       "length": 9,
       "value": "\"VERBOSE\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 14486,
+      "offset": 14762,
       "length": 7,
       "value": "\"DEBUG\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 14561,
+      "offset": 14837,
       "length": 6,
       "value": "\"INFO\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 14651,
+      "offset": 14927,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 14760,
+      "offset": 15036,
       "length": 17,
       "value": "\"PLENGI_RESPONSE\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 14811,
+      "offset": 15087,
       "length": 5,
       "value": "\"GPS\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "IntegerLiteral",
-      "offset": 14921,
+      "offset": 15197,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 15605,
+      "offset": 15881,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 15720,
+      "offset": 15996,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 16005,
+      "offset": 16281,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 16288,
+      "offset": 16564,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 16571,
+      "offset": 16847,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 16856,
+      "offset": 17132,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 17138,
+      "offset": 17414,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 18165,
+      "offset": 18441,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 25957,
+      "offset": 28872,
       "length": 7,
       "value": "\"queue\""
     },
