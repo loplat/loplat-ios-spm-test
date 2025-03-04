@@ -1103,6 +1103,107 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Var",
+            "name": "isTestServer",
+            "printedName": "isTestServer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TestModeStatus",
+                "printedName": "MiniPlengi.TestModeStatus",
+                "usr": "c:@M@MiniPlengi@E@TestModeStatus"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvpZ",
+            "mangledName": "$s10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvpZ",
+            "moduleName": "MiniPlengi",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TestModeStatus",
+                    "printedName": "MiniPlengi.TestModeStatus",
+                    "usr": "c:@M@MiniPlengi@E@TestModeStatus"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvgZ",
+                "mangledName": "$s10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvgZ",
+                "moduleName": "MiniPlengi",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TestModeStatus",
+                    "printedName": "MiniPlengi.TestModeStatus",
+                    "usr": "c:@M@MiniPlengi@E@TestModeStatus"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvsZ",
+                "mangledName": "$s10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvsZ",
+                "moduleName": "MiniPlengi",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvMZ",
+                "mangledName": "$s10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvMZ",
+                "moduleName": "MiniPlengi",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "fetchLogs",
             "printedName": "fetchLogs(page:)",
@@ -1180,8 +1281,8 @@
           },
           {
             "kind": "Function",
-            "name": "fetchLog",
-            "printedName": "fetchLog()",
+            "name": "fetchLogsFromFile",
+            "printedName": "fetchLogsFromFile()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1191,8 +1292,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10MiniPlengi0B0C8fetchLogSSyFZ",
-            "mangledName": "$s10MiniPlengi0B0C8fetchLogSSyFZ",
+            "usr": "s:10MiniPlengi0B0C17fetchLogsFromFileSSyFZ",
+            "mangledName": "$s10MiniPlengi0B0C17fetchLogsFromFileSSyFZ",
             "moduleName": "MiniPlengi",
             "static": true,
             "declAttributes": [
@@ -2208,540 +2309,6 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "MiniPlengi"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Log",
-        "printedName": "Log",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "<",
-            "printedName": "<(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Log",
-                "printedName": "MiniPlengi.Log",
-                "usr": "s:10MiniPlengi3LogV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Log",
-                "printedName": "MiniPlengi.Log",
-                "usr": "s:10MiniPlengi3LogV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10MiniPlengi3LogV1loiySbAC_ACtFZ",
-            "mangledName": "$s10MiniPlengi3LogV1loiySbAC_ACtFZ",
-            "moduleName": "MiniPlengi",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "rawTime",
-            "printedName": "rawTime",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int64",
-                "printedName": "Swift.Int64",
-                "usr": "s:s5Int64V"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10MiniPlengi3LogV7rawTimes5Int64Vvp",
-            "mangledName": "$s10MiniPlengi3LogV7rawTimes5Int64Vvp",
-            "moduleName": "MiniPlengi",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int64",
-                    "printedName": "Swift.Int64",
-                    "usr": "s:s5Int64V"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi3LogV7rawTimes5Int64Vvg",
-                "mangledName": "$s10MiniPlengi3LogV7rawTimes5Int64Vvg",
-                "moduleName": "MiniPlengi",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int64",
-                    "printedName": "Swift.Int64",
-                    "usr": "s:s5Int64V"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi3LogV7rawTimes5Int64Vvs",
-                "mangledName": "$s10MiniPlengi3LogV7rawTimes5Int64Vvs",
-                "moduleName": "MiniPlengi",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi3LogV7rawTimes5Int64VvM",
-                "mangledName": "$s10MiniPlengi3LogV7rawTimes5Int64VvM",
-                "moduleName": "MiniPlengi",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "plengiResponse",
-            "printedName": "plengiResponse",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.Data?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Data",
-                    "printedName": "Foundation.Data",
-                    "usr": "s:10Foundation4DataV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10MiniPlengi3LogV14plengiResponse10Foundation4DataVSgvp",
-            "mangledName": "$s10MiniPlengi3LogV14plengiResponse10Foundation4DataVSgvp",
-            "moduleName": "MiniPlengi",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Foundation.Data?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Data",
-                        "printedName": "Foundation.Data",
-                        "usr": "s:10Foundation4DataV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi3LogV14plengiResponse10Foundation4DataVSgvg",
-                "mangledName": "$s10MiniPlengi3LogV14plengiResponse10Foundation4DataVSgvg",
-                "moduleName": "MiniPlengi",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Foundation.Data?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Data",
-                        "printedName": "Foundation.Data",
-                        "usr": "s:10Foundation4DataV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi3LogV14plengiResponse10Foundation4DataVSgvs",
-                "mangledName": "$s10MiniPlengi3LogV14plengiResponse10Foundation4DataVSgvs",
-                "moduleName": "MiniPlengi",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi3LogV14plengiResponse10Foundation4DataVSgvM",
-                "mangledName": "$s10MiniPlengi3LogV14plengiResponse10Foundation4DataVSgvM",
-                "moduleName": "MiniPlengi",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "logMessage",
-            "printedName": "logMessage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10MiniPlengi3LogV10logMessageSSvp",
-            "mangledName": "$s10MiniPlengi3LogV10logMessageSSvp",
-            "moduleName": "MiniPlengi",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi3LogV10logMessageSSvg",
-                "mangledName": "$s10MiniPlengi3LogV10logMessageSSvg",
-                "moduleName": "MiniPlengi",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi3LogV10logMessageSSvs",
-                "mangledName": "$s10MiniPlengi3LogV10logMessageSSvs",
-                "moduleName": "MiniPlengi",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi3LogV10logMessageSSvM",
-                "mangledName": "$s10MiniPlengi3LogV10logMessageSSvM",
-                "moduleName": "MiniPlengi",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "logTime",
-            "printedName": "logTime",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10MiniPlengi3LogV7logTimeSSvp",
-            "mangledName": "$s10MiniPlengi3LogV7logTimeSSvp",
-            "moduleName": "MiniPlengi",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi3LogV7logTimeSSvg",
-                "mangledName": "$s10MiniPlengi3LogV7logTimeSSvg",
-                "moduleName": "MiniPlengi",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi3LogV7logTimeSSvs",
-                "mangledName": "$s10MiniPlengi3LogV7logTimeSSvs",
-                "moduleName": "MiniPlengi",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi3LogV7logTimeSSvM",
-                "mangledName": "$s10MiniPlengi3LogV7logTimeSSvM",
-                "moduleName": "MiniPlengi",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(message:time:plengiResponse:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Log",
-                "printedName": "MiniPlengi.Log",
-                "usr": "s:10MiniPlengi3LogV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int64",
-                "printedName": "Swift.Int64",
-                "usr": "s:s5Int64V"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.Data?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Data",
-                    "printedName": "Foundation.Data",
-                    "usr": "s:10Foundation4DataV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10MiniPlengi3LogV7message4time14plengiResponseACSS_s5Int64V10Foundation4DataVSgtcfc",
-            "mangledName": "$s10MiniPlengi3LogV7message4time14plengiResponseACSS_s5Int64V10Foundation4DataVSgtcfc",
-            "moduleName": "MiniPlengi",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Log",
-                "printedName": "MiniPlengi.Log",
-                "usr": "s:10MiniPlengi3LogV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Log",
-                "printedName": "MiniPlengi.Log",
-                "usr": "s:10MiniPlengi3LogV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10MiniPlengi3LogV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s10MiniPlengi3LogV2eeoiySbAC_ACtFZ",
-            "moduleName": "MiniPlengi",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:10MiniPlengi3LogV",
-        "mangledName": "$s10MiniPlengi3LogV",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Comparable",
-            "printedName": "Comparable",
-            "usr": "s:SL",
-            "mangledName": "$sSL"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          }
-        ]
       },
       {
         "kind": "Import",
@@ -8875,446 +8442,19 @@
           },
           {
             "kind": "Var",
-            "name": "db",
-            "printedName": "db",
+            "name": "TYPE_OFFLINE_MODE",
+            "printedName": "TYPE_OFFLINE_MODE",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.OpaquePointer?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaquePointer",
-                    "printedName": "Swift.OpaquePointer",
-                    "usr": "s:s13OpaquePointerV"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10MiniPlengi6LoggerC2dbs13OpaquePointerVSgvpZ",
-            "mangledName": "$s10MiniPlengi6LoggerC2dbs13OpaquePointerVSgvpZ",
-            "moduleName": "MiniPlengi",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.OpaquePointer?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpaquePointer",
-                        "printedName": "Swift.OpaquePointer",
-                        "usr": "s:s13OpaquePointerV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi6LoggerC2dbs13OpaquePointerVSgvgZ",
-                "mangledName": "$s10MiniPlengi6LoggerC2dbs13OpaquePointerVSgvgZ",
-                "moduleName": "MiniPlengi",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.OpaquePointer?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OpaquePointer",
-                        "printedName": "Swift.OpaquePointer",
-                        "usr": "s:s13OpaquePointerV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi6LoggerC2dbs13OpaquePointerVSgvsZ",
-                "mangledName": "$s10MiniPlengi6LoggerC2dbs13OpaquePointerVSgvsZ",
-                "moduleName": "MiniPlengi",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi6LoggerC2dbs13OpaquePointerVSgvMZ",
-                "mangledName": "$s10MiniPlengi6LoggerC2dbs13OpaquePointerVSgvMZ",
-                "moduleName": "MiniPlengi",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "atomicComplete",
-            "printedName": "atomicComplete",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AtomicValue",
-                "printedName": "MiniPlengi.AtomicValue<Swift.Int>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:10MiniPlengi11AtomicValueC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10MiniPlengi6LoggerC14atomicCompleteAA11AtomicValueCySiGvpZ",
-            "mangledName": "$s10MiniPlengi6LoggerC14atomicCompleteAA11AtomicValueCySiGvpZ",
-            "moduleName": "MiniPlengi",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AtomicValue",
-                    "printedName": "MiniPlengi.AtomicValue<Swift.Int>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:10MiniPlengi11AtomicValueC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi6LoggerC14atomicCompleteAA11AtomicValueCySiGvgZ",
-                "mangledName": "$s10MiniPlengi6LoggerC14atomicCompleteAA11AtomicValueCySiGvgZ",
-                "moduleName": "MiniPlengi",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AtomicValue",
-                    "printedName": "MiniPlengi.AtomicValue<Swift.Int>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:10MiniPlengi11AtomicValueC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi6LoggerC14atomicCompleteAA11AtomicValueCySiGvsZ",
-                "mangledName": "$s10MiniPlengi6LoggerC14atomicCompleteAA11AtomicValueCySiGvsZ",
-                "moduleName": "MiniPlengi",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi6LoggerC14atomicCompleteAA11AtomicValueCySiGvMZ",
-                "mangledName": "$s10MiniPlengi6LoggerC14atomicCompleteAA11AtomicValueCySiGvMZ",
-                "moduleName": "MiniPlengi",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "logUpdateDelegate",
-            "printedName": "logUpdateDelegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "(any MiniPlengi.LogUpdateDelegate)?"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvpZ",
-            "mangledName": "$s10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvpZ",
-            "moduleName": "MiniPlengi",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "ReferenceOwnership",
-              "AccessControl"
-            ],
-            "ownership": 1,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any MiniPlengi.LogUpdateDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LogUpdateDelegate",
-                        "printedName": "any MiniPlengi.LogUpdateDelegate",
-                        "usr": "s:10MiniPlengi17LogUpdateDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvgZ",
-                "mangledName": "$s10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvgZ",
-                "moduleName": "MiniPlengi",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any MiniPlengi.LogUpdateDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LogUpdateDelegate",
-                        "printedName": "any MiniPlengi.LogUpdateDelegate",
-                        "usr": "s:10MiniPlengi17LogUpdateDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvsZ",
-                "mangledName": "$s10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvsZ",
-                "moduleName": "MiniPlengi",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvMZ",
-                "mangledName": "$s10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvMZ",
-                "moduleName": "MiniPlengi",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "defaultDirectory",
-            "printedName": "defaultDirectory",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10MiniPlengi6LoggerC16defaultDirectorySSSgvpZ",
-            "mangledName": "$s10MiniPlengi6LoggerC16defaultDirectorySSSgvpZ",
-            "moduleName": "MiniPlengi",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi6LoggerC16defaultDirectorySSSgvgZ",
-                "mangledName": "$s10MiniPlengi6LoggerC16defaultDirectorySSSgvgZ",
-                "moduleName": "MiniPlengi",
-                "static": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "needToWrite",
-            "printedName": "needToWrite",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10MiniPlengi6LoggerC11needToWriteSbvpZ",
-            "mangledName": "$s10MiniPlengi6LoggerC11needToWriteSbvpZ",
+            "usr": "s:10MiniPlengi6LoggerC17TYPE_OFFLINE_MODESSvpZ",
+            "mangledName": "$s10MiniPlengi6LoggerC17TYPE_OFFLINE_MODESSvpZ",
             "moduleName": "MiniPlengi",
             "static": true,
             "declAttributes": [
@@ -9333,14 +8473,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10MiniPlengi6LoggerC11needToWriteSbvgZ",
-                "mangledName": "$s10MiniPlengi6LoggerC11needToWriteSbvgZ",
+                "usr": "s:10MiniPlengi6LoggerC17TYPE_OFFLINE_MODESSvgZ",
+                "mangledName": "$s10MiniPlengi6LoggerC17TYPE_OFFLINE_MODESSvgZ",
                 "moduleName": "MiniPlengi",
                 "static": true,
                 "implicit": true,
@@ -9396,7 +8536,8 @@
             "moduleName": "MiniPlengi",
             "static": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -9654,6 +8795,55 @@
           },
           {
             "kind": "Function",
+            "name": "o",
+            "printedName": "o(_:plengiResponseData:sendToResponse:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MiniPlengi.PlengiResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlengiResponse",
+                    "printedName": "MiniPlengi.PlengiResponse",
+                    "usr": "c:@M@MiniPlengi@objc(cs)PlengiResponse"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MiniPlengi6LoggerC1o_18plengiResponseData06sendToE0ySS_AA0bE0CSgSbtFZ",
+            "mangledName": "$s10MiniPlengi6LoggerC1o_18plengiResponseData06sendToE0ySS_AA0bE0CSgSbtFZ",
+            "moduleName": "MiniPlengi",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "write",
             "printedName": "write(_:logType:plengiResponseData:sendToResponse:)",
             "children": [
@@ -9706,6 +8896,62 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "writeOfflineLog",
+            "printedName": "writeOfflineLog(_:logType:plengiResponseData:sendToResponse:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MiniPlengi.PlengiResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlengiResponse",
+                    "printedName": "MiniPlengi.PlengiResponse",
+                    "usr": "c:@M@MiniPlengi@objc(cs)PlengiResponse"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MiniPlengi6LoggerC15writeOfflineLog_7logType18plengiResponseData06sendToJ0ySS_SSAA0bJ0CSgSbtFZ",
+            "mangledName": "$s10MiniPlengi6LoggerC15writeOfflineLog_7logType18plengiResponseData06sendToJ0ySS_SSAA0bJ0CSgSbtFZ",
+            "moduleName": "MiniPlengi",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -9824,26 +9070,107 @@
             "funcSelfKind": "NonMutating"
           },
           {
-            "kind": "Function",
-            "name": "getMemory",
-            "printedName": "getMemory()",
+            "kind": "Var",
+            "name": "deletedRows",
+            "printedName": "deletedRows",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UInt64",
-                "printedName": "Swift.UInt64",
-                "usr": "s:s6UInt64V"
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
               }
             ],
-            "declKind": "Func",
-            "usr": "s:10MiniPlengi6LoggerC9getMemorys6UInt64VyFZ",
-            "mangledName": "$s10MiniPlengi6LoggerC9getMemorys6UInt64VyFZ",
+            "declKind": "Var",
+            "usr": "s:10MiniPlengi6LoggerC11deletedRowss5Int32VvpZ",
+            "mangledName": "$s10MiniPlengi6LoggerC11deletedRowss5Int32VvpZ",
             "moduleName": "MiniPlengi",
             "static": true,
             "declAttributes": [
-              "AccessControl"
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
             ],
-            "funcSelfKind": "NonMutating"
+            "isFromExtension": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MiniPlengi6LoggerC11deletedRowss5Int32VvgZ",
+                "mangledName": "$s10MiniPlengi6LoggerC11deletedRowss5Int32VvgZ",
+                "moduleName": "MiniPlengi",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MiniPlengi6LoggerC11deletedRowss5Int32VvsZ",
+                "mangledName": "$s10MiniPlengi6LoggerC11deletedRowss5Int32VvsZ",
+                "moduleName": "MiniPlengi",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MiniPlengi6LoggerC11deletedRowss5Int32VvMZ",
+                "mangledName": "$s10MiniPlengi6LoggerC11deletedRowss5Int32VvMZ",
+                "moduleName": "MiniPlengi",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
           },
           {
             "kind": "Var",
@@ -9974,7 +9301,8 @@
         "mangledName": "$s10MiniPlengi6LoggerC",
         "moduleName": "MiniPlengi",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
@@ -19414,20 +18742,6 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/Log.swift",
-      "kind": "StringLiteral",
-      "offset": 395,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Views\/Log.swift",
-      "kind": "StringLiteral",
-      "offset": 431,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/Geofence.swift",
       "kind": "IntegerLiteral",
       "offset": 249,
@@ -20080,17 +19394,31 @@
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.SQLite.swift",
+      "kind": "IntegerLiteral",
+      "offset": 239,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.SQLite.swift",
       "kind": "StringLiteral",
-      "offset": 8336,
+      "offset": 284,
       "length": 249,
       "value": "\"    CREATE TABLE IF NOT EXISTS sdk_logs (\n        id    INTEGER PRIMARY KEY AUTOINCREMENT,\n        log_text    TEXT NOT NULL,\n        time    NUMERIC NOT NULL,\n        type    TEXT,\n        data    TEXT\n    );\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.SQLite.swift",
       "kind": "StringLiteral",
-      "offset": 8623,
+      "offset": 571,
       "length": 90,
       "value": "\"    INSERT INTO sdk_logs (log_text, time, type, data) VALUES (?, ?, ?, ?);\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.SQLite.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3516,
+      "length": 2,
+      "value": "30"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
@@ -21705,112 +21033,133 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 14701,
+      "offset": 835,
       "length": 9,
       "value": "\"VERBOSE\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 14762,
+      "offset": 896,
       "length": 7,
       "value": "\"DEBUG\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 14837,
+      "offset": 971,
       "length": 6,
       "value": "\"INFO\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 14927,
+      "offset": 1061,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 15036,
+      "offset": 1170,
       "length": 17,
       "value": "\"PLENGI_RESPONSE\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 15087,
+      "offset": 1221,
       "length": 5,
       "value": "\"GPS\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1269,
+      "length": 14,
+      "value": "\"OFFLINE_MODE\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "IntegerLiteral",
-      "offset": 15197,
+      "offset": 1374,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 15881,
+      "offset": 2058,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 15996,
+      "offset": 2232,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 16281,
+      "offset": 2517,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 16564,
+      "offset": 2800,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 16847,
+      "offset": 3083,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 17132,
+      "offset": 3368,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 17414,
+      "offset": 3650,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 18441,
+      "offset": 3931,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4928,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7335,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 28872,
+      "offset": 11375,
       "length": 7,
       "value": "\"queue\""
     },
@@ -22559,7 +21908,7 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/BleFpMapUtil.swift",
       "kind": "IntegerLiteral",
-      "offset": 3228,
+      "offset": 3433,
       "length": 1,
       "value": "1"
     },

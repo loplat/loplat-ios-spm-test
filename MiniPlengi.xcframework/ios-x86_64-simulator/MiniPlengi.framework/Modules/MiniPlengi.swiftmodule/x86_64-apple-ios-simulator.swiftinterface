@@ -53,22 +53,14 @@ extension MiniPlengi.Deflate {
 extension MiniPlengi.Plengi {
   @available(iOS 10.0, *)
   public class func fetchLogs(page: Swift.Int? = nil) -> [(message: Swift.String, time: Swift.Int64, plengiResponse: Foundation.Data?)]
-  public class func fetchLog() -> Swift.String
+  public class func fetchLogsFromFile() -> Swift.String
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class Plengi : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
   @available(iOS 14.0, *)
   @objc public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
+  public static var isTestServer: MiniPlengi.TestModeStatus
   @objc deinit
-}
-public struct Log : Swift.Comparable {
-  public static func < (lhs: MiniPlengi.Log, rhs: MiniPlengi.Log) -> Swift.Bool
-  public var rawTime: Swift.Int64
-  public var plengiResponse: Foundation.Data?
-  public var logMessage: Swift.String
-  public var logTime: Swift.String
-  public init(message: Swift.String, time: Swift.Int64, plengiResponse: Foundation.Data?)
-  public static func == (a: MiniPlengi.Log, b: MiniPlengi.Log) -> Swift.Bool
 }
 public enum DeflateError : Swift.Error {
   case wrongUncompressedBlockLengths
@@ -149,6 +141,7 @@ public enum AiMessageEventType : Swift.Int {
   @objc deinit
 }
 extension MiniPlengi.Logger {
+  public static var deletedRows: Swift.Int32
   public static let CREATE_LOG_TABLE_SQL: Swift.String
   public static let INSERT_LOG_SQL: Swift.String
   public class func closeDatabase()
@@ -181,24 +174,19 @@ extension UIKit.UIViewController {
   public static let TYPE_ERROR: Swift.String
   public static let TYPE_PLENGI_RESPONSE: Swift.String
   public static let TYPE_GPS: Swift.String
-  public static var db: Swift.OpaquePointer?
-  public static var atomicComplete: MiniPlengi.AtomicValue<Swift.Int>
-  weak public static var logUpdateDelegate: (any MiniPlengi.LogUpdateDelegate)?
-  public static var defaultDirectory: Swift.String? {
-    get
-  }
-  public static let needToWrite: Swift.Bool
+  public static let TYPE_OFFLINE_MODE: Swift.String
   public class func v(_ message: Swift.String, plengiResponseData: MiniPlengi.PlengiResponse? = nil, sendToResponse: Swift.Bool = true)
   public class func d(_ message: Swift.String, plengiResponseData: MiniPlengi.PlengiResponse? = nil, sendToResponse: Swift.Bool = true)
   public class func i(_ message: Swift.String, plengiResponseData: MiniPlengi.PlengiResponse? = nil, sendToResponse: Swift.Bool = true)
   public class func r(_ message: Swift.String, plengiResponseData: MiniPlengi.PlengiResponse? = nil, sendToResponse: Swift.Bool = true)
   public class func e(_ message: Swift.String, logType: Swift.String = TYPE_ERROR, plengiResponseData: MiniPlengi.PlengiResponse? = nil, sendToResponse: Swift.Bool = true)
   public class func gps(_ message: Swift.String, plengiResponseData: MiniPlengi.PlengiResponse? = nil, sendToResponse: Swift.Bool = true)
+  public class func o(_ message: Swift.String, plengiResponseData: MiniPlengi.PlengiResponse? = nil, sendToResponse: Swift.Bool = true)
   public class func write(_ message: Swift.String, logType: Swift.String = TYPE_DEBUG, plengiResponseData: MiniPlengi.PlengiResponse? = nil, sendToResponse: Swift.Bool = true)
+  public class func writeOfflineLog(_ message: Swift.String, logType: Swift.String = TYPE_DEBUG, plengiResponseData: MiniPlengi.PlengiResponse? = nil, sendToResponse: Swift.Bool = true)
   public class func read(page: Swift.Int? = nil) -> [(message: Swift.String, time: Swift.Int64, plengiResponse: Foundation.Data?)]
   public class func removeAll()
   public class func close()
-  public class func getMemory() -> Swift.UInt64
   @objc deinit
 }
 public protocol LogUpdateDelegate : ObjectiveC.NSObject {
