@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		rxaTDc0miyUHSbObCnzwzDt/Vts=
+		0CUBRo1Rpdd3JuI+L0jV7e9lW1w=
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		4XWMjFkpBL3CREmL84yZuANg8bg=
+		tWKolBV3vVWhbq4X+Of3gbmvSWU=
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		4XWMjFkpBL3CREmL84yZuANg8bg=
+		tWKolBV3vVWhbq4X+Of3gbmvSWU=
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		B9kVvqYCU+FnYqGAUVHXLD2P72M=
+		gqu7J7qFrqo1D7mU5Cs56HD9zV8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>loplatActivityRecognition.mlmodelc/coremldata.bin</key>
 		<data>
-		c8tGx+xEd1qm4+dTrLbJCSZfMUo=
+		F3skpjeDZ6hcMkXoEGNCpcHws3A=
 		</data>
 		<key>loplatActivityRecognition.mlmodelc/metadata.json</key>
 		<data>
@@ -97,14 +97,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nDZxOjYs2ysUTS49dPT9clNynZ4+jDJZxEmi9AXOMgQ=
+			CR2gop+TaEsBHr9SZkXj4N8D06JwMRO+7GXUaWM9JXc=
 			</data>
 		</dict>
 		<key>Modules/MiniPlengi.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wy7qRaZlyxwhoXCo91rWMNGPjDKvCsj6FlI9v3Uk7yY=
+			9tEpNk76272G5RlAI4kS2QcWIiqkMCftJE3JV8b6efw=
 			</data>
 		</dict>
 		<key>Modules/MiniPlengi.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -118,14 +118,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wy7qRaZlyxwhoXCo91rWMNGPjDKvCsj6FlI9v3Uk7yY=
+			9tEpNk76272G5RlAI4kS2QcWIiqkMCftJE3JV8b6efw=
 			</data>
 		</dict>
 		<key>Modules/MiniPlengi.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eyE3/ZizTKmpkdmm9rAwg+bVyO1DQERoJpwDx42HC5w=
+			R13sE7Qr2aZgaV9BzUD43bakCO7rzcvZEgCvXFVb1QQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -153,7 +153,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WZDmE5gYf20A2HPJm4URAA/p8G41Nm+oHft0Fzq7+YU=
+			DQ9G5cg285DI89sQy8aw9/mwBxx6IWWxo98vWBL79ZM=
 			</data>
 		</dict>
 		<key>loplatActivityRecognition.mlmodelc/metadata.json</key>

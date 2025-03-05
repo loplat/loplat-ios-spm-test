@@ -1180,19 +1180,18 @@
           },
           {
             "kind": "Function",
-            "name": "fetchLogsFromFile",
-            "printedName": "fetchLogsFromFile()",
+            "name": "copyLogFile",
+            "printedName": "copyLogFile()",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Void",
+                "printedName": "()"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10MiniPlengi0B0C17fetchLogsFromFileSSyFZ",
-            "mangledName": "$s10MiniPlengi0B0C17fetchLogsFromFileSSyFZ",
+            "usr": "s:10MiniPlengi0B0C11copyLogFileyyFZ",
+            "mangledName": "$s10MiniPlengi0B0C11copyLogFileyyFZ",
             "moduleName": "MiniPlengi",
             "static": true,
             "declAttributes": [
