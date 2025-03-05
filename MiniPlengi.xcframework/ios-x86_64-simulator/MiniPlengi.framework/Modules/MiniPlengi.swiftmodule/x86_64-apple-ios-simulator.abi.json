@@ -836,6 +836,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1180,8 +1187,8 @@
           },
           {
             "kind": "Function",
-            "name": "copyLogFile",
-            "printedName": "copyLogFile()",
+            "name": "shareLogToClient",
+            "printedName": "shareLogToClient()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1190,8 +1197,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10MiniPlengi0B0C11copyLogFileyyFZ",
-            "mangledName": "$s10MiniPlengi0B0C11copyLogFileyyFZ",
+            "usr": "s:10MiniPlengi0B0C16shareLogToClientyyFZ",
+            "mangledName": "$s10MiniPlengi0B0C16shareLogToClientyyFZ",
             "moduleName": "MiniPlengi",
             "static": true,
             "declAttributes": [
@@ -21043,21 +21050,21 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 4928,
+      "offset": 4910,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 7335,
+      "offset": 7317,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 11375,
+      "offset": 9877,
       "length": 7,
       "value": "\"queue\""
     },

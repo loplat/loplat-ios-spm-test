@@ -53,7 +53,7 @@ extension MiniPlengi.Deflate {
 extension MiniPlengi.Plengi {
   @available(iOS 10.0, *)
   public class func fetchLogs(page: Swift.Int? = nil) -> [(message: Swift.String, time: Swift.Int64, plengiResponse: Foundation.Data?)]
-  public class func copyLogFile()
+  public class func shareLogToClient()
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class Plengi : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
