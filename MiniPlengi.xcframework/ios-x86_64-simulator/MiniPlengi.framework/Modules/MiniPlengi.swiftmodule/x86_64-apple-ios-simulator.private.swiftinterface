@@ -145,9 +145,6 @@ extension MiniPlengi.Logger {
   public static let INSERT_LOG_SQL: Swift.String
   public class func closeDatabase()
 }
-extension UIKit.UIViewController {
-  @_Concurrency.MainActor @preconcurrency public func topMostViewController() -> UIKit.UIViewController
-}
 @_hasMissingDesignatedInitializers public class Deflate {
   public static func decompress(data: Foundation.Data) throws -> Foundation.Data
   @objc deinit
