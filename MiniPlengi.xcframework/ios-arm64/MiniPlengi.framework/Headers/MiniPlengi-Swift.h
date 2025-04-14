@@ -513,6 +513,16 @@ SWIFT_CLASS("_TtC10MiniPlengi6Plengi")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
+/// 발급받은 FCM 토큰을 기기와 로플랫 서버에 저장합니다.
+/// 토큰을 처음 발급받거나 새로 발급받는 상황에서만 저장합니다.
+/// \param fcmToken 발급받은 FCM 토큰
+///
++ (void)registerFcmWithFcmToken:(NSString * _Nullable)fcmToken;
+@end
+
+
 enum Result : NSInteger;
 
 @interface Plengi (SWIFT_EXTENSION(MiniPlengi))
@@ -532,19 +542,6 @@ enum Result : NSInteger;
 /// returns:
 /// PlengiResponse.Result: PlengiResponse 객체의 Result
 + (enum Result)manual_refreshPlace_ip_location SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=9.0);
-@end
-
-
-
-@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
-/// 가장 최근에 인식되었을 떄의 행정구역과, 기기 위경도 인식 정보를 반환합니다.
-/// 성공한 경우 PlengiResponse.Result.SUCCESS / 움직임이 없거나 일정 시간(초기 로딩시간 2~3분)이 흐르지 않은 경우 위치인식 하지 못하여 대기 중인 경우에는 .PENDING을 반환합니다.
-/// \param completion 응답 받을 핸들러 객체
-///
-///
-/// returns:
-/// PlengiResponse.Result: PlengiResponse 객체의 Result
-+ (enum Result)getCurrentLocationInfoWithCompletion:(void (^ _Nonnull)(PlengiResponse * _Nonnull))completion SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class UNUserNotificationCenter;
@@ -589,7 +586,18 @@ enum Result : NSInteger;
 /// returns:
 /// PlengiResponse.Result: PlengiResponse 객체의 Result
 + (enum Result)processLoplatAdvertisement:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary * _Nullable)launchOptions SWIFT_WARN_UNUSED_RESULT;
-+ (void)logToClient;
+@end
+
+
+@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
+/// 가장 최근에 인식되었을 떄의 행정구역과, 기기 위경도 인식 정보를 반환합니다.
+/// 성공한 경우 PlengiResponse.Result.SUCCESS / 움직임이 없거나 일정 시간(초기 로딩시간 2~3분)이 흐르지 않은 경우 위치인식 하지 못하여 대기 중인 경우에는 .PENDING을 반환합니다.
+/// \param completion 응답 받을 핸들러 객체
+///
+///
+/// returns:
+/// PlengiResponse.Result: PlengiResponse 객체의 Result
++ (enum Result)getCurrentLocationInfoWithCompletion:(void (^ _Nonnull)(PlengiResponse * _Nonnull))completion SWIFT_WARN_UNUSED_RESULT;
 @end
 
 

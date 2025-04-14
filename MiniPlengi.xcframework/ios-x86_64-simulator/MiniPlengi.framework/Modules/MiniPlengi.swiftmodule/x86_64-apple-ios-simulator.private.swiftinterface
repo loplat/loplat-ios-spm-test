@@ -7,6 +7,7 @@ import AdSupport
 import AppTrackingTransparency
 import BackgroundTasks
 import SystemConfiguration.CaptiveNetwork
+import CommonCrypto
 import Compression
 import CoreLocation
 import CoreML
@@ -49,11 +50,46 @@ public enum MonitoringType : Swift.Int {
 extension MiniPlengi.Deflate {
   public static func compress(data: Foundation.Data) -> Foundation.Data
 }
-@available(iOS 9.0, *)
-extension MiniPlengi.Plengi {
-  @available(iOS 10.0, *)
-  public class func fetchLogs(page: Swift.Int? = nil) -> [(message: Swift.String, time: Swift.Int64, plengiResponse: Foundation.Data?)]
-  public class func shareLogToClient()
+public enum LogType : Swift.String, Swift.CaseIterable, Swift.CustomStringConvertible {
+  case TYPE_VERBOSE
+  case TYPE_DEBUG
+  case TYPE_INFO
+  case TYPE_ERROR
+  case TYPE_PLENGI_RESPONSE
+  case TYPE_GPS
+  case TYPE_OFFLINE_MODE
+  public var description: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [MiniPlengi.LogType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [MiniPlengi.LogType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers final public class LoplatLogger {
+  public static let maxFileSize: Swift.UInt64
+  public static let maxFileCount: Swift.Int
+  public static let name: Swift.String
+  public static var directory: Swift.String? {
+    get
+    set
+  }
+  public static func v(_ message: Swift.String, logType: MiniPlengi.LogType = LogType.TYPE_VERBOSE)
+  public static func d(_ message: Swift.String, logType: MiniPlengi.LogType = LogType.TYPE_DEBUG)
+  public static func i(_ message: Swift.String, logType: MiniPlengi.LogType = LogType.TYPE_INFO)
+  public static func e(_ message: Swift.String, logType: MiniPlengi.LogType = LogType.TYPE_ERROR)
+  public static func p(_ message: Swift.String, logType: MiniPlengi.LogType = LogType.TYPE_PLENGI_RESPONSE)
+  public static func g(_ message: Swift.String, logType: MiniPlengi.LogType = LogType.TYPE_GPS)
+  public static func o(_ message: Swift.String, logType: MiniPlengi.LogType = LogType.TYPE_OFFLINE_MODE)
+  public static func write(_ message: Swift.String, logType: MiniPlengi.LogType = LogType.TYPE_INFO)
+  public static func writeToFile(_ text: Swift.String)
+  public static func shareLogFile()
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class Plengi : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
@@ -139,11 +175,20 @@ public enum AiMessageEventType : Swift.Int {
   @objc override dynamic public init()
   @objc deinit
 }
-extension MiniPlengi.Logger {
-  public static var deletedRows: Swift.Int32
-  public static let CREATE_LOG_TABLE_SQL: Swift.String
-  public static let INSERT_LOG_SQL: Swift.String
-  public class func closeDatabase()
+extension MiniPlengi.Plengi {
+  @objc dynamic public class func registerFcm(fcmToken: Swift.String?)
+}
+public protocol LogUpdateDelegate : AnyObject {
+  func updateLogs(message: Swift.String, time: Swift.Int64)
+}
+@_hasMissingDesignatedInitializers final public class Logger {
+  public static let shared: MiniPlengi.Logger
+  weak final public var logUpdateDelegate: (any MiniPlengi.LogUpdateDelegate)?
+  final public func write(_ message: Swift.String, sendToResponse: Swift.Bool = false)
+  final public func read(page: Swift.Int? = nil, id: Swift.Int? = nil, completion: @escaping (_ results: [(message: Swift.String, time: Swift.Int64, plengiResponse: Foundation.Data?)], _ lastId: Swift.Int?) -> Swift.Void)
+  final public func removeAll()
+  final public func close()
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class Deflate {
   public static func decompress(data: Foundation.Data) throws -> Foundation.Data
@@ -161,34 +206,6 @@ extension MiniPlengi.Logger {
   @objc required convenience public init?(coder aDecoder: Foundation.NSCoder)
   @objc public func encode(with aCoder: Foundation.NSCoder)
   @objc override dynamic public init()
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class Logger {
-  public static let TYPE_VERBOSE: Swift.String
-  public static let TYPE_DEBUG: Swift.String
-  public static let TYPE_INFO: Swift.String
-  public static let TYPE_ERROR: Swift.String
-  public static let TYPE_PLENGI_RESPONSE: Swift.String
-  public static let TYPE_GPS: Swift.String
-  public static let TYPE_OFFLINE_MODE: Swift.String
-  public class func v(_ message: Swift.String, plengiResponseData: MiniPlengi.PlengiResponse? = nil, sendToResponse: Swift.Bool = true)
-  public class func d(_ message: Swift.String, plengiResponseData: MiniPlengi.PlengiResponse? = nil, sendToResponse: Swift.Bool = true)
-  public class func i(_ message: Swift.String, plengiResponseData: MiniPlengi.PlengiResponse? = nil, sendToResponse: Swift.Bool = true)
-  public class func r(_ message: Swift.String, plengiResponseData: MiniPlengi.PlengiResponse? = nil, sendToResponse: Swift.Bool = true)
-  public class func e(_ message: Swift.String, logType: Swift.String = TYPE_ERROR, plengiResponseData: MiniPlengi.PlengiResponse? = nil, sendToResponse: Swift.Bool = true)
-  public class func gps(_ message: Swift.String, plengiResponseData: MiniPlengi.PlengiResponse? = nil, sendToResponse: Swift.Bool = true)
-  public class func o(_ message: Swift.String, plengiResponseData: MiniPlengi.PlengiResponse? = nil, sendToResponse: Swift.Bool = true)
-  public class func write(_ message: Swift.String, logType: Swift.String = TYPE_DEBUG, plengiResponseData: MiniPlengi.PlengiResponse? = nil, sendToResponse: Swift.Bool = true)
-  public class func writeOfflineLog(_ message: Swift.String, logType: Swift.String = TYPE_DEBUG, plengiResponseData: MiniPlengi.PlengiResponse? = nil, sendToResponse: Swift.Bool = true)
-  public class func read(page: Swift.Int? = nil) -> [(message: Swift.String, time: Swift.Int64, plengiResponse: Foundation.Data?)]
-  public class func removeAll()
-  public class func close()
-  @objc deinit
-}
-public protocol LogUpdateDelegate : ObjectiveC.NSObject {
-  func updateLogs()
-}
-@_hasMissingDesignatedInitializers public class AtomicValue<T> {
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc open class Advertisement : ObjectiveC.NSObject, Foundation.NSCoding {
@@ -372,7 +389,6 @@ extension MiniPlengi.Plengi {
   @objc dynamic public class func processLoplatAdvertisement(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void) -> MiniPlengi.Result
   @objc dynamic public class func processLoplatAdvertisement(_ application: UIKit.UIApplication, handleActionWithIdentifier identifier: Swift.String?, for notification: UIKit.UILocalNotification, completionHandler: @escaping () -> Swift.Void) -> MiniPlengi.Result
   @objc dynamic public class func processLoplatAdvertisement(_ application: UIKit.UIApplication, didFinishLaunchingWithOptions launchOptions: [Swift.AnyHashable : Any]?) -> MiniPlengi.Result
-  @objc dynamic public class func logToClient()
 }
 extension MiniPlengi.Plengi {
   @objc dynamic public class func getCurrentLocationInfo(completion: @escaping (_ plengiResponse: MiniPlengi.PlengiResponse) -> Swift.Void) -> MiniPlengi.Result
@@ -385,6 +401,9 @@ extension MiniPlengi.UserStatus : Swift.RawRepresentable {}
 extension MiniPlengi.MonitoringType : Swift.Equatable {}
 extension MiniPlengi.MonitoringType : Swift.Hashable {}
 extension MiniPlengi.MonitoringType : Swift.RawRepresentable {}
+extension MiniPlengi.LogType : Swift.Equatable {}
+extension MiniPlengi.LogType : Swift.Hashable {}
+extension MiniPlengi.LogType : Swift.RawRepresentable {}
 extension MiniPlengi.DeflateError : Swift.Equatable {}
 extension MiniPlengi.DeflateError : Swift.Hashable {}
 extension MiniPlengi.AiMessageEventType : Swift.Equatable {}
