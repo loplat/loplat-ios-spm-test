@@ -22215,8 +22215,8 @@
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/ManagingVersion.swift",
       "kind": "StringLiteral",
       "offset": 540,
-      "length": 13,
-      "value": "\"100.1.1-rc1\""
+      "length": 10,
+      "value": "\"100.0.15\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/OBU\/OfflineBleUpdater.swift",
