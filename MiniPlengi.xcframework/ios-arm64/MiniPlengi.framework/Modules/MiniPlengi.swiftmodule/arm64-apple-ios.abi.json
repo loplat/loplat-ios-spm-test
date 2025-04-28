@@ -16,975 +16,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UserNotifications",
-        "printedName": "UserNotifications",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreMotion",
-        "printedName": "CoreMotion",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UserStatus",
-        "printedName": "UserStatus",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "FAST_MOVE",
-            "printedName": "FAST_MOVE",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MiniPlengi.UserStatus.Type) -> MiniPlengi.UserStatus",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UserStatus",
-                    "printedName": "MiniPlengi.UserStatus",
-                    "usr": "s:10MiniPlengi10UserStatusO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MiniPlengi.UserStatus.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UserStatus",
-                        "printedName": "MiniPlengi.UserStatus",
-                        "usr": "s:10MiniPlengi10UserStatusO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10MiniPlengi10UserStatusO9FAST_MOVEyA2CmF",
-            "mangledName": "$s10MiniPlengi10UserStatusO9FAST_MOVEyA2CmF",
-            "moduleName": "MiniPlengi"
-          },
-          {
-            "kind": "Var",
-            "name": "MOVE",
-            "printedName": "MOVE",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MiniPlengi.UserStatus.Type) -> MiniPlengi.UserStatus",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UserStatus",
-                    "printedName": "MiniPlengi.UserStatus",
-                    "usr": "s:10MiniPlengi10UserStatusO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MiniPlengi.UserStatus.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UserStatus",
-                        "printedName": "MiniPlengi.UserStatus",
-                        "usr": "s:10MiniPlengi10UserStatusO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10MiniPlengi10UserStatusO4MOVEyA2CmF",
-            "mangledName": "$s10MiniPlengi10UserStatusO4MOVEyA2CmF",
-            "moduleName": "MiniPlengi"
-          },
-          {
-            "kind": "Var",
-            "name": "STAY",
-            "printedName": "STAY",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MiniPlengi.UserStatus.Type) -> MiniPlengi.UserStatus",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UserStatus",
-                    "printedName": "MiniPlengi.UserStatus",
-                    "usr": "s:10MiniPlengi10UserStatusO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MiniPlengi.UserStatus.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UserStatus",
-                        "printedName": "MiniPlengi.UserStatus",
-                        "usr": "s:10MiniPlengi10UserStatusO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10MiniPlengi10UserStatusO4STAYyA2CmF",
-            "mangledName": "$s10MiniPlengi10UserStatusO4STAYyA2CmF",
-            "moduleName": "MiniPlengi"
-          },
-          {
-            "kind": "Var",
-            "name": "LONG_STAY",
-            "printedName": "LONG_STAY",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MiniPlengi.UserStatus.Type) -> MiniPlengi.UserStatus",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UserStatus",
-                    "printedName": "MiniPlengi.UserStatus",
-                    "usr": "s:10MiniPlengi10UserStatusO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MiniPlengi.UserStatus.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UserStatus",
-                        "printedName": "MiniPlengi.UserStatus",
-                        "usr": "s:10MiniPlengi10UserStatusO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10MiniPlengi10UserStatusO9LONG_STAYyA2CmF",
-            "mangledName": "$s10MiniPlengi10UserStatusO9LONG_STAYyA2CmF",
-            "moduleName": "MiniPlengi"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "MiniPlengi.UserStatus?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UserStatus",
-                    "printedName": "MiniPlengi.UserStatus",
-                    "usr": "s:10MiniPlengi10UserStatusO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10MiniPlengi10UserStatusO8rawValueACSgSi_tcfc",
-            "mangledName": "$s10MiniPlengi10UserStatusO8rawValueACSgSi_tcfc",
-            "moduleName": "MiniPlengi",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10MiniPlengi10UserStatusO8rawValueSivp",
-            "mangledName": "$s10MiniPlengi10UserStatusO8rawValueSivp",
-            "moduleName": "MiniPlengi",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi10UserStatusO8rawValueSivg",
-                "mangledName": "$s10MiniPlengi10UserStatusO8rawValueSivg",
-                "moduleName": "MiniPlengi",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:10MiniPlengi10UserStatusO",
-        "mangledName": "$s10MiniPlengi10UserStatusO",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "enumRawTypeName": "Int",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MonitoringType",
-        "printedName": "MonitoringType",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "STAY",
-            "printedName": "STAY",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MiniPlengi.MonitoringType.Type) -> MiniPlengi.MonitoringType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MonitoringType",
-                    "printedName": "MiniPlengi.MonitoringType",
-                    "usr": "s:10MiniPlengi14MonitoringTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MiniPlengi.MonitoringType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MonitoringType",
-                        "printedName": "MiniPlengi.MonitoringType",
-                        "usr": "s:10MiniPlengi14MonitoringTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10MiniPlengi14MonitoringTypeO4STAYyA2CmF",
-            "mangledName": "$s10MiniPlengi14MonitoringTypeO4STAYyA2CmF",
-            "moduleName": "MiniPlengi"
-          },
-          {
-            "kind": "Var",
-            "name": "TRACKING",
-            "printedName": "TRACKING",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MiniPlengi.MonitoringType.Type) -> MiniPlengi.MonitoringType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MonitoringType",
-                    "printedName": "MiniPlengi.MonitoringType",
-                    "usr": "s:10MiniPlengi14MonitoringTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MiniPlengi.MonitoringType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MonitoringType",
-                        "printedName": "MiniPlengi.MonitoringType",
-                        "usr": "s:10MiniPlengi14MonitoringTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10MiniPlengi14MonitoringTypeO8TRACKINGyA2CmF",
-            "mangledName": "$s10MiniPlengi14MonitoringTypeO8TRACKINGyA2CmF",
-            "moduleName": "MiniPlengi"
-          },
-          {
-            "kind": "Var",
-            "name": "ADV_TRACKING",
-            "printedName": "ADV_TRACKING",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MiniPlengi.MonitoringType.Type) -> MiniPlengi.MonitoringType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MonitoringType",
-                    "printedName": "MiniPlengi.MonitoringType",
-                    "usr": "s:10MiniPlengi14MonitoringTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MiniPlengi.MonitoringType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MonitoringType",
-                        "printedName": "MiniPlengi.MonitoringType",
-                        "usr": "s:10MiniPlengi14MonitoringTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10MiniPlengi14MonitoringTypeO12ADV_TRACKINGyA2CmF",
-            "mangledName": "$s10MiniPlengi14MonitoringTypeO12ADV_TRACKINGyA2CmF",
-            "moduleName": "MiniPlengi"
-          },
-          {
-            "kind": "Var",
-            "name": "OFFLINE",
-            "printedName": "OFFLINE",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MiniPlengi.MonitoringType.Type) -> MiniPlengi.MonitoringType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MonitoringType",
-                    "printedName": "MiniPlengi.MonitoringType",
-                    "usr": "s:10MiniPlengi14MonitoringTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MiniPlengi.MonitoringType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MonitoringType",
-                        "printedName": "MiniPlengi.MonitoringType",
-                        "usr": "s:10MiniPlengi14MonitoringTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10MiniPlengi14MonitoringTypeO7OFFLINEyA2CmF",
-            "mangledName": "$s10MiniPlengi14MonitoringTypeO7OFFLINEyA2CmF",
-            "moduleName": "MiniPlengi"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "MiniPlengi.MonitoringType?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MonitoringType",
-                    "printedName": "MiniPlengi.MonitoringType",
-                    "usr": "s:10MiniPlengi14MonitoringTypeO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10MiniPlengi14MonitoringTypeO8rawValueACSgSi_tcfc",
-            "mangledName": "$s10MiniPlengi14MonitoringTypeO8rawValueACSgSi_tcfc",
-            "moduleName": "MiniPlengi",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10MiniPlengi14MonitoringTypeO8rawValueSivp",
-            "mangledName": "$s10MiniPlengi14MonitoringTypeO8rawValueSivp",
-            "moduleName": "MiniPlengi",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi14MonitoringTypeO8rawValueSivg",
-                "mangledName": "$s10MiniPlengi14MonitoringTypeO8rawValueSivg",
-                "moduleName": "MiniPlengi",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:10MiniPlengi14MonitoringTypeO",
-        "mangledName": "$s10MiniPlengi14MonitoringTypeO",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "enumRawTypeName": "Int",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AdSupport.ASIdentifierManager",
-        "printedName": "AdSupport.ASIdentifierManager",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi"
-      },
-      {
-        "kind": "Import",
-        "name": "AppTrackingTransparency",
-        "printedName": "AppTrackingTransparency",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreMotion",
-        "printedName": "CoreMotion",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreML",
-        "printedName": "CoreML",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi"
-      },
-      {
-        "kind": "Import",
-        "name": "os",
-        "printedName": "os",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AdSupport.ASIdentifierManager",
-        "printedName": "AdSupport.ASIdentifierManager",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -2176,6 +1207,654 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MonitoringType",
+        "printedName": "MonitoringType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "STAY",
+            "printedName": "STAY",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MiniPlengi.MonitoringType.Type) -> MiniPlengi.MonitoringType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MonitoringType",
+                    "printedName": "MiniPlengi.MonitoringType",
+                    "usr": "s:10MiniPlengi14MonitoringTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MiniPlengi.MonitoringType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MonitoringType",
+                        "printedName": "MiniPlengi.MonitoringType",
+                        "usr": "s:10MiniPlengi14MonitoringTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MiniPlengi14MonitoringTypeO4STAYyA2CmF",
+            "mangledName": "$s10MiniPlengi14MonitoringTypeO4STAYyA2CmF",
+            "moduleName": "MiniPlengi"
+          },
+          {
+            "kind": "Var",
+            "name": "TRACKING",
+            "printedName": "TRACKING",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MiniPlengi.MonitoringType.Type) -> MiniPlengi.MonitoringType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MonitoringType",
+                    "printedName": "MiniPlengi.MonitoringType",
+                    "usr": "s:10MiniPlengi14MonitoringTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MiniPlengi.MonitoringType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MonitoringType",
+                        "printedName": "MiniPlengi.MonitoringType",
+                        "usr": "s:10MiniPlengi14MonitoringTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MiniPlengi14MonitoringTypeO8TRACKINGyA2CmF",
+            "mangledName": "$s10MiniPlengi14MonitoringTypeO8TRACKINGyA2CmF",
+            "moduleName": "MiniPlengi"
+          },
+          {
+            "kind": "Var",
+            "name": "ADV_TRACKING",
+            "printedName": "ADV_TRACKING",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MiniPlengi.MonitoringType.Type) -> MiniPlengi.MonitoringType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MonitoringType",
+                    "printedName": "MiniPlengi.MonitoringType",
+                    "usr": "s:10MiniPlengi14MonitoringTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MiniPlengi.MonitoringType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MonitoringType",
+                        "printedName": "MiniPlengi.MonitoringType",
+                        "usr": "s:10MiniPlengi14MonitoringTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MiniPlengi14MonitoringTypeO12ADV_TRACKINGyA2CmF",
+            "mangledName": "$s10MiniPlengi14MonitoringTypeO12ADV_TRACKINGyA2CmF",
+            "moduleName": "MiniPlengi"
+          },
+          {
+            "kind": "Var",
+            "name": "OFFLINE",
+            "printedName": "OFFLINE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MiniPlengi.MonitoringType.Type) -> MiniPlengi.MonitoringType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MonitoringType",
+                    "printedName": "MiniPlengi.MonitoringType",
+                    "usr": "s:10MiniPlengi14MonitoringTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MiniPlengi.MonitoringType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MonitoringType",
+                        "printedName": "MiniPlengi.MonitoringType",
+                        "usr": "s:10MiniPlengi14MonitoringTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MiniPlengi14MonitoringTypeO7OFFLINEyA2CmF",
+            "mangledName": "$s10MiniPlengi14MonitoringTypeO7OFFLINEyA2CmF",
+            "moduleName": "MiniPlengi"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MiniPlengi.MonitoringType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MonitoringType",
+                    "printedName": "MiniPlengi.MonitoringType",
+                    "usr": "s:10MiniPlengi14MonitoringTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10MiniPlengi14MonitoringTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s10MiniPlengi14MonitoringTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "MiniPlengi",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MiniPlengi14MonitoringTypeO8rawValueSivp",
+            "mangledName": "$s10MiniPlengi14MonitoringTypeO8rawValueSivp",
+            "moduleName": "MiniPlengi",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MiniPlengi14MonitoringTypeO8rawValueSivg",
+                "mangledName": "$s10MiniPlengi14MonitoringTypeO8rawValueSivg",
+                "moduleName": "MiniPlengi",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10MiniPlengi14MonitoringTypeO",
+        "mangledName": "$s10MiniPlengi14MonitoringTypeO",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport.ASIdentifierManager",
+        "printedName": "AdSupport.ASIdentifierManager",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreML",
+        "printedName": "CoreML",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport.ASIdentifierManager",
+        "printedName": "AdSupport.ASIdentifierManager",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -2932,6 +2611,29 @@
               "AccessControl",
               "ObjC",
               "Available",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shareLogToClient",
+            "printedName": "shareLogToClient()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MiniPlengi0B0C16shareLogToClientyyFZ",
+            "mangledName": "$s10MiniPlengi0B0C16shareLogToClientyyFZ",
+            "moduleName": "MiniPlengi",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
               "RawDocComment"
             ],
             "isFromExtension": true,
@@ -4792,23 +4494,6 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi"
       },
       {
         "kind": "Import",
@@ -7879,6 +7564,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -7951,6 +7646,409 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserStatus",
+        "printedName": "UserStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "FAST_MOVE",
+            "printedName": "FAST_MOVE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MiniPlengi.UserStatus.Type) -> MiniPlengi.UserStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserStatus",
+                    "printedName": "MiniPlengi.UserStatus",
+                    "usr": "s:10MiniPlengi10UserStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MiniPlengi.UserStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserStatus",
+                        "printedName": "MiniPlengi.UserStatus",
+                        "usr": "s:10MiniPlengi10UserStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MiniPlengi10UserStatusO9FAST_MOVEyA2CmF",
+            "mangledName": "$s10MiniPlengi10UserStatusO9FAST_MOVEyA2CmF",
+            "moduleName": "MiniPlengi"
+          },
+          {
+            "kind": "Var",
+            "name": "MOVE",
+            "printedName": "MOVE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MiniPlengi.UserStatus.Type) -> MiniPlengi.UserStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserStatus",
+                    "printedName": "MiniPlengi.UserStatus",
+                    "usr": "s:10MiniPlengi10UserStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MiniPlengi.UserStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserStatus",
+                        "printedName": "MiniPlengi.UserStatus",
+                        "usr": "s:10MiniPlengi10UserStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MiniPlengi10UserStatusO4MOVEyA2CmF",
+            "mangledName": "$s10MiniPlengi10UserStatusO4MOVEyA2CmF",
+            "moduleName": "MiniPlengi"
+          },
+          {
+            "kind": "Var",
+            "name": "STAY",
+            "printedName": "STAY",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MiniPlengi.UserStatus.Type) -> MiniPlengi.UserStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserStatus",
+                    "printedName": "MiniPlengi.UserStatus",
+                    "usr": "s:10MiniPlengi10UserStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MiniPlengi.UserStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserStatus",
+                        "printedName": "MiniPlengi.UserStatus",
+                        "usr": "s:10MiniPlengi10UserStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MiniPlengi10UserStatusO4STAYyA2CmF",
+            "mangledName": "$s10MiniPlengi10UserStatusO4STAYyA2CmF",
+            "moduleName": "MiniPlengi"
+          },
+          {
+            "kind": "Var",
+            "name": "LONG_STAY",
+            "printedName": "LONG_STAY",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MiniPlengi.UserStatus.Type) -> MiniPlengi.UserStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserStatus",
+                    "printedName": "MiniPlengi.UserStatus",
+                    "usr": "s:10MiniPlengi10UserStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MiniPlengi.UserStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserStatus",
+                        "printedName": "MiniPlengi.UserStatus",
+                        "usr": "s:10MiniPlengi10UserStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MiniPlengi10UserStatusO9LONG_STAYyA2CmF",
+            "mangledName": "$s10MiniPlengi10UserStatusO9LONG_STAYyA2CmF",
+            "moduleName": "MiniPlengi"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MiniPlengi.UserStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserStatus",
+                    "printedName": "MiniPlengi.UserStatus",
+                    "usr": "s:10MiniPlengi10UserStatusO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10MiniPlengi10UserStatusO8rawValueACSgSi_tcfc",
+            "mangledName": "$s10MiniPlengi10UserStatusO8rawValueACSgSi_tcfc",
+            "moduleName": "MiniPlengi",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MiniPlengi10UserStatusO8rawValueSivp",
+            "mangledName": "$s10MiniPlengi10UserStatusO8rawValueSivp",
+            "moduleName": "MiniPlengi",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MiniPlengi10UserStatusO8rawValueSivg",
+                "mangledName": "$s10MiniPlengi10UserStatusO8rawValueSivg",
+                "moduleName": "MiniPlengi",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10MiniPlengi10UserStatusO",
+        "mangledName": "$s10MiniPlengi10UserStatusO",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
         "name": "SystemConfiguration.CaptiveNetwork",
         "printedName": "SystemConfiguration.CaptiveNetwork",
         "declKind": "Import",
@@ -7968,487 +8066,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SQLite3",
-        "printedName": "SQLite3",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "LogUpdateDelegate",
-        "printedName": "LogUpdateDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "updateLogs",
-            "printedName": "updateLogs(message:time:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int64",
-                "printedName": "Swift.Int64",
-                "usr": "s:s5Int64V"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10MiniPlengi17LogUpdateDelegateP10updateLogs7message4timeySS_s5Int64VtF",
-            "mangledName": "$s10MiniPlengi17LogUpdateDelegateP10updateLogs7message4timeySS_s5Int64VtF",
-            "moduleName": "MiniPlengi",
-            "genericSig": "<τ_0_0 where τ_0_0 : MiniPlengi.LogUpdateDelegate>",
-            "sugared_genericSig": "<Self where Self : MiniPlengi.LogUpdateDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:10MiniPlengi17LogUpdateDelegateP",
-        "mangledName": "$s10MiniPlengi17LogUpdateDelegateP",
-        "moduleName": "MiniPlengi",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Logger",
-        "printedName": "Logger",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Logger",
-                "printedName": "MiniPlengi.Logger",
-                "usr": "s:10MiniPlengi6LoggerC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10MiniPlengi6LoggerC6sharedACvpZ",
-            "mangledName": "$s10MiniPlengi6LoggerC6sharedACvpZ",
-            "moduleName": "MiniPlengi",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Logger",
-                    "printedName": "MiniPlengi.Logger",
-                    "usr": "s:10MiniPlengi6LoggerC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi6LoggerC6sharedACvgZ",
-                "mangledName": "$s10MiniPlengi6LoggerC6sharedACvgZ",
-                "moduleName": "MiniPlengi",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "logUpdateDelegate",
-            "printedName": "logUpdateDelegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "(any MiniPlengi.LogUpdateDelegate)?"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvp",
-            "mangledName": "$s10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvp",
-            "moduleName": "MiniPlengi",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "ReferenceOwnership",
-              "AccessControl"
-            ],
-            "ownership": 1,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any MiniPlengi.LogUpdateDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LogUpdateDelegate",
-                        "printedName": "any MiniPlengi.LogUpdateDelegate",
-                        "usr": "s:10MiniPlengi17LogUpdateDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvg",
-                "mangledName": "$s10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvg",
-                "moduleName": "MiniPlengi",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any MiniPlengi.LogUpdateDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LogUpdateDelegate",
-                        "printedName": "any MiniPlengi.LogUpdateDelegate",
-                        "usr": "s:10MiniPlengi17LogUpdateDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvs",
-                "mangledName": "$s10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvs",
-                "moduleName": "MiniPlengi",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvM",
-                "mangledName": "$s10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvM",
-                "moduleName": "MiniPlengi",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "write",
-            "printedName": "write(_:sendToResponse:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10MiniPlengi6LoggerC5write_14sendToResponseySS_SbtF",
-            "mangledName": "$s10MiniPlengi6LoggerC5write_14sendToResponseySS_SbtF",
-            "moduleName": "MiniPlengi",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "read",
-            "printedName": "read(page:id:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "([(message: Swift.String, time: Swift.Int64, plengiResponse: Foundation.Data?)], Swift.Int?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Tuple",
-                    "printedName": "([(message: Swift.String, time: Swift.Int64, plengiResponse: Foundation.Data?)], Swift.Int?)",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[(message: Swift.String, time: Swift.Int64, plengiResponse: Foundation.Data?)]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Tuple",
-                            "printedName": "(message: Swift.String, time: Swift.Int64, plengiResponse: Foundation.Data?)",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
-                              },
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Int64",
-                                "printedName": "Swift.Int64",
-                                "usr": "s:s5Int64V"
-                              },
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Optional",
-                                "printedName": "Foundation.Data?",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "Data",
-                                    "printedName": "Foundation.Data",
-                                    "usr": "s:10Foundation4DataV"
-                                  }
-                                ],
-                                "usr": "s:Sq"
-                              }
-                            ]
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.Int?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10MiniPlengi6LoggerC4read4page2id10completionySiSg_AHySaySS7message_s5Int64V4time10Foundation4DataVSg14plengiResponsetG_AHtctF",
-            "mangledName": "$s10MiniPlengi6LoggerC4read4page2id10completionySiSg_AHySaySS7message_s5Int64V4time10Foundation4DataVSg14plengiResponsetG_AHtctF",
-            "moduleName": "MiniPlengi",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "removeAll",
-            "printedName": "removeAll()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10MiniPlengi6LoggerC9removeAllyyF",
-            "mangledName": "$s10MiniPlengi6LoggerC9removeAllyyF",
-            "moduleName": "MiniPlengi",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "close",
-            "printedName": "close()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10MiniPlengi6LoggerC5closeyyF",
-            "mangledName": "$s10MiniPlengi6LoggerC5closeyyF",
-            "moduleName": "MiniPlengi",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:10MiniPlengi6LoggerC",
-        "mangledName": "$s10MiniPlengi6LoggerC",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "Final",
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "CoreLocation",
         "printedName": "CoreLocation",
         "declKind": "Import",
@@ -8461,16 +8078,6 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "MiniPlengi",
         "declAttributes": [
@@ -8659,23 +8266,6 @@
         "kind": "Import",
         "name": "Compression",
         "printedName": "Compression",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CommonCrypto",
-        "printedName": "CommonCrypto",
         "declKind": "Import",
         "moduleName": "MiniPlengi"
       },
@@ -9653,6 +9243,487 @@
         "moduleName": "MiniPlengi",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SQLite3",
+        "printedName": "SQLite3",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogUpdateDelegate",
+        "printedName": "LogUpdateDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "updateLogs",
+            "printedName": "updateLogs(message:time:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MiniPlengi17LogUpdateDelegateP10updateLogs7message4timeySS_s5Int64VtF",
+            "mangledName": "$s10MiniPlengi17LogUpdateDelegateP10updateLogs7message4timeySS_s5Int64VtF",
+            "moduleName": "MiniPlengi",
+            "genericSig": "<τ_0_0 where τ_0_0 : MiniPlengi.LogUpdateDelegate>",
+            "sugared_genericSig": "<Self where Self : MiniPlengi.LogUpdateDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10MiniPlengi17LogUpdateDelegateP",
+        "mangledName": "$s10MiniPlengi17LogUpdateDelegateP",
+        "moduleName": "MiniPlengi",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Logger",
+        "printedName": "Logger",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Logger",
+                "printedName": "MiniPlengi.Logger",
+                "usr": "s:10MiniPlengi6LoggerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MiniPlengi6LoggerC6sharedACvpZ",
+            "mangledName": "$s10MiniPlengi6LoggerC6sharedACvpZ",
+            "moduleName": "MiniPlengi",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Logger",
+                    "printedName": "MiniPlengi.Logger",
+                    "usr": "s:10MiniPlengi6LoggerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MiniPlengi6LoggerC6sharedACvgZ",
+                "mangledName": "$s10MiniPlengi6LoggerC6sharedACvgZ",
+                "moduleName": "MiniPlengi",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logUpdateDelegate",
+            "printedName": "logUpdateDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any MiniPlengi.LogUpdateDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvp",
+            "mangledName": "$s10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvp",
+            "moduleName": "MiniPlengi",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any MiniPlengi.LogUpdateDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogUpdateDelegate",
+                        "printedName": "any MiniPlengi.LogUpdateDelegate",
+                        "usr": "s:10MiniPlengi17LogUpdateDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvg",
+                "mangledName": "$s10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvg",
+                "moduleName": "MiniPlengi",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any MiniPlengi.LogUpdateDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogUpdateDelegate",
+                        "printedName": "any MiniPlengi.LogUpdateDelegate",
+                        "usr": "s:10MiniPlengi17LogUpdateDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvs",
+                "mangledName": "$s10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvs",
+                "moduleName": "MiniPlengi",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvM",
+                "mangledName": "$s10MiniPlengi6LoggerC17logUpdateDelegateAA03LogeF0_pSgvM",
+                "moduleName": "MiniPlengi",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "write",
+            "printedName": "write(_:sendToResponse:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MiniPlengi6LoggerC5write_14sendToResponseySS_SbtF",
+            "mangledName": "$s10MiniPlengi6LoggerC5write_14sendToResponseySS_SbtF",
+            "moduleName": "MiniPlengi",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "read",
+            "printedName": "read(page:id:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([(message: Swift.String, time: Swift.Int64, plengiResponse: Foundation.Data?)], Swift.Int?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "([(message: Swift.String, time: Swift.Int64, plengiResponse: Foundation.Data?)], Swift.Int?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[(message: Swift.String, time: Swift.Int64, plengiResponse: Foundation.Data?)]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(message: Swift.String, time: Swift.Int64, plengiResponse: Foundation.Data?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int64",
+                                "printedName": "Swift.Int64",
+                                "usr": "s:s5Int64V"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Foundation.Data?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Data",
+                                    "printedName": "Foundation.Data",
+                                    "usr": "s:10Foundation4DataV"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MiniPlengi6LoggerC4read4page2id10completionySiSg_AHySaySS7message_s5Int64V4time10Foundation4DataVSg14plengiResponsetG_AHtctF",
+            "mangledName": "$s10MiniPlengi6LoggerC4read4page2id10completionySiSg_AHySaySS7message_s5Int64V4time10Foundation4DataVSg14plengiResponsetG_AHtctF",
+            "moduleName": "MiniPlengi",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAll",
+            "printedName": "removeAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MiniPlengi6LoggerC9removeAllyyF",
+            "mangledName": "$s10MiniPlengi6LoggerC9removeAllyyF",
+            "moduleName": "MiniPlengi",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "close",
+            "printedName": "close()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MiniPlengi6LoggerC5closeyyF",
+            "mangledName": "$s10MiniPlengi6LoggerC5closeyyF",
+            "moduleName": "MiniPlengi",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10MiniPlengi6LoggerC",
+        "mangledName": "$s10MiniPlengi6LoggerC",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -14383,6 +14454,36 @@
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "responseCSV",
+            "printedName": "responseCSV(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MiniPlengi@objc(pl)PlaceDelegate(im)responseCSV:",
+            "mangledName": "$s10MiniPlengi13PlaceDelegateP11responseCSVyySSF",
+            "moduleName": "MiniPlengi",
+            "genericSig": "<τ_0_0 where τ_0_0 : MiniPlengi.PlaceDelegate>",
+            "sugared_genericSig": "<Self where Self : MiniPlengi.PlaceDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -14586,30 +14687,6 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi"
       },
       {
         "kind": "Import",
@@ -15358,23 +15435,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "MiniPlengi"
       },
       {
         "kind": "Import",
@@ -17587,6 +17647,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CoreLocation",
         "printedName": "CoreLocation",
         "declKind": "Import",
@@ -17619,6 +17689,104 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
+      "kind": "StringLiteral",
+      "offset": 256,
+      "length": 9,
+      "value": "\"VERBOSE\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 7,
+      "value": "\"DEBUG\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
+      "kind": "StringLiteral",
+      "offset": 317,
+      "length": 6,
+      "value": "\"INFO\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 7,
+      "value": "\"ERROR\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
+      "kind": "StringLiteral",
+      "offset": 386,
+      "length": 17,
+      "value": "\"PLENGI_RESPONSE\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
+      "kind": "StringLiteral",
+      "offset": 424,
+      "length": 5,
+      "value": "\"GPS\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
+      "length": 14,
+      "value": "\"OFFLINE_MODE\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1294,
+      "length": 5,
+      "value": "10240"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1337,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
+      "kind": "StringLiteral",
+      "offset": 1368,
+      "length": 9,
+      "value": "\"logfile\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
+      "kind": "StringLiteral",
+      "offset": 1511,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1767,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
+      "kind": "StringLiteral",
+      "offset": 1842,
+      "length": 43,
+      "value": "\"Couldn't create directory at \""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
+      "kind": "StringLiteral",
+      "offset": 1884,
+      "length": 2,
+      "value": "\"\""
+    },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/ZIPEngine\/7-Zip\/7zFileInfo.swift",
       "kind": "BooleanLiteral",
@@ -18056,191 +18224,9 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/LocationTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 4862,
+      "offset": 4875,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "IntegerLiteral",
-      "offset": 261,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "IntegerLiteral",
-      "offset": 279,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "IntegerLiteral",
-      "offset": 297,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "IntegerLiteral",
-      "offset": 320,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "BooleanLiteral",
-      "offset": 788,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "IntegerLiteral",
-      "offset": 846,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "FloatLiteral",
-      "offset": 965,
-      "length": 3,
-      "value": "4.2"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "FloatLiteral",
-      "offset": 1086,
-      "length": 3,
-      "value": "1.8"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1182,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1368,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "StringLiteral",
-      "offset": 1460,
-      "length": 6,
-      "value": "\"💙\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "StringLiteral",
-      "offset": 1534,
-      "length": 7,
-      "value": "\"[GCU]\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1568,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1885,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1920,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "Array",
-      "offset": 1796,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "FloatLiteral",
-      "offset": 1980,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "FloatLiteral",
-      "offset": 2012,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "FloatLiteral",
-      "offset": 2305,
-      "length": 4,
-      "value": "30.0"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2496,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2500,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2505,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2560,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "StringLiteral",
-      "offset": 2682,
-      "length": 7,
-      "value": "\"cjone\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6474,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/GCU\/GPSContinuousUpdater.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9558,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
@@ -18364,147 +18350,147 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "Array",
-      "offset": 1374,
+      "offset": 1378,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "Array",
-      "offset": 1433,
+      "offset": 1437,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "Array",
-      "offset": 1489,
+      "offset": 1493,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1532,
+      "offset": 1536,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2165,
+      "offset": 2169,
       "length": 60,
       "value": "\"https:\/\/storage.googleapis.com\/miniplengi_db\/ble-meta\/ble3\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2399,
+      "offset": 2403,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2488,
+      "offset": 2492,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2537,
+      "offset": 2541,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 2587,
+      "offset": 2591,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2627,
+      "offset": 2631,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2691,
+      "offset": 2695,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "Array",
-      "offset": 2749,
+      "offset": 2753,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 2808,
+      "offset": 2812,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2878,
+      "offset": 2886,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2949,
+      "offset": 2957,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2999,
+      "offset": 3007,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3061,
+      "offset": 3069,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3107,
+      "offset": 3115,
       "length": 58,
       "value": "\"outbound-campaign-stream-staging-ufgttfcema-an.a.run.app\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3209,
+      "offset": 3217,
       "length": 58,
       "value": "\"outbound-campaign-stream-develop-2mzbux77lq-uc.a.run.app\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3306,
+      "offset": 3314,
       "length": 50,
       "value": "\"outbound-campaign-stream-2mzbux77lq-uc.a.run.app\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3427,
+      "offset": 3435,
       "length": 31,
       "value": "\"miniplengi_db\/fp_offline\/ble\/\""
     },
@@ -18679,7 +18665,7 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceSearch.swift",
       "kind": "BooleanLiteral",
-      "offset": 46330,
+      "offset": 46281,
       "length": 5,
       "value": "false"
     },
@@ -18878,104 +18864,6 @@
       "offset": 1268,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
-      "kind": "StringLiteral",
-      "offset": 256,
-      "length": 9,
-      "value": "\"VERBOSE\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
-      "kind": "StringLiteral",
-      "offset": 288,
-      "length": 7,
-      "value": "\"DEBUG\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
-      "kind": "StringLiteral",
-      "offset": 317,
-      "length": 6,
-      "value": "\"INFO\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
-      "kind": "StringLiteral",
-      "offset": 346,
-      "length": 7,
-      "value": "\"ERROR\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
-      "kind": "StringLiteral",
-      "offset": 386,
-      "length": 17,
-      "value": "\"PLENGI_RESPONSE\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
-      "kind": "StringLiteral",
-      "offset": 424,
-      "length": 5,
-      "value": "\"GPS\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
-      "kind": "StringLiteral",
-      "offset": 459,
-      "length": 14,
-      "value": "\"OFFLINE_MODE\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1294,
-      "length": 5,
-      "value": "10240"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1337,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
-      "kind": "StringLiteral",
-      "offset": 1368,
-      "length": 9,
-      "value": "\"logfile\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
-      "kind": "StringLiteral",
-      "offset": 1511,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1767,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
-      "kind": "StringLiteral",
-      "offset": 1842,
-      "length": 43,
-      "value": "\"Couldn't create directory at \""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/LoplatLog.swift",
-      "kind": "StringLiteral",
-      "offset": 1884,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.MetaData.swift",
@@ -19666,324 +19554,625 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "FloatLiteral",
-      "offset": 2270,
+      "offset": 2296,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 2311,
+      "offset": 2337,
       "length": 4,
-      "value": "-120"
+      "value": "-100"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "FloatLiteral",
-      "offset": 2357,
+      "offset": 2383,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 2406,
+      "offset": 2432,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 2448,
+      "offset": 2474,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 2498,
+      "offset": 2524,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 2609,
+      "offset": 2635,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 2613,
+      "offset": 2639,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 2709,
+      "offset": 2735,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 2770,
+      "offset": 2796,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 5848,
+      "offset": 6142,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 5854,
+      "offset": 6148,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 5862,
+      "offset": 6156,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 5868,
+      "offset": 6162,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 6139,
+      "offset": 6433,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "FloatLiteral",
-      "offset": 6145,
+      "offset": 6439,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "StringLiteral",
-      "offset": 6179,
+      "offset": 6473,
       "length": 171,
       "value": "\"calculatedMeanOfDifference:::fingerprint 이후 unknown 신호가 많아 unstable로 변경:::scanPairs.count - \""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "StringLiteral",
-      "offset": 6310,
+      "offset": 6604,
       "length": 1,
       "value": "\", fingerprint count - \""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "StringLiteral",
-      "offset": 6349,
+      "offset": 6643,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 6702,
+      "offset": 6738,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 6772,
+      "offset": 6808,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 6781,
+      "offset": 6817,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 6893,
+      "offset": 6929,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 8279,
+      "offset": 8315,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 8318,
+      "offset": 8354,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 8376,
+      "offset": 8412,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 8467,
+      "offset": 8503,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 8506,
+      "offset": 8542,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 8613,
+      "offset": 8649,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 8652,
+      "offset": 8688,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 8762,
+      "offset": 8798,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 8801,
+      "offset": 8837,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 8860,
+      "offset": 8896,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "StringLiteral",
-      "offset": 9004,
+      "offset": 9040,
       "length": 18,
       "value": "\"loplat_bleMetaDB\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "StringLiteral",
-      "offset": 9066,
+      "offset": 9102,
       "length": 26,
       "value": "\"loplat_ble_meta_data.zip\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "StringLiteral",
-      "offset": 9129,
+      "offset": 9165,
       "length": 25,
       "value": "\"loplat_dl_temporary_dir\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 9243,
+      "offset": 9279,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 9294,
+      "offset": 9330,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "IntegerLiteral",
-      "offset": 9356,
+      "offset": 9392,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "BooleanLiteral",
-      "offset": 10753,
+      "offset": 10789,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "BooleanLiteral",
-      "offset": 11250,
+      "offset": 11286,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "BooleanLiteral",
-      "offset": 11480,
+      "offset": 11516,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "BooleanLiteral",
-      "offset": 11824,
+      "offset": 11860,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "Array",
-      "offset": 12021,
+      "offset": 12057,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "BooleanLiteral",
-      "offset": 18932,
+      "offset": 18630,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "BooleanLiteral",
-      "offset": 47210,
+      "offset": 46223,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/OBU\/OfflineBleUpdater.swift",
+      "kind": "BooleanLiteral",
+      "offset": 307,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/OBU\/OfflineBleUpdater.swift",
+      "kind": "BooleanLiteral",
+      "offset": 348,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/OBU\/OfflineBleUpdater.swift",
+      "kind": "FloatLiteral",
+      "offset": 404,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/OBU\/OfflineBleUpdater.swift",
+      "kind": "FloatLiteral",
+      "offset": 452,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/OBU\/OfflineBleUpdater.swift",
+      "kind": "IntegerLiteral",
+      "offset": 494,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/OBU\/OfflineBleUpdater.swift",
+      "kind": "StringLiteral",
+      "offset": 523,
+      "length": 7,
+      "value": "\"[OBU]\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/OBU\/OfflineBleUpdater.swift",
+      "kind": "StringLiteral",
+      "offset": 556,
+      "length": 32,
+      "value": "\"OFFLINEMODE_BLESCAN_TRIGGER:::\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/OBU\/OfflineBleUpdater.swift",
+      "kind": "Array",
+      "offset": 630,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/OBU\/OfflineBleUpdater.swift",
+      "kind": "StringLiteral",
+      "offset": 1299,
+      "length": 90,
+      "value": "\"bleRegionState.count == TOP_N_BUBBLE_COUNT:::checkCurrentPositionFromBeaconRegion called\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/OBU\/OfflineBleUpdater.swift",
+      "kind": "Dictionary",
+      "offset": 1128,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/OBU\/OfflineBleUpdater.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1628,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/OBU\/OfflineBleUpdater.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1663,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/OBU\/OfflineBleUpdater.swift",
+      "kind": "Array",
+      "offset": 1539,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/OBU\/OfflineBleUpdater.swift",
+      "kind": "FloatLiteral",
+      "offset": 1737,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/OBU\/OfflineBleUpdater.swift",
+      "kind": "FloatLiteral",
+      "offset": 1778,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/OBU\/OfflineBleUpdater.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5922,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "IntegerLiteral",
+      "offset": 261,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "IntegerLiteral",
+      "offset": 279,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "IntegerLiteral",
+      "offset": 297,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "IntegerLiteral",
+      "offset": 320,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "BooleanLiteral",
+      "offset": 799,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "IntegerLiteral",
+      "offset": 857,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "FloatLiteral",
+      "offset": 976,
+      "length": 3,
+      "value": "4.2"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "FloatLiteral",
+      "offset": 1097,
+      "length": 3,
+      "value": "1.8"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1193,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1379,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "StringLiteral",
+      "offset": 1471,
+      "length": 6,
+      "value": "\"💙\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "StringLiteral",
+      "offset": 1547,
+      "length": 7,
+      "value": "\"[GCU]\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1581,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1898,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1933,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "Array",
+      "offset": 1809,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "FloatLiteral",
+      "offset": 1993,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "FloatLiteral",
+      "offset": 2025,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "FloatLiteral",
+      "offset": 2318,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2509,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2513,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2518,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2573,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "StringLiteral",
+      "offset": 2695,
+      "length": 7,
+      "value": "\"cjone\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6065,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10470,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/UpdaterProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5825,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/WiFi.swift",
@@ -20054,62 +20243,6 @@
       "offset": 3399,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 876,
-      "length": 26,
-      "value": "\"com.loplat.logger.serial\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 1030,
-      "length": 12,
-      "value": "\"Log.sqlite\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1326,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/BleMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 435,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/BleMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 514,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/BleMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 564,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/BleMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 589,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/BleMap.swift",
-      "kind": "IntegerLiteral",
-      "offset": 609,
-      "length": 1,
-      "value": "3"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/ZIPEngine\/Common\/Extensions.swift",
@@ -21052,42 +21185,49 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/ServerLeavePlace.swift",
       "kind": "StringLiteral",
-      "offset": 682,
+      "offset": 691,
+      "length": 17,
+      "value": "\"searchplace_ble\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/ServerLeavePlace.swift",
+      "kind": "StringLiteral",
+      "offset": 730,
       "length": 17,
       "value": "\"searchplace_obu\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/ServerLeavePlace.swift",
       "kind": "BooleanLiteral",
-      "offset": 1476,
+      "offset": 1577,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/ServerLeavePlace.swift",
       "kind": "IntegerLiteral",
-      "offset": 1528,
+      "offset": 1629,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/ServerLeavePlace.swift",
       "kind": "IntegerLiteral",
-      "offset": 1571,
+      "offset": 1672,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/ServerLeavePlace.swift",
       "kind": "IntegerLiteral",
-      "offset": 1614,
+      "offset": 1715,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/ServerLeavePlace.swift",
       "kind": "StringLiteral",
-      "offset": 1657,
+      "offset": 1758,
       "length": 2,
       "value": "\"\""
     },
@@ -21480,6 +21620,27 @@
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/ZIPEngine\/Common\/CodingTree\/EncodingTree.swift",
       "kind": "BooleanLiteral",
       "offset": 306,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 876,
+      "length": 26,
+      "value": "\"com.loplat.logger.serial\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1030,
+      "length": 12,
+      "value": "\"Log.sqlite\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Logger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1326,
       "length": 5,
       "value": "false"
     },
@@ -21906,98 +22067,98 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 11308,
+      "offset": 11336,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 19913,
+      "offset": 19829,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "FloatLiteral",
-      "offset": 25832,
+      "offset": 25119,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 26115,
+      "offset": 25402,
       "length": 132,
       "value": "\"PlaceEngine:: requestPlace:: requested in 5 seconds from last request. \ntry again after \""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 26238,
+      "offset": 25525,
       "length": 7,
       "value": "\" seconds\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 26438,
+      "offset": 25725,
       "length": 48,
       "value": "\"PlaceEngine:: requestPlace:: searchType - none\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 26595,
+      "offset": 25882,
       "length": 85,
       "value": "\"PlaceEngine:: requestPlace:: searchType - \""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 26660,
+      "offset": 25947,
       "length": 1,
       "value": "\" : getPlaceInternal\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 27141,
+      "offset": 26428,
       "length": 85,
       "value": "\"PlaceEngine:: requestPlace:: searchType - \""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 27206,
+      "offset": 26493,
       "length": 1,
       "value": "\" : getPlaceManually\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 27417,
+      "offset": 26704,
       "length": 80,
       "value": "\"PlaceEngine:: requestPlace:: searchType - \""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 27482,
+      "offset": 26769,
       "length": 1,
       "value": "\" : ip_location\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 27684,
+      "offset": 26971,
       "length": 82,
       "value": "\"PlaceEngine:: requestPlace:: searchType - \""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 27749,
+      "offset": 27036,
       "length": 1,
       "value": "\" : getPlaceForce\""
     },
@@ -22215,106 +22376,8 @@
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/ManagingVersion.swift",
       "kind": "StringLiteral",
       "offset": 540,
-      "length": 10,
-      "value": "\"100.0.15\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/OBU\/OfflineBleUpdater.swift",
-      "kind": "BooleanLiteral",
-      "offset": 296,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/OBU\/OfflineBleUpdater.swift",
-      "kind": "FloatLiteral",
-      "offset": 352,
-      "length": 3,
-      "value": "0.8"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/OBU\/OfflineBleUpdater.swift",
-      "kind": "FloatLiteral",
-      "offset": 400,
-      "length": 3,
-      "value": "0.2"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/OBU\/OfflineBleUpdater.swift",
-      "kind": "IntegerLiteral",
-      "offset": 442,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/OBU\/OfflineBleUpdater.swift",
-      "kind": "StringLiteral",
-      "offset": 471,
-      "length": 7,
-      "value": "\"[OBU]\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/OBU\/OfflineBleUpdater.swift",
-      "kind": "StringLiteral",
-      "offset": 504,
-      "length": 32,
-      "value": "\"OFFLINEMODE_BLESCAN_TRIGGER:::\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/OBU\/OfflineBleUpdater.swift",
-      "kind": "Array",
-      "offset": 583,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/OBU\/OfflineBleUpdater.swift",
-      "kind": "StringLiteral",
-      "offset": 1252,
-      "length": 90,
-      "value": "\"bleRegionState.count == TOP_N_BUBBLE_COUNT:::checkCurrentPositionFromBeaconRegion called\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/OBU\/OfflineBleUpdater.swift",
-      "kind": "Dictionary",
-      "offset": 1081,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/OBU\/OfflineBleUpdater.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1581,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/OBU\/OfflineBleUpdater.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1616,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/OBU\/OfflineBleUpdater.swift",
-      "kind": "Array",
-      "offset": 1492,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/OBU\/OfflineBleUpdater.swift",
-      "kind": "FloatLiteral",
-      "offset": 1690,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/OBU\/OfflineBleUpdater.swift",
-      "kind": "FloatLiteral",
-      "offset": 1731,
-      "length": 3,
-      "value": "0.0"
+      "length": 11,
+      "value": "\"1.5.9-rc2\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/ZIPEngine\/Deflate\/Deflate+Constants.swift",
@@ -29396,7 +29459,7 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "BooleanLiteral",
-      "offset": 16664,
+      "offset": 16171,
       "length": 4,
       "value": "true"
     },
@@ -29431,9 +29494,44 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/BleFpMapUtil.swift",
       "kind": "IntegerLiteral",
-      "offset": 4688,
+      "offset": 4914,
       "length": 1,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/BleMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 435,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/BleMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 514,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/BleMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 564,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/BleMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 589,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/BleMap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 609,
+      "length": 1,
+      "value": "3"
     },
     {
       "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-gttqhjqkxdidbwgjhqbgqjunxmqv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Release-MiniPlengi Ai-Msg (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphoneos\/Release-MiniPlengi Ai-Msg (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",

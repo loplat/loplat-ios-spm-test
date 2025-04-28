@@ -492,6 +492,8 @@ SWIFT_PROTOCOL("_TtP10MiniPlengi13PlaceDelegate_")
 /// \param msg 실시간 process 이벤트 메시지
 ///
 - (void)responseManualProcess:(NSString * _Nonnull)msg;
+@required
+- (void)responseCSV:(NSString * _Nonnull)csv;
 @end
 
 typedef SWIFT_ENUM(NSInteger, PlaceEvent, open) {
@@ -514,6 +516,7 @@ SWIFT_CLASS("_TtC10MiniPlengi6Plengi")
 @end
 
 
+
 @interface Plengi (SWIFT_EXTENSION(MiniPlengi))
 /// 발급받은 FCM 토큰을 기기와 로플랫 서버에 저장합니다.
 /// 토큰을 처음 발급받거나 새로 발급받는 상황에서만 저장합니다.
@@ -522,30 +525,9 @@ SWIFT_CLASS("_TtC10MiniPlengi6Plengi")
 + (void)registerFcmWithFcmToken:(NSString * _Nullable)fcmToken;
 @end
 
-
-enum Result : NSInteger;
-
-@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
-/// 수동으로 현재 위치를 인식하도록 요청합니다.
-/// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
-/// warning:
-/// 테스트 용도로만 사용하셔야 합니다. 테스트를 위해 포그라운드 상태에서만 작동됩니다. !!! 메인 쓰레드에서만 사용가능합니다.
-///
-/// returns:
-/// PlengiResponse.Result: PlengiResponse 객체의 Result
-+ (enum Result)manual_refreshPlace_foreground SWIFT_WARN_UNUSED_RESULT;
-/// 수동으로 현재 위치를 인식하도록 요청합니다. (IP Location)
-/// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
-/// warning:
-/// 테스트 용도로만 사용하셔야 합니다. 테스트를 위해 포그라운드 상태에서만 작동됩니다. !!! 메인 쓰레드에서만 사용가능합니다.
-///
-/// returns:
-/// PlengiResponse.Result: PlengiResponse 객체의 Result
-+ (enum Result)manual_refreshPlace_ip_location SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=9.0);
-@end
-
 @class UNUserNotificationCenter;
 @class UNNotificationResponse;
+enum Result : NSInteger;
 @class UIApplication;
 @class UILocalNotification;
 
@@ -598,6 +580,26 @@ enum Result : NSInteger;
 /// returns:
 /// PlengiResponse.Result: PlengiResponse 객체의 Result
 + (enum Result)getCurrentLocationInfoWithCompletion:(void (^ _Nonnull)(PlengiResponse * _Nonnull))completion SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
+/// 수동으로 현재 위치를 인식하도록 요청합니다.
+/// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
+/// warning:
+/// 테스트 용도로만 사용하셔야 합니다. 테스트를 위해 포그라운드 상태에서만 작동됩니다. !!! 메인 쓰레드에서만 사용가능합니다.
+///
+/// returns:
+/// PlengiResponse.Result: PlengiResponse 객체의 Result
++ (enum Result)manual_refreshPlace_foreground SWIFT_WARN_UNUSED_RESULT;
+/// 수동으로 현재 위치를 인식하도록 요청합니다. (IP Location)
+/// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
+/// warning:
+/// 테스트 용도로만 사용하셔야 합니다. 테스트를 위해 포그라운드 상태에서만 작동됩니다. !!! 메인 쓰레드에서만 사용가능합니다.
+///
+/// returns:
+/// PlengiResponse.Result: PlengiResponse 객체의 Result
++ (enum Result)manual_refreshPlace_ip_location SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=9.0);
 @end
 
 
