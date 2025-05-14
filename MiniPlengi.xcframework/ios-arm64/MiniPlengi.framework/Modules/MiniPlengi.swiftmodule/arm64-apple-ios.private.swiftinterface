@@ -296,7 +296,6 @@ extension MiniPlengi.Advertisement {
 @objc public protocol PlaceDelegate {
   @objc func responsePlaceEvent(_ plengiResponse: MiniPlengi.PlengiResponse)
   @objc optional func responseManualProcess(_ msg: Swift.String)
-  @objc func responseCSV(_ csv: Swift.String)
 }
 @_hasMissingDesignatedInitializers public class ManagingVersion {
   public static var version: Swift.String
@@ -368,7 +367,6 @@ extension MiniPlengi.Plengi {
   @objc dynamic public class func stop() -> MiniPlengi.Result
   @objc dynamic public class func start() -> MiniPlengi.Result
   @objc dynamic public class func start(_ interval: Swift.Int) -> MiniPlengi.Result
-  @objc dynamic public class func isEngineInitialized() -> MiniPlengi.Result
   @objc dynamic public class func requestAlwaysLocationAuthorization()
   @objc dynamic public class func requestTrackingAuthorization(completion: @escaping () -> Swift.Void)
   @objc dynamic public class func getSdkVersion() -> Swift.String?

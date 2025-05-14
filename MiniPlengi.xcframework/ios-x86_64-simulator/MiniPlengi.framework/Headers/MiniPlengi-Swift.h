@@ -492,8 +492,6 @@ SWIFT_PROTOCOL("_TtP10MiniPlengi13PlaceDelegate_")
 /// \param msg 실시간 process 이벤트 메시지
 ///
 - (void)responseManualProcess:(NSString * _Nonnull)msg;
-@required
-- (void)responseCSV:(NSString * _Nonnull)csv;
 @end
 
 typedef SWIFT_ENUM(NSInteger, PlaceEvent, open) {
@@ -687,8 +685,6 @@ enum Result : NSInteger;
 /// returns:
 /// PlengiResponse.Result: PlengiResponse 객체의 Result
 + (enum Result)start:(NSInteger)interval SWIFT_WARN_UNUSED_RESULT;
-/// engine 값이 있다면 SUCCESS, 없다면 NOT_INITIALIZED
-+ (enum Result)isEngineInitialized SWIFT_WARN_UNUSED_RESULT;
 /// 위치 권한을 요청합니다.
 /// 위치 권한은 iOS 버전별로 요청 시나리오가 상이합니다.
 /// <ul>

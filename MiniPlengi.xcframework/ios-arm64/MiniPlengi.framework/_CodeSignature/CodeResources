@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MiniPlengi-Swift.h</key>
 		<data>
-		0hNWWSQyRruxNyko7C0iUDvk4jw=
+		0x5F8mrNRVXXGrIfsaxkESj9xx0=
 		</data>
 		<key>Headers/MiniPlengi.h</key>
 		<data>
@@ -18,23 +18,23 @@
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		efrtleNaF6YUPX7IgwNrQkudsBE=
+		idcr1ybxYWhCrQF3hhdc7mdY/5I=
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		iqtcdlIDmjML8jSieB3EznxBqU4=
+		eUWTuG6lZHygFQ60TElyZjsbvmU=
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		zTUCIyHHqxwGDfm93cdnFfBfuzc=
+		0l3CfL4mm+NwqJJYP9kw5OEsExE=
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		iqtcdlIDmjML8jSieB3EznxBqU4=
+		eUWTuG6lZHygFQ60TElyZjsbvmU=
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		kj/MAlBZ5OsEGXSBDvVzCnYSWpM=
+		X7LVWIRcMDXZTiqH+0OD3QaPEXc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,7 +83,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rBSYgUdhtI8m9nxbTuojKdpr7U+UnWDFQMf2KajeCkM=
+			PN450pddg8Tx6etdOytUvbEylMBIBAaMnjGgV338kqg=
 			</data>
 		</dict>
 		<key>Headers/MiniPlengi.h</key>
@@ -97,35 +97,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mphNius3UBNpSUlxeKVm/WunfjUV7JyLGpc7A6Ts97o=
+			NJZfdpar0Y5Wg1TQec93Vi5SbZUwvhmPwWtZRzRHM6A=
 			</data>
 		</dict>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7m+k2RKzMUkQYIk7wBiBP7vrtRka0C700rLhicLZM9M=
+			vuiJlNizdNHrV7QdWauA7x6Gd5ygpihe8fTIhQEtISA=
 			</data>
 		</dict>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9F5Ypozn2iDg9RVjjv49aUrsY4nWWK55CDuAEYIF9qA=
+			P79auXfCUsDjRhQOOdQ7R1WQks6CuDfldXi8MZWff7o=
 			</data>
 		</dict>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7m+k2RKzMUkQYIk7wBiBP7vrtRka0C700rLhicLZM9M=
+			vuiJlNizdNHrV7QdWauA7x6Gd5ygpihe8fTIhQEtISA=
 			</data>
 		</dict>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			31ZqscILgPktsO/P9jt8vhtmFOcJaQjvFRhQ4nAeWlM=
+			7tLKHjdTdAXYQEKJZkUAtXH79xgX25cseMHMrfbmR40=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
