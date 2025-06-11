@@ -86,6 +86,17 @@ extension MiniPlengi.Deflate {
   @objc public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
   @objc deinit
 }
+public enum UserStatus : Swift.Int {
+  case FAST_MOVE
+  case MOVE
+  case STAY
+  case LONG_STAY
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 public enum DeflateError : Swift.Error {
   case wrongUncompressedBlockLengths
   case wrongBlockType
@@ -163,20 +174,6 @@ public enum AiMessageEventType : Swift.Int {
   @objc public func encode(with aCoder: Foundation.NSCoder)
   @objc override dynamic public init()
   @objc deinit
-}
-extension MiniPlengi.Plengi {
-  @objc dynamic public class func registerFcm(fcmToken: Swift.String?)
-}
-public enum UserStatus : Swift.Int {
-  case FAST_MOVE
-  case MOVE
-  case STAY
-  case LONG_STAY
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
 }
 @_hasMissingDesignatedInitializers public class Deflate {
   public static func decompress(data: Foundation.Data) throws -> Foundation.Data
@@ -401,14 +398,14 @@ extension MiniPlengi.LogType : Swift.RawRepresentable {}
 extension MiniPlengi.MonitoringType : Swift.Equatable {}
 extension MiniPlengi.MonitoringType : Swift.Hashable {}
 extension MiniPlengi.MonitoringType : Swift.RawRepresentable {}
+extension MiniPlengi.UserStatus : Swift.Equatable {}
+extension MiniPlengi.UserStatus : Swift.Hashable {}
+extension MiniPlengi.UserStatus : Swift.RawRepresentable {}
 extension MiniPlengi.DeflateError : Swift.Equatable {}
 extension MiniPlengi.DeflateError : Swift.Hashable {}
 extension MiniPlengi.AiMessageEventType : Swift.Equatable {}
 extension MiniPlengi.AiMessageEventType : Swift.Hashable {}
 extension MiniPlengi.AiMessageEventType : Swift.RawRepresentable {}
-extension MiniPlengi.UserStatus : Swift.Equatable {}
-extension MiniPlengi.UserStatus : Swift.Hashable {}
-extension MiniPlengi.UserStatus : Swift.RawRepresentable {}
 extension MiniPlengi.Result : Swift.Equatable {}
 extension MiniPlengi.Result : Swift.Hashable {}
 extension MiniPlengi.Result : Swift.RawRepresentable {}
