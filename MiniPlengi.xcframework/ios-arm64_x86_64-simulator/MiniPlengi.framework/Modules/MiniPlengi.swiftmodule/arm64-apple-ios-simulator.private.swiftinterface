@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MiniPlengi
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MiniPlengi
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import AdSupport.ASIdentifierManager
 import AdSupport
 import AppTrackingTransparency
@@ -86,6 +86,10 @@ extension MiniPlengi.Deflate {
   @objc public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
   @objc deinit
 }
+extension MiniPlengi.Plengi {
+  @objc dynamic public class func getCurrentLocationInfo(completionHandler: @escaping (_ plengiResponse: MiniPlengi.RefinedPlengiResponse) -> Swift.Void)
+  @objc dynamic public class func getCurrentLocationInfo(completion: @escaping (_ plengiResponse: MiniPlengi.PlengiResponse) -> Swift.Void) -> MiniPlengi.Result
+}
 public enum UserStatus : Swift.Int {
   case FAST_MOVE
   case MOVE
@@ -141,16 +145,6 @@ public enum DeflateError : Swift.Error {
   @objc public func encode(with aCoder: Foundation.NSCoder)
   @objc override dynamic public init()
   @objc deinit
-}
-public enum AiMessageEventType : Swift.Int {
-  case START
-  case UPDATE
-  case STOP
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
 }
 @_inheritsConvenienceInitializers @objc open class Place : ObjectiveC.NSObject, Foundation.NSCoding {
   @objc public var loplat_id: Swift.Int
@@ -244,6 +238,15 @@ extension MiniPlengi.Advertisement {
     get
   }
 }
+@objc public enum RefinedPlengiResponseValidation : Swift.Int {
+  case available = 0
+  case needToRefresh = 1
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 @objc public enum PlaceEvent : Swift.Int {
   case NOT_AVAILABLE = 0
   case ENTER = 1
@@ -287,6 +290,23 @@ extension MiniPlengi.Advertisement {
   @objc override dynamic open var description: Swift.String {
     @objc get
   }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class RefinedPlengiResponse : ObjectiveC.NSObject, Foundation.NSCoding {
+  @objc public var result: MiniPlengi.Result
+  @objc public var errorReason: Swift.String?
+  @objc public var district: MiniPlengi.District?
+  @objc public var location: MiniPlengi.Location?
+  @objc public var advertisement: MiniPlengi.Advertisement?
+  @objc public var timestamp: Foundation.Date?
+  @objc required convenience public init?(coder aDecoder: Foundation.NSCoder)
+  public func decode(coder aDecoder: Foundation.NSCoder)
+  @objc open func encode(with aCoder: Foundation.NSCoder)
+  @objc override dynamic open var description: Swift.String {
+    @objc get
+  }
+  public func toPlengiResponse() -> MiniPlengi.PlengiResponse
   @objc override dynamic public init()
   @objc deinit
 }
@@ -388,7 +408,6 @@ extension MiniPlengi.Plengi {
   @objc dynamic public class func processLoplatAdvertisement(_ application: UIKit.UIApplication, didFinishLaunchingWithOptions launchOptions: [Swift.AnyHashable : Any]?) -> MiniPlengi.Result
 }
 extension MiniPlengi.Plengi {
-  @objc dynamic public class func getCurrentLocationInfo(completion: @escaping (_ plengiResponse: MiniPlengi.PlengiResponse) -> Swift.Void) -> MiniPlengi.Result
   public class func registerBgFetch()
   public class func setLocationAuthorizationAlert(title: Swift.String, message: Swift.String)
 }
@@ -403,12 +422,12 @@ extension MiniPlengi.UserStatus : Swift.Hashable {}
 extension MiniPlengi.UserStatus : Swift.RawRepresentable {}
 extension MiniPlengi.DeflateError : Swift.Equatable {}
 extension MiniPlengi.DeflateError : Swift.Hashable {}
-extension MiniPlengi.AiMessageEventType : Swift.Equatable {}
-extension MiniPlengi.AiMessageEventType : Swift.Hashable {}
-extension MiniPlengi.AiMessageEventType : Swift.RawRepresentable {}
 extension MiniPlengi.Result : Swift.Equatable {}
 extension MiniPlengi.Result : Swift.Hashable {}
 extension MiniPlengi.Result : Swift.RawRepresentable {}
+extension MiniPlengi.RefinedPlengiResponseValidation : Swift.Equatable {}
+extension MiniPlengi.RefinedPlengiResponseValidation : Swift.Hashable {}
+extension MiniPlengi.RefinedPlengiResponseValidation : Swift.RawRepresentable {}
 extension MiniPlengi.PlaceEvent : Swift.Equatable {}
 extension MiniPlengi.PlaceEvent : Swift.Hashable {}
 extension MiniPlengi.PlaceEvent : Swift.RawRepresentable {}
