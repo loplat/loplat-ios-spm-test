@@ -544,6 +544,17 @@ enum Result : NSInteger;
 @end
 
 @interface Plengi (SWIFT_EXTENSION(MiniPlengi))
+/// 가장 최근에 인식되었을 떄의 행정구역과, 기기 위경도 인식 정보를 반환합니다.
+/// 성공한 경우 PlengiResponse.Result.SUCCESS / 움직임이 없거나 일정 시간(초기 로딩시간 2~3분)이 흐르지 않은 경우 위치인식 하지 못하여 대기 중인 경우에는 .PENDING을 반환합니다.
+/// \param completion 응답 받을 핸들러 객체
+///
+///
+/// returns:
+/// PlengiResponse.Result: PlengiResponse 객체의 Result
++ (enum Result)getCurrentLocationInfoWithCompletion:(void (^ _Nonnull)(PlengiResponse * _Nonnull))completion SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
 /// 수동으로 현재 위치를 인식하도록 요청합니다.
 /// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
 /// warning:
@@ -597,57 +608,6 @@ enum Result : NSInteger;
 /// returns:
 /// PlengiResponse.Result: PlengiResponse 객체의 Result
 + (enum Result)enableAdNetwork:(BOOL)enableAd enableNoti:(BOOL)enableNoti SWIFT_WARN_UNUSED_RESULT;
-@end
-
-@class RefinedPlengiResponse;
-@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
-/// 가장 최근에 인식되었을 때의 행정구역과, 기기 위경도 인식 정보 및 광고 정보를 반환합니다.
-/// 인식된 결과가 없거나 만료된 정보인 경우 내부적으로 새로 위치인식을 시도합니다.
-/// note:
-///
-/// <ul>
-///   <li>
-///     <중요> 함수 호출 시 completionHandler로 아규먼트 레이블을 명시적으로 지정해주세요.
-///   </li>
-///   <li>
-///     행정구역과 기기 위경도 인식 정보, 광고 정보를 핸들러 파라미터를 통해 전달합니다.
-///   </li>
-///   <li>
-///     응답은 아래 경우에 FAIL로 처리됩니다.
-///     <ol>
-///       <li>
-///         API 요청 타임아웃 발생 (5초 이상 지연 발생시)
-///       </li>
-///       <li>
-///         요청 진행중에 중복으로 호출한 경우
-///       </li>
-///       <li>
-///         위치권한이 없는 경우
-///       </li>
-///       <li>
-///         SDK가 START 상태가 아닌 경우
-///       </li>
-///       <li>
-///         iOS 버전이 9.0 미만인 경우 (SDK minimum version)
-///       </li>
-///     </ol>
-///   </li>
-///   <li>
-///     에러 발생 시 refinedResponse.errorReason 값을 참고하시면 됩니다.
-///   </li>
-/// </ul>
-/// \param completionHandler(RefinedPlengiResponse) 응답 받을 핸들러 객체
-///
-+ (void)getCurrentLocationInfoWithCompletionHandler:(void (^ _Nonnull)(RefinedPlengiResponse * _Nonnull))completionHandler;
-/// 가장 최근에 인식되었을 때의 행정구역과, 기기 위경도 인식 정보를 반환합니다.
-/// 성공한 경우 PlengiResponse.Result.SUCCESS / 움직임이 없거나 일정 시간(초기 로딩시간 2~3분)이 흐르지 않은 경우 위치인식 하지 못하여 대기 중인 경우에는 .PENDING을 반환합니다.
-/// <중요> 함수 호출 시 completion 으로 아규먼트 레이블을 명시적으로 지정해주세요.
-/// \param completion 응답 받을 핸들러 객체
-///
-///
-/// returns:
-/// PlengiResponse.Result: PlengiResponse 객체의 Result
-+ (enum Result)getCurrentLocationInfoWithCompletion:(void (^ _Nonnull)(PlengiResponse * _Nonnull))completion SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @interface Plengi (SWIFT_EXTENSION(MiniPlengi))
@@ -742,37 +702,6 @@ SWIFT_CLASS("_TtC10MiniPlengi14PlengiResponse")
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
-
-@class NSDate;
-/// 행정동 및 위치값 / 광고 정보만 포함되어 있는 간소화 버전 PlengiResponse 객체
-/// note:
-///
-/// <ul>
-///   <li>
-///     신한카드 요구사항으로 생성된 클래스, MOB-630 이슈 참고
-///   </li>
-/// </ul>
-SWIFT_CLASS("_TtC10MiniPlengi21RefinedPlengiResponse")
-@interface RefinedPlengiResponse : NSObject <NSCoding>
-@property (nonatomic) enum Result result;
-@property (nonatomic, copy) NSString * _Nullable errorReason;
-@property (nonatomic, strong) District * _Nullable district;
-@property (nonatomic, strong) Location * _Nullable location;
-@property (nonatomic, strong) Advertisement * _Nullable advertisement;
-@property (nonatomic, copy) NSDate * _Nullable timestamp;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
-- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-/// RefinedPlengiResponse 응답 전달 시 유효성을 나타내는 Enum
-typedef SWIFT_ENUM(NSInteger, RefinedPlengiResponseValidation, open) {
-/// 유효한 상태이므로 캐싱된 리파인 객체 그대로 전달 가능
-  RefinedPlengiResponseValidationAvailable = 0,
-/// 유효하지 않은 상태이므로 강제 요청 후 리파인 갱신 필요
-  RefinedPlengiResponseValidationNeedToRefresh = 1,
-};
 
 typedef SWIFT_ENUM(NSInteger, ResponseType, open) {
   ResponseTypeUNKNOWN = 0,
