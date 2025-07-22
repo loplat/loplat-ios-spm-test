@@ -32316,9 +32316,9 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Reachability.swift",
       "kind": "BooleanLiteral",
-      "offset": 7274,
-      "length": 4,
-      "value": "true"
+      "offset": 7247,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Reachability.swift",
@@ -34393,7 +34393,7 @@
       "value": "\"LogViewButton\""
     },
     {
-      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-gttqhjqkxdidbwgjhqbgqjunxmqv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphoneos\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-gttqhjqkxdidbwgjhqbgqjunxmqv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TEST-MiniPlengi (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphonesimulator\/TEST-MiniPlengi (Swift 5.1).build\/DerivedSources\/CoreMLGenerated\/loplatActivityRecognition\/loplatActivityRecognition.swift",
       "kind": "Array",
       "offset": 757,
       "length": 65,
