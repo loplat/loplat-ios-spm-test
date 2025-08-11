@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MiniPlengi
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MiniPlengi
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import AdSupport.ASIdentifierManager
 import AdSupport
@@ -12,8 +12,10 @@ import Compression
 import CoreLocation
 import CoreML
 import CoreMotion
+import CoreTelephony
 import Foundation
 @_exported import MiniPlengi
+import Network
 import NetworkExtension
 import SQLite3
 import SafariServices
@@ -25,13 +27,6 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os
-public struct Log : Swift.Equatable, Swift.Identifiable, Swift.Comparable {
-  public let id: Foundation.UUID
-  public static func < (lhs: MiniPlengi.Log, rhs: MiniPlengi.Log) -> Swift.Bool
-  public init(message: Swift.String, time: Swift.Int64, plengiResponse: Foundation.Data?, logType: MiniPlengi.LogType)
-  public static func == (a: MiniPlengi.Log, b: MiniPlengi.Log) -> Swift.Bool
-  public typealias ID = Foundation.UUID
-}
 public enum LogType : Swift.String, Swift.CaseIterable, Swift.CustomStringConvertible {
   case TYPE_VERBOSE
   case TYPE_DEBUG
@@ -93,13 +88,16 @@ extension MiniPlengi.Deflate {
   @objc public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc open class CampaignCandidate : ObjectiveC.NSObject, Foundation.NSCoding {
-  @objc public var campaign_id: Swift.Int
-  @objc public var client_code: Swift.String
-  @objc required convenience public init?(coder aDecoder: Foundation.NSCoder)
-  @objc public func encode(with aCoder: Foundation.NSCoder)
-  @objc override dynamic public init()
-  @objc deinit
+public enum UserStatus : Swift.Int {
+  case FAST_MOVE
+  case MOVE
+  case STAY
+  case LONG_STAY
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
 }
 public enum DeflateError : Swift.Error {
   case wrongUncompressedBlockLengths
@@ -169,19 +167,13 @@ public enum DeflateError : Swift.Error {
   @objc override dynamic public init()
   @objc deinit
 }
-extension MiniPlengi.Plengi {
-  @objc dynamic public class func registerFcm(fcmToken: Swift.String?)
-}
-public enum UserStatus : Swift.Int {
-  case FAST_MOVE
-  case MOVE
-  case STAY
-  case LONG_STAY
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
+@_inheritsConvenienceInitializers @objc open class CampaignCandidate : ObjectiveC.NSObject, Foundation.NSCoding {
+  @objc public var campaign_id: Swift.Int
+  @objc public var client_code: Swift.String
+  @objc required convenience public init?(coder aDecoder: Foundation.NSCoder)
+  @objc public func encode(with aCoder: Foundation.NSCoder)
+  @objc override dynamic public init()
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class Deflate {
   public static func decompress(data: Foundation.Data) throws -> Foundation.Data
@@ -330,16 +322,6 @@ extension MiniPlengi.Advertisement {
   @objc func responsePlaceEvent(_ plengiResponse: MiniPlengi.PlengiResponse)
   @objc optional func responseManualProcess(_ msg: Swift.String)
 }
-public enum AiMessageEventType : Swift.Int {
-  case START
-  case UPDATE
-  case STOP
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
 @_hasMissingDesignatedInitializers public class ManagingVersion {
   public static var version: Swift.String
   public static func main()
@@ -443,11 +425,11 @@ extension MiniPlengi.LogType : Swift.RawRepresentable {}
 extension MiniPlengi.MonitoringType : Swift.Equatable {}
 extension MiniPlengi.MonitoringType : Swift.Hashable {}
 extension MiniPlengi.MonitoringType : Swift.RawRepresentable {}
-extension MiniPlengi.DeflateError : Swift.Equatable {}
-extension MiniPlengi.DeflateError : Swift.Hashable {}
 extension MiniPlengi.UserStatus : Swift.Equatable {}
 extension MiniPlengi.UserStatus : Swift.Hashable {}
 extension MiniPlengi.UserStatus : Swift.RawRepresentable {}
+extension MiniPlengi.DeflateError : Swift.Equatable {}
+extension MiniPlengi.DeflateError : Swift.Hashable {}
 extension MiniPlengi.Result : Swift.Equatable {}
 extension MiniPlengi.Result : Swift.Hashable {}
 extension MiniPlengi.Result : Swift.RawRepresentable {}
@@ -460,9 +442,6 @@ extension MiniPlengi.PlaceEvent : Swift.RawRepresentable {}
 extension MiniPlengi.ResponseType : Swift.Equatable {}
 extension MiniPlengi.ResponseType : Swift.Hashable {}
 extension MiniPlengi.ResponseType : Swift.RawRepresentable {}
-extension MiniPlengi.AiMessageEventType : Swift.Equatable {}
-extension MiniPlengi.AiMessageEventType : Swift.Hashable {}
-extension MiniPlengi.AiMessageEventType : Swift.RawRepresentable {}
 extension MiniPlengi.EngineStatus : Swift.Equatable {}
 extension MiniPlengi.EngineStatus : Swift.Hashable {}
 extension MiniPlengi.EngineStatus : Swift.RawRepresentable {}
