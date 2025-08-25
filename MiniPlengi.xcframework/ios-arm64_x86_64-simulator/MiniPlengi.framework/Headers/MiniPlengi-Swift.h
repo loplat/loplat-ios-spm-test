@@ -355,24 +355,6 @@ SWIFT_CLASS("_TtC10MiniPlengi17CampaignCandidate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-typedef SWIFT_ENUM(NSInteger, CarDetectionEngineStatus, open) {
-  CarDetectionEngineStatusSTARTED = 1,
-  CarDetectionEngineStatusSTOPPED = -1,
-};
-
-typedef SWIFT_ENUM(NSInteger, CarDetectionResult, open) {
-  CarDetectionResultSUCCESS = 0,
-  CarDetectionResultFAIL = -1,
-  CarDetectionResultNOT_STARTED = -2,
-  CarDetectionResultALREADY_STARTED = -8,
-  CarDetectionResultNOT_INITIALIZED = -9,
-};
-
-typedef SWIFT_ENUM(NSInteger, CarDetectionStatus, open) {
-  CarDetectionStatusFOUND = 1,
-  CarDetectionStatusLOST = -1,
-};
-
 /// <code>PlengiResponse</code> 로부터 인식된 복합몰의 결과값을 저장하는 객체입니다.
 /// important:
 /// 해당 객체는 무조건 <code>responsePlaceEvent</code> delegate 로부터 전달받은 <code>plengiResponse</code> 안 <code>complex</code> 객체만을 사용해야합니다.
@@ -524,14 +506,6 @@ SWIFT_CLASS("_TtC10MiniPlengi6Plengi")
 - (void)locationManagerDidChangeAuthorization:(CLLocationManager * _Nonnull)manager SWIFT_AVAILABILITY(ios,introduced=14.0);
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
-/// 발급받은 FCM 토큰을 기기와 로플랫 서버에 저장합니다.
-/// 토큰을 처음 발급받거나 새로 발급받는 상황에서만 저장합니다.
-/// \param fcmToken 발급받은 FCM 토큰
-///
-+ (void)registerFcmWithFcmToken:(NSString * _Nullable)fcmToken;
 @end
 
 @class UNUserNotificationCenter;
@@ -753,13 +727,6 @@ enum Result : NSInteger;
 /// returns:
 /// String형태의 SDK의 버전정보
 + (NSString * _Nullable)getSdkVersion SWIFT_WARN_UNUSED_RESULT;
-@end
-
-SWIFT_AVAILABILITY(ios,introduced=9.0)
-@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isLogViewNeeded;)
-+ (BOOL)isLogViewNeeded SWIFT_WARN_UNUSED_RESULT;
-+ (void)setIsLogViewNeeded:(BOOL)value;
 @end
 
 enum ResponseType : NSInteger;
@@ -1209,24 +1176,6 @@ SWIFT_CLASS("_TtC10MiniPlengi17CampaignCandidate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-typedef SWIFT_ENUM(NSInteger, CarDetectionEngineStatus, open) {
-  CarDetectionEngineStatusSTARTED = 1,
-  CarDetectionEngineStatusSTOPPED = -1,
-};
-
-typedef SWIFT_ENUM(NSInteger, CarDetectionResult, open) {
-  CarDetectionResultSUCCESS = 0,
-  CarDetectionResultFAIL = -1,
-  CarDetectionResultNOT_STARTED = -2,
-  CarDetectionResultALREADY_STARTED = -8,
-  CarDetectionResultNOT_INITIALIZED = -9,
-};
-
-typedef SWIFT_ENUM(NSInteger, CarDetectionStatus, open) {
-  CarDetectionStatusFOUND = 1,
-  CarDetectionStatusLOST = -1,
-};
-
 /// <code>PlengiResponse</code> 로부터 인식된 복합몰의 결과값을 저장하는 객체입니다.
 /// important:
 /// 해당 객체는 무조건 <code>responsePlaceEvent</code> delegate 로부터 전달받은 <code>plengiResponse</code> 안 <code>complex</code> 객체만을 사용해야합니다.
@@ -1378,14 +1327,6 @@ SWIFT_CLASS("_TtC10MiniPlengi6Plengi")
 - (void)locationManagerDidChangeAuthorization:(CLLocationManager * _Nonnull)manager SWIFT_AVAILABILITY(ios,introduced=14.0);
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
-/// 발급받은 FCM 토큰을 기기와 로플랫 서버에 저장합니다.
-/// 토큰을 처음 발급받거나 새로 발급받는 상황에서만 저장합니다.
-/// \param fcmToken 발급받은 FCM 토큰
-///
-+ (void)registerFcmWithFcmToken:(NSString * _Nullable)fcmToken;
 @end
 
 @class UNUserNotificationCenter;
@@ -1607,13 +1548,6 @@ enum Result : NSInteger;
 /// returns:
 /// String형태의 SDK의 버전정보
 + (NSString * _Nullable)getSdkVersion SWIFT_WARN_UNUSED_RESULT;
-@end
-
-SWIFT_AVAILABILITY(ios,introduced=9.0)
-@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isLogViewNeeded;)
-+ (BOOL)isLogViewNeeded SWIFT_WARN_UNUSED_RESULT;
-+ (void)setIsLogViewNeeded:(BOOL)value;
 @end
 
 enum ResponseType : NSInteger;
