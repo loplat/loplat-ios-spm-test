@@ -755,13 +755,6 @@ SWIFT_CLASS("_TtC10MiniPlengi14PlengiResponse")
 
 @class NSDate;
 /// 행정동 및 위치값 / 광고 정보만 포함되어 있는 간소화 버전 PlengiResponse 객체
-/// note:
-///
-/// <ul>
-///   <li>
-///     신한카드 요구사항으로 생성된 클래스, MOB-630 이슈 참고
-///   </li>
-/// </ul>
 SWIFT_CLASS("_TtC10MiniPlengi21RefinedPlengiResponse")
 @interface RefinedPlengiResponse : NSObject <NSCoding>
 @property (nonatomic) enum Result result;
@@ -1576,13 +1569,6 @@ SWIFT_CLASS("_TtC10MiniPlengi14PlengiResponse")
 
 @class NSDate;
 /// 행정동 및 위치값 / 광고 정보만 포함되어 있는 간소화 버전 PlengiResponse 객체
-/// note:
-///
-/// <ul>
-///   <li>
-///     신한카드 요구사항으로 생성된 클래스, MOB-630 이슈 참고
-///   </li>
-/// </ul>
 SWIFT_CLASS("_TtC10MiniPlengi21RefinedPlengiResponse")
 @interface RefinedPlengiResponse : NSObject <NSCoding>
 @property (nonatomic) enum Result result;
