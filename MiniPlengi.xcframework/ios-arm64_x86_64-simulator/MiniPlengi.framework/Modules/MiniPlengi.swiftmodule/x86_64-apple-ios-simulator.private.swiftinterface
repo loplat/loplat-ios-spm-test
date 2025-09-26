@@ -13,7 +13,6 @@ import CoreLocation
 import CoreML
 import CoreMotion
 import CoreTelephony
-import CryptoKit
 import Foundation
 @_exported import MiniPlengi
 import Network
