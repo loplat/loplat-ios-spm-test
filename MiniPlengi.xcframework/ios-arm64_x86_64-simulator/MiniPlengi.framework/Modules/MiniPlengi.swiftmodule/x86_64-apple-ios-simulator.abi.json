@@ -3318,8 +3318,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "MiniPlengi",
         "declAttributes": [
@@ -22078,8 +22078,15 @@
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/UpdaterProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 529,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/UpdaterProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 6985,
+      "offset": 7278,
       "length": 5,
       "value": "false"
     },
@@ -25399,7 +25406,7 @@
       "kind": "StringLiteral",
       "offset": 540,
       "length": 12,
-      "value": "\"1.5.11-rc2\""
+      "value": "\"1.5.11-rc3\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/ZIPEngine\/Deflate\/Deflate+Constants.swift",
@@ -32263,10 +32270,17 @@
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Extension\/CLMonitor+Extensions.swift",
-      "kind": "StringLiteral",
-      "offset": 874,
-      "length": 16,
-      "value": "\"loplat_monitor\""
+      "kind": "Array",
+      "offset": 642,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Extension\/CLMonitor+Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 678,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/Complex.swift",
@@ -32509,7 +32523,7 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "BooleanLiteral",
-      "offset": 14552,
+      "offset": 14554,
       "length": 4,
       "value": "true"
     },
