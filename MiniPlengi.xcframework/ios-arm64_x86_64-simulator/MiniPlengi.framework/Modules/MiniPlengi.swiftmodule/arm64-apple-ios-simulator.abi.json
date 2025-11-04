@@ -3682,6 +3682,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -16894,6 +16901,54 @@
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceive",
+            "printedName": "didReceive(_:monitorCount:bubbleCount:tryAwaitNullable:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TestEventType",
+                "printedName": "MiniPlengi.TestEventType",
+                "usr": "c:@M@MiniPlengi@E@TestEventType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MiniPlengi@objc(pl)PlaceDelegate(im)didReceive:monitorCount:bubbleCount:tryAwaitNullable:",
+            "mangledName": "$s10MiniPlengi13PlaceDelegateP10didReceive_12monitorCount06bubbleH016tryAwaitNullableyAA13TestEventTypeO_S2iSbtF",
+            "moduleName": "MiniPlengi",
+            "genericSig": "<τ_0_0 where τ_0_0 : MiniPlengi.PlaceDelegate>",
+            "sugared_genericSig": "<Self where Self : MiniPlengi.PlaceDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -19856,6 +19911,13 @@
         "moduleName": "MiniPlengi"
       },
       {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
         "kind": "TypeDecl",
         "name": "EngineStatus",
         "printedName": "EngineStatus",
@@ -20281,6 +20343,351 @@
         "declKind": "Enum",
         "usr": "c:@M@MiniPlengi@E@TestModeStatus",
         "mangledName": "$s10MiniPlengi14TestModeStatusO",
+        "moduleName": "MiniPlengi",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TestEventType",
+        "printedName": "TestEventType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "didEnterRegion",
+            "printedName": "didEnterRegion",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MiniPlengi.TestEventType.Type) -> MiniPlengi.TestEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TestEventType",
+                    "printedName": "MiniPlengi.TestEventType",
+                    "usr": "c:@M@MiniPlengi@E@TestEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MiniPlengi.TestEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TestEventType",
+                        "printedName": "MiniPlengi.TestEventType",
+                        "usr": "c:@M@MiniPlengi@E@TestEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@MiniPlengi@E@TestEventType@TestEventTypeDidEnterRegion",
+            "mangledName": "$s10MiniPlengi13TestEventTypeO14didEnterRegionyA2CmF",
+            "moduleName": "MiniPlengi",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "didExitRegion",
+            "printedName": "didExitRegion",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MiniPlengi.TestEventType.Type) -> MiniPlengi.TestEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TestEventType",
+                    "printedName": "MiniPlengi.TestEventType",
+                    "usr": "c:@M@MiniPlengi@E@TestEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MiniPlengi.TestEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TestEventType",
+                        "printedName": "MiniPlengi.TestEventType",
+                        "usr": "c:@M@MiniPlengi@E@TestEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@MiniPlengi@E@TestEventType@TestEventTypeDidExitRegion",
+            "mangledName": "$s10MiniPlengi13TestEventTypeO13didExitRegionyA2CmF",
+            "moduleName": "MiniPlengi",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "satisfied",
+            "printedName": "satisfied",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MiniPlengi.TestEventType.Type) -> MiniPlengi.TestEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TestEventType",
+                    "printedName": "MiniPlengi.TestEventType",
+                    "usr": "c:@M@MiniPlengi@E@TestEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MiniPlengi.TestEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TestEventType",
+                        "printedName": "MiniPlengi.TestEventType",
+                        "usr": "c:@M@MiniPlengi@E@TestEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@MiniPlengi@E@TestEventType@TestEventTypeSatisfied",
+            "mangledName": "$s10MiniPlengi13TestEventTypeO9satisfiedyA2CmF",
+            "moduleName": "MiniPlengi",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MiniPlengi.TestEventType.Type) -> MiniPlengi.TestEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TestEventType",
+                    "printedName": "MiniPlengi.TestEventType",
+                    "usr": "c:@M@MiniPlengi@E@TestEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MiniPlengi.TestEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TestEventType",
+                        "printedName": "MiniPlengi.TestEventType",
+                        "usr": "c:@M@MiniPlengi@E@TestEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@MiniPlengi@E@TestEventType@TestEventTypeUnknown",
+            "mangledName": "$s10MiniPlengi13TestEventTypeO7unknownyA2CmF",
+            "moduleName": "MiniPlengi",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "unsatisfied",
+            "printedName": "unsatisfied",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MiniPlengi.TestEventType.Type) -> MiniPlengi.TestEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TestEventType",
+                    "printedName": "MiniPlengi.TestEventType",
+                    "usr": "c:@M@MiniPlengi@E@TestEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MiniPlengi.TestEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TestEventType",
+                        "printedName": "MiniPlengi.TestEventType",
+                        "usr": "c:@M@MiniPlengi@E@TestEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@MiniPlengi@E@TestEventType@TestEventTypeUnsatisfied",
+            "mangledName": "$s10MiniPlengi13TestEventTypeO11unsatisfiedyA2CmF",
+            "moduleName": "MiniPlengi",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MiniPlengi.TestEventType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TestEventType",
+                    "printedName": "MiniPlengi.TestEventType",
+                    "usr": "c:@M@MiniPlengi@E@TestEventType"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10MiniPlengi13TestEventTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s10MiniPlengi13TestEventTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "MiniPlengi",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MiniPlengi13TestEventTypeO8rawValueSivp",
+            "mangledName": "$s10MiniPlengi13TestEventTypeO8rawValueSivp",
+            "moduleName": "MiniPlengi",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MiniPlengi13TestEventTypeO8rawValueSivg",
+                "mangledName": "$s10MiniPlengi13TestEventTypeO8rawValueSivg",
+                "moduleName": "MiniPlengi",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@MiniPlengi@E@TestEventType",
+        "mangledName": "$s10MiniPlengi13TestEventTypeO",
         "moduleName": "MiniPlengi",
         "declAttributes": [
           "AccessControl",
@@ -21078,7 +21485,7 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/LocationTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 8492,
+      "offset": 8933,
       "length": 4,
       "value": "true"
     },
@@ -21141,224 +21548,224 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 636,
+      "offset": 643,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 710,
+      "offset": 717,
       "length": 2,
       "value": "90"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 761,
+      "offset": 768,
       "length": 30,
       "value": "\"https:\/\/place-api.loplat.com\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 839,
+      "offset": 846,
       "length": 30,
       "value": "\"https:\/\/place-api.loplat.com\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 932,
+      "offset": 939,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1037,
+      "offset": 1044,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1076,
+      "offset": 1083,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1134,
+      "offset": 1141,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1198,
+      "offset": 1205,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1340,
+      "offset": 1347,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "Array",
-      "offset": 1434,
+      "offset": 1441,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "Array",
-      "offset": 1493,
+      "offset": 1500,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "Array",
-      "offset": 1549,
+      "offset": 1556,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1592,
+      "offset": 1599,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2225,
+      "offset": 2232,
       "length": 60,
       "value": "\"https:\/\/storage.googleapis.com\/miniplengi_db\/ble-meta\/ble3\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2459,
+      "offset": 2466,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2548,
+      "offset": 2555,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2597,
+      "offset": 2604,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 2647,
+      "offset": 2654,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2687,
+      "offset": 2694,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "Array",
-      "offset": 2748,
+      "offset": 2755,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 2807,
+      "offset": 2814,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "Array",
-      "offset": 2862,
+      "offset": 2869,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 2927,
+      "offset": 2934,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2994,
+      "offset": 3001,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 3065,
+      "offset": 3072,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 3115,
+      "offset": 3122,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3177,
+      "offset": 3184,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3223,
+      "offset": 3230,
       "length": 58,
       "value": "\"outbound-campaign-stream-staging-ufgttfcema-an.a.run.app\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3325,
+      "offset": 3332,
       "length": 58,
       "value": "\"outbound-campaign-stream-develop-2mzbux77lq-uc.a.run.app\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3422,
+      "offset": 3429,
       "length": 50,
       "value": "\"outbound-campaign-stream-2mzbux77lq-uc.a.run.app\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3543,
+      "offset": 3550,
       "length": 31,
       "value": "\"miniplengi_db\/fp_offline\/ble\/\""
     },
@@ -21561,49 +21968,49 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceSearch.swift",
       "kind": "BooleanLiteral",
-      "offset": 19745,
+      "offset": 19763,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceSearch.swift",
       "kind": "BooleanLiteral",
-      "offset": 19767,
+      "offset": 19785,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceSearch.swift",
       "kind": "BooleanLiteral",
-      "offset": 24099,
+      "offset": 24117,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceSearch.swift",
       "kind": "BooleanLiteral",
-      "offset": 34312,
+      "offset": 34302,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceSearch.swift",
       "kind": "BooleanLiteral",
-      "offset": 34338,
+      "offset": 34328,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceSearch.swift",
       "kind": "BooleanLiteral",
-      "offset": 46358,
+      "offset": 46138,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceSearch.swift",
       "kind": "BooleanLiteral",
-      "offset": 53253,
+      "offset": 52801,
       "length": 5,
       "value": "false"
     },
@@ -22023,56 +22430,56 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
       "kind": "FloatLiteral",
-      "offset": 2556,
+      "offset": 2511,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 2747,
+      "offset": 2702,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 2751,
+      "offset": 2706,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 2756,
+      "offset": 2711,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
       "kind": "IntegerLiteral",
-      "offset": 2811,
+      "offset": 2766,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
       "kind": "StringLiteral",
-      "offset": 2933,
+      "offset": 2888,
       "length": 7,
       "value": "\"cjone\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 10020,
+      "offset": 11514,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/GCU\/GPSContinuousUpdater.swift",
       "kind": "BooleanLiteral",
-      "offset": 15941,
+      "offset": 16880,
       "length": 5,
       "value": "false"
     },
@@ -22086,14 +22493,14 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/Updater\/UpdaterProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 7278,
+      "offset": 7333,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/GeofenceRegion.swift",
       "kind": "BooleanLiteral",
-      "offset": 464,
+      "offset": 471,
       "length": 4,
       "value": "true"
     },
@@ -22135,21 +22542,21 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/Geofence.swift",
       "kind": "BooleanLiteral",
-      "offset": 1879,
+      "offset": 1914,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/Geofence.swift",
       "kind": "FloatLiteral",
-      "offset": 1924,
+      "offset": 1959,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/Geofence.swift",
       "kind": "FloatLiteral",
-      "offset": 1963,
+      "offset": 1998,
       "length": 3,
       "value": "0.0"
     },
@@ -22170,7 +22577,7 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/BeaconRegion.swift",
       "kind": "BooleanLiteral",
-      "offset": 316,
+      "offset": 323,
       "length": 4,
       "value": "true"
     },
@@ -22289,7 +22696,7 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "BooleanLiteral",
-      "offset": 17898,
+      "offset": 18355,
       "length": 5,
       "value": "false"
     },
@@ -23101,14 +23508,14 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "BooleanLiteral",
-      "offset": 17967,
+      "offset": 17544,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Bluetooth.swift",
       "kind": "BooleanLiteral",
-      "offset": 45576,
+      "offset": 45165,
       "length": 4,
       "value": "true"
     },
@@ -23416,686 +23823,672 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 1645,
+      "offset": 1642,
       "length": 15,
-      "value": "\"loplat_sdk_79\""
+      "value": "\"loplat_sdk_81\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 1691,
+      "offset": 1685,
       "length": 15,
-      "value": "\"loplat_sdk_81\""
+      "value": "\"loplat_sdk_82\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
       "offset": 1734,
       "length": 15,
-      "value": "\"loplat_sdk_82\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1783,
-      "length": 15,
       "value": "\"loplat_sdk_90\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 1860,
+      "offset": 1811,
       "length": 15,
       "value": "\"loplat_sdk_91\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 1928,
+      "offset": 1879,
       "length": 15,
       "value": "\"loplat_sdk_80\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 1981,
+      "offset": 1932,
       "length": 18,
       "value": "\"loplat_sdk_alive\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 2041,
+      "offset": 1992,
       "length": 21,
       "value": "\"loplat_braze_userId\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 2083,
+      "offset": 2034,
       "length": 18,
       "value": "\"loplat_use_braze\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 2158,
+      "offset": 2109,
       "length": 23,
       "value": "\"loplat_loc_auth_alert\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 2210,
+      "offset": 2161,
       "length": 28,
       "value": "\"lopalt_seen_loc_auth_alert\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 2265,
+      "offset": 2216,
       "length": 25,
       "value": "\"loplat_last_launch_time\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 2320,
+      "offset": 2271,
       "length": 29,
       "value": "\"loplat_loc_auth_alert_title\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 2381,
+      "offset": 2332,
       "length": 31,
       "value": "\"loplat_loc_auth_alert_Message\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 2469,
+      "offset": 2420,
       "length": 27,
       "value": "\"loplat_beacon_region_list\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 2527,
+      "offset": 2478,
       "length": 29,
       "value": "\"loplat_geofence_region_list\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 2606,
+      "offset": 2557,
       "length": 29,
       "value": "\"loplat_last_wifi_connection\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 2669,
+      "offset": 2620,
       "length": 32,
       "value": "\"loplat_current_wifi_connection\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 2732,
+      "offset": 2683,
       "length": 29,
       "value": "\"loplat_prev_wifi_connection\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 2803,
+      "offset": 2754,
       "length": 15,
       "value": "\"loplat_sdk_92\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 3663,
+      "offset": 3614,
       "length": 53,
       "value": "\"dSKLVJW1#$%a234124rfeADKLSJEWMDASLKDMdsfSLKDM@#$%EK\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 4035,
+      "offset": 3986,
       "length": 33,
       "value": "\"miniplengi_loplat_sdk_client_id\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 4126,
+      "offset": 4077,
       "length": 37,
       "value": "\"miniplengi_loplat_sdk_client_secret\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 4217,
+      "offset": 4168,
       "length": 33,
       "value": "\"miniplengi_loplat_sdk_echo_code\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 4325,
+      "offset": 4276,
       "length": 13,
       "value": "\"loplat_adid\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 4388,
+      "offset": 4339,
       "length": 13,
       "value": "\"loplat_anid\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 4451,
+      "offset": 4402,
       "length": 15,
       "value": "\"loplat_sdk_85\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 4987,
+      "offset": 4938,
       "length": 39,
       "value": "\"loplat_miniplengi_needToReportIfStart\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5097,
+      "offset": 5048,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 5182,
+      "offset": 5133,
       "length": 15,
       "value": "\"loplat_config\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 5303,
+      "offset": 5254,
       "length": 21,
       "value": "\"loplat_last_version\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 5335,
+      "offset": 5286,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 5464,
+      "offset": 5415,
       "length": 26,
       "value": "\"loplat_miniplengi_status\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 5579,
+      "offset": 5530,
       "length": 15,
       "value": "\"loplat_sdk_86\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 5652,
+      "offset": 5603,
       "length": 15,
       "value": "\"loplat_sdk_87\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5678,
+      "offset": 5629,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 5744,
+      "offset": 5695,
       "length": 15,
       "value": "\"loplat_sdk_88\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5770,
+      "offset": 5721,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 5836,
+      "offset": 5787,
       "length": 15,
       "value": "\"loplat_sdk_89\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 6440,
+      "offset": 5892,
+      "length": 40,
+      "value": "\"loplat_previous_location_authorization\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6521,
       "length": 28,
       "value": "\"loplat_gravity_enable_noti\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6479,
+      "offset": 6560,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 6531,
+      "offset": 6612,
       "length": 23,
       "value": "\"loplat_gravity_enable\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6565,
+      "offset": 6646,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 6668,
+      "offset": 6749,
       "length": 29,
       "value": "\"loplat_last_device_location\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 6840,
+      "offset": 6921,
       "length": 29,
       "value": "\"loplat_last_plengi_response\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 6981,
+      "offset": 7062,
       "length": 37,
       "value": "\"loplat_last_plengi_response_shinhan\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 7126,
+      "offset": 7207,
       "length": 35,
       "value": "\"loplat_last_plengi_response_retry\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 7279,
+      "offset": 7360,
       "length": 38,
       "value": "\"loplat_compare_scanned_ble_timestamp\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 7410,
+      "offset": 7491,
       "length": 48,
       "value": "\"loplat_daily_section_tracker_searchplace_limit\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7469,
+      "offset": 7550,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 7552,
+      "offset": 7633,
       "length": 32,
       "value": "\"loplat_refined_plengi_response\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 7659,
-      "length": 42,
-      "value": "\"LOPLAT_PLENGI_DELAY_RESPONSE_MANGER_DATA\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
-      "kind": "Dictionary",
-      "offset": 7712,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
-      "kind": "StringLiteral",
-      "offset": 7789,
+      "offset": 7741,
       "length": 42,
       "value": "\"loplat_last_registered_bubble_identifier\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 7842,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
-      "kind": "StringLiteral",
-      "offset": 7989,
+      "offset": 7928,
       "length": 26,
       "value": "\"loplat_last_server_place\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 8127,
+      "offset": 8066,
       "length": 15,
       "value": "\"loplat_sdk_76\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 8316,
+      "offset": 8255,
       "length": 15,
       "value": "\"loplat_sdk_78\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 8456,
+      "offset": 8395,
       "length": 15,
       "value": "\"loplat_sdk_78\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 8543,
+      "offset": 8482,
       "length": 15,
       "value": "\"loplat_sdk_78\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 8626,
-      "length": 15,
-      "value": "\"loplat_sdk_79\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
-      "kind": "StringLiteral",
-      "offset": 8705,
+      "offset": 8562,
       "length": 15,
       "value": "\"loplat_sdk_81\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 8781,
+      "offset": 8638,
       "length": 15,
       "value": "\"loplat_sdk_82\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 8863,
+      "offset": 8720,
       "length": 15,
       "value": "\"loplat_sdk_90\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 8974,
+      "offset": 8831,
       "length": 15,
       "value": "\"loplat_sdk_91\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 9000,
+      "offset": 8857,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 9090,
+      "offset": 8947,
       "length": 15,
       "value": "\"loplat_sdk_80\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 9174,
+      "offset": 9031,
       "length": 18,
       "value": "\"loplat_sdk_alive\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 9284,
+      "offset": 9141,
       "length": 15,
       "value": "\"braze_user_id\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 9349,
+      "offset": 9206,
       "length": 11,
       "value": "\"use_braze\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9371,
+      "offset": 9228,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 9524,
+      "offset": 9381,
       "length": 23,
       "value": "\"loplat_loc_auth_alert\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9558,
+      "offset": 9415,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 9621,
+      "offset": 9478,
       "length": 28,
       "value": "\"loplat_seen_loc_auth_alert\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9660,
+      "offset": 9517,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 9724,
+      "offset": 9581,
       "length": 25,
       "value": "\"loplat_last_launch_time\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 9810,
+      "offset": 9667,
       "length": 29,
       "value": "\"loplat_loc_auth_alert_title\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 9850,
+      "offset": 9707,
       "length": 39,
       "value": "\"주변 혜택 찾기 서비스 알림\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 9952,
+      "offset": 9809,
       "length": 31,
       "value": "\"loplat_loc_auth_alert_Message\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 9994,
+      "offset": 9851,
       "length": 228,
       "value": "\"위치 권한 '항상 허용'시 알림 노출 없이 모든 혜택을 받으실 수 있습니다. \n아래 설정 버튼을 누르고 '위치'로 이동하여 위치 접근 허용을 항상으로 설정하시기 바랍니다.\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 10318,
-      "length": 27,
-      "value": "\"loplat_beacon_region_list\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
-      "kind": "Array",
-      "offset": 10356,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
-      "kind": "StringLiteral",
-      "offset": 10430,
-      "length": 29,
-      "value": "\"loplat_geofence_region_list\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
-      "kind": "Array",
-      "offset": 10470,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
-      "kind": "StringLiteral",
-      "offset": 10560,
+      "offset": 10296,
       "length": 42,
-      "value": "\"loplat_ble_tracker_rssi_update_timestamp\""
+      "value": "\"LOPLAT_PLENGI_DELAY_RESPONSE_MANGER_DATA\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "Dictionary",
-      "offset": 10613,
+      "offset": 10349,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 10704,
+      "offset": 10420,
+      "length": 27,
+      "value": "\"loplat_beacon_region_list\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
+      "kind": "Array",
+      "offset": 10458,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10532,
+      "length": 29,
+      "value": "\"loplat_geofence_region_list\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
+      "kind": "Array",
+      "offset": 10572,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10662,
+      "length": 42,
+      "value": "\"loplat_ble_tracker_rssi_update_timestamp\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
+      "kind": "Dictionary",
+      "offset": 10715,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10806,
       "length": 29,
       "value": "\"loplat_last_wifi_connection\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 10849,
+      "offset": 10951,
       "length": 32,
       "value": "\"loplat_current_wifi_connection\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 10974,
+      "offset": 11076,
       "length": 29,
       "value": "\"loplat_prev_wifi_connection\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 11106,
+      "offset": 11208,
       "length": 15,
       "value": "\"loplat_sdk_92\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 11197,
+      "offset": 11299,
       "length": 17,
       "value": "\"start_stay_time\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 11276,
+      "offset": 11378,
       "length": 23,
       "value": "\"gcu_status_check_time\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 11354,
+      "offset": 11456,
       "length": 25,
       "value": "\"loplat_still_move_count\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11390,
+      "offset": 11492,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 11462,
+      "offset": 11564,
       "length": 42,
       "value": "\"loplat_offline_mode_ranged_ble_timestamp\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 11592,
+      "offset": 11694,
       "length": 42,
       "value": "\"loplat_offline_mode_location_update_time\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "StringLiteral",
-      "offset": 11739,
+      "offset": 11841,
       "length": 28,
       "value": "\"loplat_meta_data_file_size\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/StatusManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11778,
+      "offset": 11880,
       "length": 1,
       "value": "0"
     },
@@ -24207,42 +24600,42 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/ServerLeavePlace.swift",
       "kind": "BooleanLiteral",
-      "offset": 2277,
+      "offset": 2284,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/ServerLeavePlace.swift",
       "kind": "BooleanLiteral",
-      "offset": 2411,
+      "offset": 2418,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/ServerLeavePlace.swift",
       "kind": "IntegerLiteral",
-      "offset": 2463,
+      "offset": 2470,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/ServerLeavePlace.swift",
       "kind": "IntegerLiteral",
-      "offset": 2506,
+      "offset": 2513,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/ServerLeavePlace.swift",
       "kind": "IntegerLiteral",
-      "offset": 2549,
+      "offset": 2556,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/ServerLeavePlace.swift",
       "kind": "StringLiteral",
-      "offset": 2592,
+      "offset": 2599,
       "length": 2,
       "value": "\"\""
     },
@@ -24809,98 +25202,98 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/BeaconMonitoringManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6765,
+      "offset": 6700,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/BeaconMonitoringManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8979,
+      "offset": 8914,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/BeaconMonitoringManager.swift",
       "kind": "FloatLiteral",
-      "offset": 9053,
+      "offset": 8988,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/BeaconMonitoringManager.swift",
       "kind": "FloatLiteral",
-      "offset": 9083,
+      "offset": 9018,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/BeaconMonitoringManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 9138,
+      "offset": 9073,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/BeaconMonitoringManager.swift",
       "kind": "FloatLiteral",
-      "offset": 9149,
+      "offset": 9084,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/BeaconMonitoringManager.swift",
       "kind": "FloatLiteral",
-      "offset": 9179,
+      "offset": 9114,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/BeaconMonitoringManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 9234,
+      "offset": 9169,
       "length": 2,
       "value": "35"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/BeaconMonitoringManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9338,
+      "offset": 9273,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/BeaconMonitoringManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9417,
+      "offset": 9352,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/BeaconMonitoringManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 9502,
+      "offset": 9437,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/BeaconMonitoringManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9610,
+      "offset": 9545,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/BeaconMonitoringManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9665,
+      "offset": 9600,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/BeaconMonitoringManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9767,
+      "offset": 9702,
       "length": 5,
       "value": "false"
     },
@@ -24942,14 +25335,14 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/BackgroundWorker.swift",
       "kind": "BooleanLiteral",
-      "offset": 5288,
+      "offset": 5223,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/BackgroundWorker.swift",
       "kind": "BooleanLiteral",
-      "offset": 19926,
+      "offset": 19861,
       "length": 4,
       "value": "true"
     },
@@ -25053,113 +25446,120 @@
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 2903,
+      "length": 18,
+      "value": "\"com.loplat.queue\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 3740,
+      "offset": 3949,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 4802,
+      "offset": 5011,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 4910,
+      "offset": 5119,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 5437,
+      "offset": 5646,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "FloatLiteral",
-      "offset": 24871,
+      "offset": 26095,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 25154,
+      "offset": 26378,
       "length": 132,
       "value": "\"PlaceEngine:: requestPlace:: requested in 5 seconds from last request. \ntry again after \""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 25277,
+      "offset": 26501,
       "length": 7,
       "value": "\" seconds\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 25477,
+      "offset": 26650,
       "length": 48,
       "value": "\"PlaceEngine:: requestPlace:: searchType - none\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 25634,
+      "offset": 26795,
       "length": 85,
       "value": "\"PlaceEngine:: requestPlace:: searchType - \""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 25699,
+      "offset": 26860,
       "length": 1,
       "value": "\" : getPlaceInternal\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 26180,
+      "offset": 27321,
       "length": 85,
       "value": "\"PlaceEngine:: requestPlace:: searchType - \""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 26245,
+      "offset": 27386,
       "length": 1,
       "value": "\" : getPlaceManually\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 26439,
+      "offset": 27568,
       "length": 80,
       "value": "\"PlaceEngine:: requestPlace:: searchType - \""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 26504,
+      "offset": 27633,
       "length": 1,
       "value": "\" : ip_location\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 26689,
+      "offset": 27819,
       "length": 82,
       "value": "\"PlaceEngine:: requestPlace:: searchType - \""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 26754,
+      "offset": 27884,
       "length": 1,
       "value": "\" : getPlaceForce\""
     },
@@ -25229,7 +25629,7 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Reachability.swift",
       "kind": "Array",
-      "offset": 21997,
+      "offset": 21940,
       "length": 2,
       "value": "[]"
     },
@@ -25390,7 +25790,7 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Model\/PlengiResponse.swift",
       "kind": "BooleanLiteral",
-      "offset": 8570,
+      "offset": 8622,
       "length": 4,
       "value": "true"
     },
@@ -25406,7 +25806,7 @@
       "kind": "StringLiteral",
       "offset": 540,
       "length": 12,
-      "value": "\"1.5.11-rc3\""
+      "value": "\"1.5.11-rc4\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/ZIPEngine\/Deflate\/Deflate+Constants.swift",
@@ -32488,49 +32888,84 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "IntegerLiteral",
-      "offset": 358,
+      "offset": 375,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "IntegerLiteral",
-      "offset": 379,
+      "offset": 396,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "IntegerLiteral",
-      "offset": 450,
+      "offset": 467,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "IntegerLiteral",
-      "offset": 483,
+      "offset": 500,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "IntegerLiteral",
-      "offset": 516,
+      "offset": 533,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
+      "kind": "IntegerLiteral",
+      "offset": 603,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
+      "kind": "IntegerLiteral",
+      "offset": 630,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
+      "kind": "IntegerLiteral",
+      "offset": 653,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
+      "kind": "IntegerLiteral",
+      "offset": 674,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
+      "kind": "IntegerLiteral",
+      "offset": 699,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "BooleanLiteral",
-      "offset": 14554,
+      "offset": 14655,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Extension\/PlaceSearch+Extensions\/PlaceSearch+ForceRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 10460,
+      "offset": 10446,
       "length": 4,
       "value": "true"
     },
