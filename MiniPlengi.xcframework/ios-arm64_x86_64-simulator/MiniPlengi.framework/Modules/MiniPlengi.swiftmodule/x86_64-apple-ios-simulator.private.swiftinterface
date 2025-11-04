@@ -475,6 +475,7 @@ extension MiniPlengi.Plengi {
   @available(*, deprecated, message: "This method will be deprecated loplat SDK v1.3.2\nPlease consider using `Plengi.initialize()` API instead.`")
   @objc dynamic public class func `init`(clientID ID: Swift.String, clientSecret secret: Swift.String, echoCode: Swift.String? = nil) -> MiniPlengi.Result
   #endif
+  public class func setLongStay_TEST()
   #if compiler(>=5.3) && $NonescapableTypes
   @objc dynamic public class func setEchoCode(echoCode: Swift.String?) -> MiniPlengi.Result
   #endif

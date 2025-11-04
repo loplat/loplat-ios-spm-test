@@ -2180,6 +2180,28 @@
           },
           {
             "kind": "Function",
+            "name": "setLongStay_TEST",
+            "printedName": "setLongStay_TEST()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MiniPlengi0B0C16setLongStay_TESTyyFZ",
+            "mangledName": "$s10MiniPlengi0B0C16setLongStay_TESTyyFZ",
+            "moduleName": "MiniPlengi",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setEchoCode",
             "printedName": "setEchoCode(echoCode:)",
             "children": [
@@ -25820,7 +25842,7 @@
       "kind": "StringLiteral",
       "offset": 540,
       "length": 12,
-      "value": "\"1.5.11-rc5\""
+      "value": "\"1.5.11-rc6\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/ZIPEngine\/Deflate\/Deflate+Constants.swift",
@@ -32972,7 +32994,7 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "BooleanLiteral",
-      "offset": 14655,
+      "offset": 14865,
       "length": 4,
       "value": "true"
     },
