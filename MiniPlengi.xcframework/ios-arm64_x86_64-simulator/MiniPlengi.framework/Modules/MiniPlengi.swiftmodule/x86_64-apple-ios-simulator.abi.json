@@ -2477,7 +2477,7 @@
           {
             "kind": "Function",
             "name": "syncRemoteConfig",
-            "printedName": "syncRemoteConfig(configValue:)",
+            "printedName": "syncRemoteConfig(url:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2486,17 +2486,25 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@MiniPlengi@objc(cs)Plengi(cm)syncRemoteConfigWithConfigValue:",
-            "mangledName": "$s10MiniPlengi0B0C16syncRemoteConfig11configValueySb_tFZ",
+            "usr": "c:@CM@MiniPlengi@objc(cs)Plengi(cm)syncRemoteConfigWithUrl:",
+            "mangledName": "$s10MiniPlengi0B0C16syncRemoteConfig3urlySSSg_tFZ",
             "moduleName": "MiniPlengi",
             "static": true,
-            "objc_name": "syncRemoteConfigWithConfigValue:",
+            "objc_name": "syncRemoteConfigWithUrl:",
             "declAttributes": [
               "Dynamic",
               "AccessControl",
@@ -22458,78 +22466,85 @@
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
+      "kind": "StringLiteral",
+      "offset": 1217,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "BooleanLiteral",
-      "offset": 1307,
+      "offset": 1363,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "IntegerLiteral",
-      "offset": 1570,
+      "offset": 1626,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "StringLiteral",
-      "offset": 1611,
+      "offset": 1667,
       "length": 33,
       "value": "\"https:\/\/storage.googleapis.com\/\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "StringLiteral",
-      "offset": 1676,
+      "offset": 1732,
       "length": 53,
       "value": "\"https:\/\/om-ip-320524274389.asia-northeast3.run.app\/\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "IntegerLiteral",
-      "offset": 3428,
+      "offset": 3484,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "BooleanLiteral",
-      "offset": 3476,
+      "offset": 3532,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "IntegerLiteral",
-      "offset": 4154,
+      "offset": 4210,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "BooleanLiteral",
-      "offset": 4201,
+      "offset": 4257,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "IntegerLiteral",
-      "offset": 4921,
+      "offset": 4977,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "BooleanLiteral",
-      "offset": 4969,
+      "offset": 5025,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "BooleanLiteral",
-      "offset": 18355,
+      "offset": 18543,
       "length": 5,
       "value": "false"
     },
@@ -25659,8 +25674,8 @@
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/ManagingVersion.swift",
       "kind": "StringLiteral",
       "offset": 540,
-      "length": 8,
-      "value": "\"1.5.13\""
+      "length": 12,
+      "value": "\"1.5.13-rc2\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/ZIPEngine\/Deflate\/Deflate+Constants.swift",
@@ -32770,7 +32785,7 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "BooleanLiteral",
-      "offset": 14739,
+      "offset": 14776,
       "length": 4,
       "value": "true"
     },

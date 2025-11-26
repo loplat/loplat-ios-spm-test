@@ -410,7 +410,7 @@ extension MiniPlengi.Plengi {
   @objc dynamic public class func requestAlwaysLocationAuthorization()
   @objc dynamic public class func requestTrackingAuthorization(completion: @escaping () -> Swift.Void)
   @objc dynamic public class func getSdkVersion() -> Swift.String?
-  @objc dynamic public class func syncRemoteConfig(configValue: Swift.Bool)
+  @objc dynamic public class func syncRemoteConfig(url: Swift.String?)
 }
 extension MiniPlengi.Plengi {
   @objc dynamic public class func getDelegate() -> (any MiniPlengi.PlaceDelegate)?

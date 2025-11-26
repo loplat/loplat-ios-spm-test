@@ -757,7 +757,7 @@ enum Result : NSInteger;
 /// returns:
 /// String형태의 SDK의 버전정보
 + (NSString * _Nullable)getSdkVersion SWIFT_WARN_UNUSED_RESULT;
-+ (void)syncRemoteConfigWithConfigValue:(BOOL)configValue;
++ (void)syncRemoteConfigWithUrl:(NSString * _Nullable)url;
 @end
 
 enum ResponseType : NSInteger;
