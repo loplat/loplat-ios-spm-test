@@ -66,9 +66,14 @@ public enum LogType : Swift.String, Swift.CaseIterable, Swift.CustomStringConver
   public static func shareLogFile()
   @objc deinit
 }
-extension MiniPlengi.Plengi {
-  @objc dynamic public class func getCurrentLocationInfo(completionHandler: @escaping (_ plengiResponse: MiniPlengi.RefinedPlengiResponse) -> Swift.Void)
-  @objc dynamic public class func getCurrentLocationInfo(completion: @escaping (_ plengiResponse: MiniPlengi.PlengiResponse) -> Swift.Void) -> MiniPlengi.Result
+@_inheritsConvenienceInitializers @objc open class CampaignCandidate : ObjectiveC.NSObject, Foundation.NSSecureCoding {
+  @objc public static var supportsSecureCoding: Swift.Bool
+  @objc public var campaign_id: Swift.Int
+  @objc public var client_code: Swift.String
+  @objc required convenience public init?(coder aDecoder: Foundation.NSCoder)
+  @objc public func encode(with aCoder: Foundation.NSCoder)
+  @objc override dynamic public init()
+  @objc deinit
 }
 public enum MonitoringType : Swift.Int {
   case STAY
@@ -89,6 +94,10 @@ extension MiniPlengi.Deflate {
   @available(iOS 14.0, *)
   @objc public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
   @objc deinit
+}
+extension MiniPlengi.Plengi {
+  @objc dynamic public class func getCurrentLocationInfo(completionHandler: @escaping (_ plengiResponse: MiniPlengi.RefinedPlengiResponse) -> Swift.Void)
+  @objc dynamic public class func getCurrentLocationInfo(completion: @escaping (_ plengiResponse: MiniPlengi.PlengiResponse) -> Swift.Void) -> MiniPlengi.Result
 }
 public enum UserStatus : Swift.Int {
   case FAST_MOVE
@@ -168,15 +177,6 @@ public enum DeflateError : Swift.Error {
   @objc public var post: Swift.String
   @objc public var pnu: Swift.String
   convenience public init?(_ data: Any?)
-  @objc required convenience public init?(coder aDecoder: Foundation.NSCoder)
-  @objc public func encode(with aCoder: Foundation.NSCoder)
-  @objc override dynamic public init()
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc open class CampaignCandidate : ObjectiveC.NSObject, Foundation.NSSecureCoding {
-  @objc public static var supportsSecureCoding: Swift.Bool
-  @objc public var campaign_id: Swift.Int
-  @objc public var client_code: Swift.String
   @objc required convenience public init?(coder aDecoder: Foundation.NSCoder)
   @objc public func encode(with aCoder: Foundation.NSCoder)
   @objc override dynamic public init()
@@ -391,7 +391,6 @@ extension MiniPlengi.Advertisement {
   case RELEASE_SERVER = 0
   case HALF_STAGING_SERVER = 1
   case FULL_STAGING_SERVER = 2
-  case TEST_SERVER = 3
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -410,7 +409,6 @@ extension MiniPlengi.Plengi {
   @objc dynamic public class func requestAlwaysLocationAuthorization()
   @objc dynamic public class func requestTrackingAuthorization(completion: @escaping () -> Swift.Void)
   @objc dynamic public class func getSdkVersion() -> Swift.String?
-  @objc dynamic public class func syncRemoteConfig(url: Swift.String?)
 }
 extension MiniPlengi.Plengi {
   @objc dynamic public class func getDelegate() -> (any MiniPlengi.PlaceDelegate)?
