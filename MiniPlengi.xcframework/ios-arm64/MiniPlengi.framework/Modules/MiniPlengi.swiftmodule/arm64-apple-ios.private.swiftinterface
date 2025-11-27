@@ -88,6 +88,7 @@ extension MiniPlengi.Deflate {
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
   @available(iOS 14.0, *)
   @objc public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
+  public static var isTestServer: MiniPlengi.TestModeStatus
   @objc deinit
 }
 public enum UserStatus : Swift.Int {
