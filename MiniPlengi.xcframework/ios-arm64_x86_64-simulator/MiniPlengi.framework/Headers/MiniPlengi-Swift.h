@@ -757,6 +757,7 @@ enum Result : NSInteger;
 /// returns:
 /// String형태의 SDK의 버전정보
 + (NSString * _Nullable)getSdkVersion SWIFT_WARN_UNUSED_RESULT;
++ (void)syncRemoteConfigWithUrl:(NSString * _Nullable)url;
 @end
 
 enum ResponseType : NSInteger;
@@ -838,6 +839,7 @@ typedef SWIFT_ENUM(NSInteger, TestModeStatus, open) {
   TestModeStatusRELEASE_SERVER = 0,
   TestModeStatusHALF_STAGING_SERVER = 1,
   TestModeStatusFULL_STAGING_SERVER = 2,
+  TestModeStatusTEST_SERVER = 3,
 };
 
 #endif
@@ -1607,6 +1609,7 @@ enum Result : NSInteger;
 /// returns:
 /// String형태의 SDK의 버전정보
 + (NSString * _Nullable)getSdkVersion SWIFT_WARN_UNUSED_RESULT;
++ (void)syncRemoteConfigWithUrl:(NSString * _Nullable)url;
 @end
 
 enum ResponseType : NSInteger;
@@ -1688,6 +1691,7 @@ typedef SWIFT_ENUM(NSInteger, TestModeStatus, open) {
   TestModeStatusRELEASE_SERVER = 0,
   TestModeStatusHALF_STAGING_SERVER = 1,
   TestModeStatusFULL_STAGING_SERVER = 2,
+  TestModeStatusTEST_SERVER = 3,
 };
 
 #endif
