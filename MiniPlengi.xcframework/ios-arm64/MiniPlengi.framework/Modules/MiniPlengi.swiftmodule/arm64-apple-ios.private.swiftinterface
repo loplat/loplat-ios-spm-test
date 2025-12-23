@@ -66,10 +66,6 @@ public enum LogType : Swift.String, Swift.CaseIterable, Swift.CustomStringConver
   public static func shareLogFile()
   @objc deinit
 }
-extension MiniPlengi.Plengi {
-  @objc dynamic public class func getCurrentLocationInfo(completionHandler: @escaping (_ plengiResponse: MiniPlengi.RefinedPlengiResponse) -> Swift.Void)
-  @objc dynamic public class func getCurrentLocationInfo(completion: @escaping (_ plengiResponse: MiniPlengi.PlengiResponse) -> Swift.Void) -> MiniPlengi.Result
-}
 public enum MonitoringType : Swift.Int {
   case STAY
   case TRACKING
@@ -88,7 +84,6 @@ extension MiniPlengi.Deflate {
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
   @available(iOS 14.0, *)
   @objc public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
-  public static var isTestServer: MiniPlengi.TestModeStatus
   @objc deinit
 }
 public enum UserStatus : Swift.Int {
@@ -392,7 +387,6 @@ extension MiniPlengi.Advertisement {
   case RELEASE_SERVER = 0
   case HALF_STAGING_SERVER = 1
   case FULL_STAGING_SERVER = 2
-  case TEST_SERVER = 3
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -411,7 +405,6 @@ extension MiniPlengi.Plengi {
   @objc dynamic public class func requestAlwaysLocationAuthorization()
   @objc dynamic public class func requestTrackingAuthorization(completion: @escaping () -> Swift.Void)
   @objc dynamic public class func getSdkVersion() -> Swift.String?
-  @objc dynamic public class func syncRemoteConfig(url: Swift.String?)
 }
 extension MiniPlengi.Plengi {
   @objc dynamic public class func getDelegate() -> (any MiniPlengi.PlaceDelegate)?

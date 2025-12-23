@@ -2034,195 +2034,6 @@
             "funcSelfKind": "NonMutating"
           },
           {
-            "kind": "Var",
-            "name": "isTestServer",
-            "printedName": "isTestServer",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "TestModeStatus",
-                "printedName": "MiniPlengi.TestModeStatus",
-                "usr": "c:@M@MiniPlengi@E@TestModeStatus"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvpZ",
-            "mangledName": "$s10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvpZ",
-            "moduleName": "MiniPlengi",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TestModeStatus",
-                    "printedName": "MiniPlengi.TestModeStatus",
-                    "usr": "c:@M@MiniPlengi@E@TestModeStatus"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvgZ",
-                "mangledName": "$s10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvgZ",
-                "moduleName": "MiniPlengi",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TestModeStatus",
-                    "printedName": "MiniPlengi.TestModeStatus",
-                    "usr": "c:@M@MiniPlengi@E@TestModeStatus"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvsZ",
-                "mangledName": "$s10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvsZ",
-                "moduleName": "MiniPlengi",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvMZ",
-                "mangledName": "$s10MiniPlengi0B0C12isTestServerAA0D10ModeStatusOvMZ",
-                "moduleName": "MiniPlengi",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "getCurrentLocationInfo",
-            "printedName": "getCurrentLocationInfo(completionHandler:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MiniPlengi.RefinedPlengiResponse) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "RefinedPlengiResponse",
-                    "printedName": "MiniPlengi.RefinedPlengiResponse",
-                    "usr": "c:@M@MiniPlengi@objc(cs)RefinedPlengiResponse"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@MiniPlengi@objc(cs)Plengi(cm)getCurrentLocationInfoWithCompletionHandler:",
-            "mangledName": "$s10MiniPlengi0B0C22getCurrentLocationInfo17completionHandleryyAA07RefinedB8ResponseCc_tFZ",
-            "moduleName": "MiniPlengi",
-            "static": true,
-            "objc_name": "getCurrentLocationInfoWithCompletionHandler:",
-            "declAttributes": [
-              "Dynamic",
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getCurrentLocationInfo",
-            "printedName": "getCurrentLocationInfo(completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Result",
-                "printedName": "MiniPlengi.Result",
-                "usr": "c:@M@MiniPlengi@E@Result"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MiniPlengi.PlengiResponse) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PlengiResponse",
-                    "printedName": "MiniPlengi.PlengiResponse",
-                    "usr": "c:@M@MiniPlengi@objc(cs)PlengiResponse"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@MiniPlengi@objc(cs)Plengi(cm)getCurrentLocationInfoWithCompletion:",
-            "mangledName": "$s10MiniPlengi0B0C22getCurrentLocationInfo10completionAA6ResultOyAA0B8ResponseCc_tFZ",
-            "moduleName": "MiniPlengi",
-            "static": true,
-            "objc_name": "getCurrentLocationInfoWithCompletion:",
-            "declAttributes": [
-              "Dynamic",
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
             "kind": "Function",
             "name": "`init`",
             "printedName": "`init`(clientID:clientSecret:echoCode:)",
@@ -2570,45 +2381,6 @@
               "AccessControl",
               "ObjC",
               "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "syncRemoteConfig",
-            "printedName": "syncRemoteConfig(url:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@MiniPlengi@objc(cs)Plengi(cm)syncRemoteConfigWithUrl:",
-            "mangledName": "$s10MiniPlengi0B0C16syncRemoteConfig3urlySSSg_tFZ",
-            "moduleName": "MiniPlengi",
-            "static": true,
-            "objc_name": "syncRemoteConfigWithUrl:",
-            "declAttributes": [
-              "Dynamic",
-              "AccessControl",
-              "ObjC"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -20443,47 +20215,6 @@
             "fixedbinaryorder": 2
           },
           {
-            "kind": "Var",
-            "name": "TEST_SERVER",
-            "printedName": "TEST_SERVER",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MiniPlengi.TestModeStatus.Type) -> MiniPlengi.TestModeStatus",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TestModeStatus",
-                    "printedName": "MiniPlengi.TestModeStatus",
-                    "usr": "c:@M@MiniPlengi@E@TestModeStatus"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MiniPlengi.TestModeStatus.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TestModeStatus",
-                        "printedName": "MiniPlengi.TestModeStatus",
-                        "usr": "c:@M@MiniPlengi@E@TestModeStatus"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@MiniPlengi@E@TestModeStatus@TestModeStatusTEST_SERVER",
-            "mangledName": "$s10MiniPlengi14TestModeStatusO11TEST_SERVERyA2CmF",
-            "moduleName": "MiniPlengi",
-            "declAttributes": [
-              "ObjC"
-            ],
-            "fixedbinaryorder": 3
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -20876,83 +20607,6 @@
       "offset": 1884,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Extension\/Plengi+Extensions\/Plengi+ForceRequest.swift",
-      "kind": "IntegerLiteral",
-      "offset": 501,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Extension\/Plengi+Extensions\/Plengi+ForceRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1104,
-      "length": 10,
-      "value": "\"timeout.\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Extension\/Plengi+Extensions\/Plengi+ForceRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1148,
-      "length": 30,
-      "value": "\"Request already in progress.\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Extension\/Plengi+Extensions\/Plengi+ForceRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1211,
-      "length": 20,
-      "value": "\"Permission denied.\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Extension\/Plengi+Extensions\/Plengi+ForceRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1264,
-      "length": 21,
-      "value": "\"Engine not started.\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Extension\/Plengi+Extensions\/Plengi+ForceRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1321,
-      "length": 25,
-      "value": "\"Not support OS version.\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Extension\/Plengi+Extensions\/Plengi+ForceRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1853,
-      "length": 44,
-      "value": "\"Plengi:::getCurrentLocationInfo - .stopped\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Extension\/Plengi+Extensions\/Plengi+ForceRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 2129,
-      "length": 47,
-      "value": "\"Plengi:::getCurrentLocationInfo - .processing\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Extension\/Plengi+Extensions\/Plengi+ForceRequest.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2574,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Extension\/Plengi+Extensions\/Plengi+ForceRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 2630,
-      "length": 47,
-      "value": "\"Plengi:::locationInfoTimeoutHandler - invoked\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Extension\/Plengi+Extensions\/Plengi+ForceRequest.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3536,
-      "length": 3,
-      "value": "300"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/ZIPEngine\/7-Zip\/7zFileInfo.swift",
@@ -22566,85 +22220,78 @@
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
-      "kind": "StringLiteral",
-      "offset": 1217,
-      "length": 52,
-      "value": "\"https:\/\/staging-test-dot-loplat-beagle.appspot.com\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "BooleanLiteral",
-      "offset": 1413,
+      "offset": 1307,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "IntegerLiteral",
-      "offset": 1676,
+      "offset": 1570,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "StringLiteral",
-      "offset": 1717,
+      "offset": 1611,
       "length": 33,
       "value": "\"https:\/\/storage.googleapis.com\/\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "StringLiteral",
-      "offset": 1782,
+      "offset": 1676,
       "length": 53,
       "value": "\"https:\/\/om-ip-320524274389.asia-northeast3.run.app\/\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "IntegerLiteral",
-      "offset": 3534,
+      "offset": 3428,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "BooleanLiteral",
-      "offset": 3582,
+      "offset": 3476,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "IntegerLiteral",
-      "offset": 4260,
+      "offset": 4154,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "BooleanLiteral",
-      "offset": 4307,
+      "offset": 4201,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "IntegerLiteral",
-      "offset": 5027,
+      "offset": 4921,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "BooleanLiteral",
-      "offset": 5075,
+      "offset": 4969,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Communication\/Networking.swift",
       "kind": "BooleanLiteral",
-      "offset": 18587,
+      "offset": 18234,
       "length": 5,
       "value": "false"
     },
@@ -25451,84 +25098,84 @@
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "FloatLiteral",
-      "offset": 26307,
+      "offset": 25985,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 26590,
+      "offset": 26268,
       "length": 132,
       "value": "\"PlaceEngine:: requestPlace:: requested in 5 seconds from last request. \ntry again after \""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 26713,
+      "offset": 26391,
       "length": 7,
       "value": "\" seconds\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 26862,
+      "offset": 26540,
       "length": 48,
       "value": "\"PlaceEngine:: requestPlace:: searchType - none\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 27007,
+      "offset": 26685,
       "length": 85,
       "value": "\"PlaceEngine:: requestPlace:: searchType - \""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 27072,
+      "offset": 26750,
       "length": 1,
       "value": "\" : getPlaceInternal\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 27533,
+      "offset": 27211,
       "length": 85,
       "value": "\"PlaceEngine:: requestPlace:: searchType - \""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 27598,
+      "offset": 27276,
       "length": 1,
       "value": "\" : getPlaceManually\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 27780,
+      "offset": 27458,
       "length": 80,
       "value": "\"PlaceEngine:: requestPlace:: searchType - \""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 27845,
+      "offset": 27523,
       "length": 1,
       "value": "\" : ip_location\""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 28031,
+      "offset": 27709,
       "length": 82,
       "value": "\"PlaceEngine:: requestPlace:: searchType - \""
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Engine\/PlaceEngine\/PlaceEngine.swift",
       "kind": "StringLiteral",
-      "offset": 28096,
+      "offset": 27774,
       "length": 1,
       "value": "\" : getPlaceForce\""
     },
@@ -32877,22 +32524,8 @@
     },
     {
       "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
-      "kind": "IntegerLiteral",
-      "offset": 541,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "BooleanLiteral",
-      "offset": 14776,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jun\/Desktop\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Extension\/PlaceSearch+Extensions\/PlaceSearch+ForceRequest.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10260,
+      "offset": 14472,
       "length": 4,
       "value": "true"
     },
