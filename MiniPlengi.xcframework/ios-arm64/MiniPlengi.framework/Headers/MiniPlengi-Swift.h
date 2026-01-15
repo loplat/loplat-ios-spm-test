@@ -364,6 +364,24 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL supportsSecureCoding;)
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+typedef SWIFT_ENUM(NSInteger, CarDetectionEngineStatus, open) {
+  CarDetectionEngineStatusSTARTED = 1,
+  CarDetectionEngineStatusSTOPPED = -1,
+};
+
+typedef SWIFT_ENUM(NSInteger, CarDetectionResult, open) {
+  CarDetectionResultSUCCESS = 0,
+  CarDetectionResultFAIL = -1,
+  CarDetectionResultNOT_STARTED = -2,
+  CarDetectionResultALREADY_STARTED = -8,
+  CarDetectionResultNOT_INITIALIZED = -9,
+};
+
+typedef SWIFT_ENUM(NSInteger, CarDetectionStatus, open) {
+  CarDetectionStatusFOUND = 1,
+  CarDetectionStatusLOST = -1,
+};
+
 /// <code>PlengiResponse</code> 로부터 인식된 복합몰의 결과값을 저장하는 객체입니다.
 /// important:
 /// 해당 객체는 무조건 <code>responsePlaceEvent</code> delegate 로부터 전달받은 <code>plengiResponse</code> 안 <code>complex</code> 객체만을 사용해야합니다.
@@ -538,6 +556,14 @@ SWIFT_CLASS("_TtC10MiniPlengi6Plengi")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
+/// 발급받은 FCM 토큰을 기기와 로플랫 서버에 저장합니다.
+/// 토큰을 처음 발급받거나 새로 발급받는 상황에서만 저장합니다.
+/// \param fcmToken 발급받은 FCM 토큰
+///
++ (BOOL)registerFcmWithFcmToken:(NSString * _Nullable)fcmToken SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @class UNUserNotificationCenter;
 @class UNNotificationResponse;
 enum Result : NSInteger;
@@ -638,6 +664,57 @@ enum Result : NSInteger;
 + (enum Result)enableAdNetwork:(BOOL)enableAd enableNoti:(BOOL)enableNoti SWIFT_WARN_UNUSED_RESULT;
 @end
 
+@class RefinedPlengiResponse;
+@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
+/// 가장 최근에 인식되었을 때의 행정구역과, 기기 위경도 인식 정보 및 광고 정보를 반환합니다.
+/// 인식된 결과가 없거나 만료된 정보인 경우 내부적으로 새로 위치인식을 시도합니다.
+/// note:
+///
+/// <ul>
+///   <li>
+///     <중요> 함수 호출 시 completionHandler로 아규먼트 레이블을 명시적으로 지정해주세요.
+///   </li>
+///   <li>
+///     행정구역과 기기 위경도 인식 정보, 광고 정보를 핸들러 파라미터를 통해 전달합니다.
+///   </li>
+///   <li>
+///     응답은 아래 경우에 FAIL로 처리됩니다.
+///     <ol>
+///       <li>
+///         API 요청 타임아웃 발생 (5초 이상 지연 발생시)
+///       </li>
+///       <li>
+///         요청 진행중에 중복으로 호출한 경우
+///       </li>
+///       <li>
+///         위치권한이 없는 경우
+///       </li>
+///       <li>
+///         SDK가 START 상태가 아닌 경우
+///       </li>
+///       <li>
+///         iOS 버전이 9.0 미만인 경우 (SDK minimum version)
+///       </li>
+///     </ol>
+///   </li>
+///   <li>
+///     에러 발생 시 refinedResponse.errorReason 값을 참고하시면 됩니다.
+///   </li>
+/// </ul>
+/// \param completionHandler(RefinedPlengiResponse) 응답 받을 핸들러 객체
+///
++ (void)getCurrentLocationInfoWithCompletionHandler:(void (^ _Nonnull)(RefinedPlengiResponse * _Nonnull))completionHandler;
+/// 가장 최근에 인식되었을 때의 행정구역과, 기기 위경도 인식 정보를 반환합니다.
+/// 성공한 경우 PlengiResponse.Result.SUCCESS / 움직임이 없거나 일정 시간(초기 로딩시간 2~3분)이 흐르지 않은 경우 위치인식 하지 못하여 대기 중인 경우에는 .PENDING을 반환합니다.
+/// <중요> 함수 호출 시 completion 으로 아규먼트 레이블을 명시적으로 지정해주세요.
+/// \param completion 응답 받을 핸들러 객체
+///
+///
+/// returns:
+/// PlengiResponse.Result: PlengiResponse 객체의 Result
++ (enum Result)getCurrentLocationInfoWithCompletion:(void (^ _Nonnull)(PlengiResponse * _Nonnull))completion SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @interface Plengi (SWIFT_EXTENSION(MiniPlengi))
 /// loplat SDK를 초기화합니다. SDK를 사용하기 위해서는 필수로 호출되어야만 합니다.
 /// Deprecated:
@@ -706,6 +783,13 @@ enum Result : NSInteger;
 /// returns:
 /// String형태의 SDK의 버전정보
 + (NSString * _Nullable)getSdkVersion SWIFT_WARN_UNUSED_RESULT;
+@end
+
+SWIFT_AVAILABILITY(ios,introduced=9.0)
+@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isLogViewNeeded;)
++ (BOOL)isLogViewNeeded SWIFT_WARN_UNUSED_RESULT;
++ (void)setIsLogViewNeeded:(BOOL)value;
 @end
 
 enum ResponseType : NSInteger;
