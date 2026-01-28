@@ -581,7 +581,7 @@ enum Result : NSInteger;
 ///
 /// returns:
 /// PlengiResponse.Result: PlengiResponse 객체의 Result
-+ (enum Result)processLoplatAdvertisement:(UNUserNotificationCenter * _Nonnull)center didReceive:(UNNotificationResponse * _Nonnull)response withCompletionHandler:(void (^ _Nonnull)(void))completionHandler SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=10.0);
++ (enum Result)processLoplatAdvertisement:(UNUserNotificationCenter * _Nonnull)center didReceive:(UNNotificationResponse * _Nonnull)response withCompletionHandler:(void (^ _Nonnull)(void))completionHandler SWIFT_WARN_UNUSED_RESULT;
 /// iOS 9 에서 광고에 대한 클릭 이벤트를 처리합니다. AppDelegate에서 필수로 불려야만 합니다.
 /// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
 /// \param application AppDelegate에 UILocalNotification 이벤트 함수의 application 객체
@@ -624,7 +624,7 @@ enum Result : NSInteger;
 ///
 /// returns:
 /// PlengiResponse.Result: PlengiResponse 객체의 Result
-+ (enum Result)manual_refreshPlace_ip_location SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=9.0);
++ (enum Result)manual_refreshPlace_ip_location SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @interface Plengi (SWIFT_EXTENSION(MiniPlengi))
@@ -785,7 +785,6 @@ enum Result : NSInteger;
 + (NSString * _Nullable)getSdkVersion SWIFT_WARN_UNUSED_RESULT;
 @end
 
-SWIFT_AVAILABILITY(ios,introduced=9.0)
 @interface Plengi (SWIFT_EXTENSION(MiniPlengi))
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isLogViewNeeded;)
 + (BOOL)isLogViewNeeded SWIFT_WARN_UNUSED_RESULT;
