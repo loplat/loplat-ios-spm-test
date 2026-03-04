@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MiniPlengi
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MiniPlengi
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import AdSupport.ASIdentifierManager
 import AdSupport
@@ -97,9 +97,6 @@ open class TEST_SDKConfig {
   public var background_use: Swift.Bool {
     get
   }
-  public var crash_reporter: Swift.Bool {
-    get
-  }
   public init(sdkConfig: Any?)
   @objc deinit
 }
@@ -158,6 +155,11 @@ public enum DeflateError : Swift.Error {
   @objc deinit
 }
 extension MiniPlengi.Plengi {
+  @objc dynamic public class func manual_refreshPlace_foreground() -> MiniPlengi.Result
+  @objc dynamic public class func manual_refreshPlace_ip_location() -> MiniPlengi.Result
+  public class func shareLogToClient()
+}
+extension MiniPlengi.Plengi {
   public class func TEST_sdkVersion() -> Swift.String?
   public class func TEST_modelName() -> Swift.String
   public class func TEST_userPersonalData() -> (ID: Swift.String?, secret: Swift.String?, code: Swift.String?)
@@ -167,6 +169,7 @@ extension MiniPlengi.Plengi {
   public class func changeMode(sdkMode: MiniPlengi.MonitoringType)
   public class func fetchLogs(page: Swift.Int? = nil, id: Swift.Int? = nil, searchKeyWord: Swift.String? = nil, completion: @escaping (_ log: [(message: Swift.String, time: Swift.Int64, plengiResponse: Foundation.Data?, logType: MiniPlengi.LogType)], _ id: Swift.Int?) -> Swift.Void)
   public class func fetchLog() -> Swift.String
+  public class func removeAllLog()
   public class func getIdfa() -> Swift.String?
   public class func getDeviceInfo() -> Swift.String?
   @objc public static var isLogViewNeeded: Swift.Bool {
@@ -433,6 +436,8 @@ extension MiniPlengi.Plengi {
   case RELEASE_SERVER = 0
   case HALF_STAGING_SERVER = 1
   case FULL_STAGING_SERVER = 2
+  case GKE_RELEASE_SERVER = 100
+  case GKE_STAGING_SERVER = 101
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -440,8 +445,6 @@ extension MiniPlengi.Plengi {
   }
 }
 extension MiniPlengi.Plengi {
-  @available(*, deprecated, message: "This method will be deprecated loplat SDK v1.3.2\nPlease consider using `Plengi.initialize()` API instead.`")
-  @objc dynamic public class func `init`(clientID ID: Swift.String, clientSecret secret: Swift.String, echoCode: Swift.String? = nil) -> MiniPlengi.Result
   @objc dynamic public class func setEchoCode(echoCode: Swift.String?) -> MiniPlengi.Result
   @objc dynamic public class func initialize(clientID ID: Swift.String, clientSecret secret: Swift.String) -> MiniPlengi.Result
   @objc dynamic public class func setBrazeUserID(userID: Swift.String)
@@ -460,18 +463,15 @@ extension MiniPlengi.Plengi {
   @objc dynamic public class func enableAdNetwork(_ enableAd: Swift.Bool, enableNoti: Swift.Bool = true) -> MiniPlengi.Result
 }
 extension MiniPlengi.Plengi {
-  @objc dynamic public class func manual_refreshPlace_foreground() -> MiniPlengi.Result
-  @objc dynamic public class func manual_refreshPlace_ip_location() -> MiniPlengi.Result
-  public class func shareLogToClient()
-}
-extension MiniPlengi.Plengi {
   @objc dynamic public class func processLoplatAdvertisement(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void) -> MiniPlengi.Result
-  @objc dynamic public class func processLoplatAdvertisement(_ application: UIKit.UIApplication, handleActionWithIdentifier identifier: Swift.String?, for notification: UIKit.UILocalNotification, completionHandler: @escaping () -> Swift.Void) -> MiniPlengi.Result
-  @objc dynamic public class func processLoplatAdvertisement(_ application: UIKit.UIApplication, didFinishLaunchingWithOptions launchOptions: [Swift.AnyHashable : Any]?) -> MiniPlengi.Result
 }
 extension MiniPlengi.Plengi {
   public class func registerBgFetch()
   public class func setLocationAuthorizationAlert(title: Swift.String, message: Swift.String)
+}
+extension MiniPlengi.Plengi {
+  @available(*, deprecated, message: "This method will be deprecated loplat SDK v1.3.2\nPlease consider using `Plengi.initialize(clientID:clientSecret:)` API instead.\nOnce deprecated, this method will always return .FAIL.")
+  @objc dynamic public class func `init`(clientID ID: Swift.String, clientSecret secret: Swift.String, echoCode: Swift.String? = nil) -> MiniPlengi.Result
 }
 @_inheritsConvenienceInitializers @objc open class District : ObjectiveC.NSObject, Foundation.NSSecureCoding {
   @objc public static var supportsSecureCoding: Swift.Bool
@@ -571,6 +571,9 @@ extension MiniPlengi.CarDetectionEngineStatus : Swift.RawRepresentable {}
 extension MiniPlengi.CarDetectionStatus : Swift.Equatable {}
 extension MiniPlengi.CarDetectionStatus : Swift.Hashable {}
 extension MiniPlengi.CarDetectionStatus : Swift.RawRepresentable {}
+extension MiniPlengi.TestModeStatus : Swift.Equatable {}
+extension MiniPlengi.TestModeStatus : Swift.Hashable {}
+extension MiniPlengi.TestModeStatus : Swift.RawRepresentable {}
 extension MiniPlengi.CarDetectionResult : Swift.Equatable {}
 extension MiniPlengi.CarDetectionResult : Swift.Hashable {}
 extension MiniPlengi.CarDetectionResult : Swift.RawRepresentable {}
@@ -589,9 +592,6 @@ extension MiniPlengi.ResponseType : Swift.RawRepresentable {}
 extension MiniPlengi.EngineStatus : Swift.Equatable {}
 extension MiniPlengi.EngineStatus : Swift.Hashable {}
 extension MiniPlengi.EngineStatus : Swift.RawRepresentable {}
-extension MiniPlengi.TestModeStatus : Swift.Equatable {}
-extension MiniPlengi.TestModeStatus : Swift.Hashable {}
-extension MiniPlengi.TestModeStatus : Swift.RawRepresentable {}
 extension MiniPlengi.UserStatus : Swift.Equatable {}
 extension MiniPlengi.UserStatus : Swift.Hashable {}
 extension MiniPlengi.UserStatus : Swift.RawRepresentable {}
