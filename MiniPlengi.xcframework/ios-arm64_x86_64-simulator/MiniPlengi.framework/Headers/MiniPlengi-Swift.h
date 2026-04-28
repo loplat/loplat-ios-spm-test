@@ -281,7 +281,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreLocation;
 @import Foundation;
 @import ObjectiveC;
 #endif
@@ -350,6 +349,25 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL supportsSecureCoding;)
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class CLCircularRegion;
+/// Bubble monitoring 등록 시점의 region 정보를 로그 payload로 보존하는 객체입니다.
+SWIFT_CLASS("_TtC10MiniPlengi32BubbleMonitoringRegionLogPayload")
+@interface BubbleMonitoringRegionLogPayload : NSObject <NSSecureCoding>
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL supportsSecureCoding;)
++ (BOOL)supportsSecureCoding SWIFT_WARN_UNUSED_RESULT;
++ (void)setSupportsSecureCoding:(BOOL)value;
+@property (nonatomic, readonly, copy) NSString * _Nonnull identifier;
+@property (nonatomic, readonly) double latitude;
+@property (nonatomic, readonly) double longitude;
+@property (nonatomic, readonly) double radius;
+- (nonnull instancetype)initWithIdentifier:(NSString * _Nonnull)identifier latitude:(double)latitude longitude:(double)longitude radius:(double)radius OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithRegion:(CLCircularRegion * _Nonnull)region;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 SWIFT_CLASS("_TtC10MiniPlengi17CampaignCandidate")
@@ -546,24 +564,17 @@ typedef SWIFT_ENUM(NSInteger, PlaceEvent, open) {
   PlaceEventNEARBY = 3,
 };
 
-@class CLLocationManager;
 /// 로플랫 SDK (이하 Plengi)는 실내위치를 판별하고, 해당 장소에 들어옴, 나감에 대한 이벤트를 트래킹할 수 있으며, 이러한 정보를 통해 마케팅을 할 수 있는 SDK 입니다.
 /// 자세한 SDK 사용방법은 https://developers.loplat.com 을 참조하세요.
 SWIFT_CLASS("_TtC10MiniPlengi6Plengi")
-@interface Plengi : NSObject <CLLocationManagerDelegate>
-- (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
-- (void)locationManagerDidChangeAuthorization:(CLLocationManager * _Nonnull)manager SWIFT_AVAILABILITY(ios,introduced=14.0);
+@interface Plengi : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-enum Result : NSInteger;
-@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
-+ (enum Result)initWithClientID:(NSString * _Nonnull)ID clientSecret:(NSString * _Nonnull)secret echoCode:(NSString * _Nullable)echoCode SWIFT_METHOD_FAMILY(none) SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("\nThis method will be deprecated loplat SDK v1.3.2\nPlease consider using `Plengi.initialize(clientID:clientSecret:)` API instead.\nOnce deprecated, this method will always return .FAIL.\n");
-@end
-
 @class UNUserNotificationCenter;
 @class UNNotificationResponse;
+enum Result : NSInteger;
 @interface Plengi (SWIFT_EXTENSION(MiniPlengi))
 /// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
 /// \param center AppDelegate에 UNNotificationHandler에 있는 UNNotificationCenter 객체
@@ -587,22 +598,7 @@ enum Result : NSInteger;
 @end
 
 @interface Plengi (SWIFT_EXTENSION(MiniPlengi))
-/// 수동으로 현재 위치를 인식하도록 요청합니다.
-/// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
-/// warning:
-/// 테스트 용도로만 사용하셔야 합니다. 테스트를 위해 포그라운드 상태에서만 작동됩니다. !!! 메인 쓰레드에서만 사용가능합니다.
-///
-/// returns:
-/// PlengiResponse.Result: PlengiResponse 객체의 Result
-+ (enum Result)manual_refreshPlace_foreground SWIFT_WARN_UNUSED_RESULT;
-/// 수동으로 현재 위치를 인식하도록 요청합니다. (IP Location)
-/// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
-/// warning:
-/// 테스트 용도로만 사용하셔야 합니다. 테스트를 위해 포그라운드 상태에서만 작동됩니다. !!! 메인 쓰레드에서만 사용가능합니다.
-///
-/// returns:
-/// PlengiResponse.Result: PlengiResponse 객체의 Result
-+ (enum Result)manual_refreshPlace_ip_location SWIFT_WARN_UNUSED_RESULT;
++ (enum Result)initWithClientID:(NSString * _Nonnull)ID clientSecret:(NSString * _Nonnull)secret echoCode:(NSString * _Nullable)echoCode SWIFT_METHOD_FAMILY(none) SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("\nThis method will be deprecated loplat SDK v1.3.2\nPlease consider using `Plengi.initialize(clientID:clientSecret:)` API instead.\nOnce deprecated, this method will always return .FAIL.\n");
 @end
 
 @interface Plengi (SWIFT_EXTENSION(MiniPlengi))
@@ -640,6 +636,25 @@ enum Result : NSInteger;
 /// returns:
 /// PlengiResponse.Result: PlengiResponse 객체의 Result
 + (enum Result)enableAdNetwork:(BOOL)enableAd enableNoti:(BOOL)enableNoti SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
+/// 수동으로 현재 위치를 인식하도록 요청합니다.
+/// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
+/// warning:
+/// 테스트 용도로만 사용하셔야 합니다. 테스트를 위해 포그라운드 상태에서만 작동됩니다. !!! 메인 쓰레드에서만 사용가능합니다.
+///
+/// returns:
+/// PlengiResponse.Result: PlengiResponse 객체의 Result
++ (enum Result)manual_refreshPlace_foreground SWIFT_WARN_UNUSED_RESULT;
+/// 수동으로 현재 위치를 인식하도록 요청합니다. (IP Location)
+/// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
+/// warning:
+/// 테스트 용도로만 사용하셔야 합니다. 테스트를 위해 포그라운드 상태에서만 작동됩니다. !!! 메인 쓰레드에서만 사용가능합니다.
+///
+/// returns:
+/// PlengiResponse.Result: PlengiResponse 객체의 Result
++ (enum Result)manual_refreshPlace_ip_location SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @interface Plengi (SWIFT_EXTENSION(MiniPlengi))
@@ -695,9 +710,32 @@ enum Result : NSInteger;
 ///   </li>
 /// </ul>
 + (void)requestAlwaysLocationAuthorization;
-/// 추적 권한을 요청합니다.
-/// iOS 14.5부터 IDFA(광고아이디)를 사용하기 위하여 유저가 권한을 부여해야 합니다.
+/// 추적 권한을 요청합니다. (handler)
+/// <ul>
+///   <li>
+///     IDFA = 광고 아이디
+///   </li>
+///   <li>
+///     iOS 14.5 미만 : IDFA 자유 접근
+///   </li>
+///   <li>
+///     iOS 14.5 이상 : IDFA를 사용하기 위하여 유저에게 권한 획득 필수
+///   </li>
+/// </ul>
 + (void)requestTrackingAuthorizationWithCompletion:(void (^ _Nonnull)(void))completion;
+/// 추적 권한을 요청합니다. (async/await)
+/// <ul>
+///   <li>
+///     IDFA = 광고 아이디
+///   </li>
+///   <li>
+///     iOS 14.5 미만 : IDFA 자유 접근
+///   </li>
+///   <li>
+///     iOS 14.5 이상 : IDFA를 사용하기 위하여 유저에게 권한 획득 필수
+///   </li>
+/// </ul>
++ (void)requestTrackingAuthorizationWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
 /// SDK의 버전을 전달합니다.
 ///
 /// returns:
@@ -754,12 +792,6 @@ enum Result : NSInteger;
 /// returns:
 /// PlengiResponse.Result: PlengiResponse 객체의 Result
 + (enum Result)getCurrentLocationInfoWithCompletion:(void (^ _Nonnull)(PlengiResponse * _Nonnull))completion SWIFT_WARN_UNUSED_RESULT;
-@end
-
-@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isLogViewNeeded;)
-+ (BOOL)isLogViewNeeded SWIFT_WARN_UNUSED_RESULT;
-+ (void)setIsLogViewNeeded:(BOOL)value;
 @end
 
 enum ResponseType : NSInteger;
@@ -844,6 +876,60 @@ typedef SWIFT_ENUM(NSInteger, TestModeStatus, open) {
   TestModeStatusGKE_RELEASE_SERVER = 100,
   TestModeStatusGKE_STAGING_SERVER = 101,
 };
+
+@class UserStatusTransitionGPSPoint;
+/// 상태 전환 판정에 사용된 좌표의 역할과 값을 보존하는 객체입니다.
+SWIFT_CLASS("_TtC10MiniPlengi38UserStatusTransitionDecisionCoordinate")
+@interface UserStatusTransitionDecisionCoordinate : NSObject <NSSecureCoding>
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL supportsSecureCoding;)
++ (BOOL)supportsSecureCoding SWIFT_WARN_UNUSED_RESULT;
++ (void)setSupportsSecureCoding:(BOOL)value;
+@property (nonatomic, readonly, copy) NSString * _Nonnull roleCode;
+@property (nonatomic, readonly, copy) NSString * _Nonnull roleText;
+@property (nonatomic, readonly, strong) UserStatusTransitionGPSPoint * _Nonnull point;
+- (nonnull instancetype)initWithRoleCode:(NSString * _Nonnull)roleCode roleText:(NSString * _Nonnull)roleText point:(UserStatusTransitionGPSPoint * _Nonnull)point OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+/// 상태 전환 시점의 판정 근거와 GPS 타임라인을 로그 payload로 보존하는 객체입니다.
+SWIFT_CLASS("_TtC10MiniPlengi28UserStatusTransitionGPSPoint")
+@interface UserStatusTransitionGPSPoint : NSObject <NSSecureCoding>
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL supportsSecureCoding;)
++ (BOOL)supportsSecureCoding SWIFT_WARN_UNUSED_RESULT;
++ (void)setSupportsSecureCoding:(BOOL)value;
+@property (nonatomic, readonly) double latitude;
+@property (nonatomic, readonly) double longitude;
+@property (nonatomic, readonly) int64_t timestampMillis;
+@property (nonatomic, readonly) double accuracy;
+- (nonnull instancetype)initWithLatitude:(double)latitude longitude:(double)longitude timestampMillis:(int64_t)timestampMillis accuracy:(double)accuracy OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+/// 상태 전환 시점의 reason과 GPS 판단 근거를 함께 저장하는 로그 payload입니다.
+SWIFT_CLASS("_TtC10MiniPlengi30UserStatusTransitionLogPayload")
+@interface UserStatusTransitionLogPayload : NSObject <NSSecureCoding>
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL supportsSecureCoding;)
++ (BOOL)supportsSecureCoding SWIFT_WARN_UNUSED_RESULT;
++ (void)setSupportsSecureCoding:(BOOL)value;
+@property (nonatomic, readonly) NSInteger fromStatusRawValue;
+@property (nonatomic, readonly) NSInteger toStatusRawValue;
+@property (nonatomic, readonly, copy) NSString * _Nonnull reasonCode;
+@property (nonatomic, readonly, copy) NSString * _Nonnull reasonText;
+@property (nonatomic, readonly) int64_t loggedAtMillis;
+@property (nonatomic, readonly) NSInteger queueCountOriginal;
+@property (nonatomic, readonly, copy) NSArray<UserStatusTransitionGPSPoint *> * _Nonnull timeline;
+@property (nonatomic, readonly, copy) NSArray<UserStatusTransitionDecisionCoordinate *> * _Nonnull decisionCoordinates;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
 
 #endif
 #if __has_attribute(external_source_symbol)
@@ -1136,7 +1222,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreLocation;
 @import Foundation;
 @import ObjectiveC;
 #endif
@@ -1205,6 +1290,25 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL supportsSecureCoding;)
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class CLCircularRegion;
+/// Bubble monitoring 등록 시점의 region 정보를 로그 payload로 보존하는 객체입니다.
+SWIFT_CLASS("_TtC10MiniPlengi32BubbleMonitoringRegionLogPayload")
+@interface BubbleMonitoringRegionLogPayload : NSObject <NSSecureCoding>
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL supportsSecureCoding;)
++ (BOOL)supportsSecureCoding SWIFT_WARN_UNUSED_RESULT;
++ (void)setSupportsSecureCoding:(BOOL)value;
+@property (nonatomic, readonly, copy) NSString * _Nonnull identifier;
+@property (nonatomic, readonly) double latitude;
+@property (nonatomic, readonly) double longitude;
+@property (nonatomic, readonly) double radius;
+- (nonnull instancetype)initWithIdentifier:(NSString * _Nonnull)identifier latitude:(double)latitude longitude:(double)longitude radius:(double)radius OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithRegion:(CLCircularRegion * _Nonnull)region;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 SWIFT_CLASS("_TtC10MiniPlengi17CampaignCandidate")
@@ -1401,24 +1505,17 @@ typedef SWIFT_ENUM(NSInteger, PlaceEvent, open) {
   PlaceEventNEARBY = 3,
 };
 
-@class CLLocationManager;
 /// 로플랫 SDK (이하 Plengi)는 실내위치를 판별하고, 해당 장소에 들어옴, 나감에 대한 이벤트를 트래킹할 수 있으며, 이러한 정보를 통해 마케팅을 할 수 있는 SDK 입니다.
 /// 자세한 SDK 사용방법은 https://developers.loplat.com 을 참조하세요.
 SWIFT_CLASS("_TtC10MiniPlengi6Plengi")
-@interface Plengi : NSObject <CLLocationManagerDelegate>
-- (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
-- (void)locationManagerDidChangeAuthorization:(CLLocationManager * _Nonnull)manager SWIFT_AVAILABILITY(ios,introduced=14.0);
+@interface Plengi : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-enum Result : NSInteger;
-@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
-+ (enum Result)initWithClientID:(NSString * _Nonnull)ID clientSecret:(NSString * _Nonnull)secret echoCode:(NSString * _Nullable)echoCode SWIFT_METHOD_FAMILY(none) SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("\nThis method will be deprecated loplat SDK v1.3.2\nPlease consider using `Plengi.initialize(clientID:clientSecret:)` API instead.\nOnce deprecated, this method will always return .FAIL.\n");
-@end
-
 @class UNUserNotificationCenter;
 @class UNNotificationResponse;
+enum Result : NSInteger;
 @interface Plengi (SWIFT_EXTENSION(MiniPlengi))
 /// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
 /// \param center AppDelegate에 UNNotificationHandler에 있는 UNNotificationCenter 객체
@@ -1442,22 +1539,7 @@ enum Result : NSInteger;
 @end
 
 @interface Plengi (SWIFT_EXTENSION(MiniPlengi))
-/// 수동으로 현재 위치를 인식하도록 요청합니다.
-/// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
-/// warning:
-/// 테스트 용도로만 사용하셔야 합니다. 테스트를 위해 포그라운드 상태에서만 작동됩니다. !!! 메인 쓰레드에서만 사용가능합니다.
-///
-/// returns:
-/// PlengiResponse.Result: PlengiResponse 객체의 Result
-+ (enum Result)manual_refreshPlace_foreground SWIFT_WARN_UNUSED_RESULT;
-/// 수동으로 현재 위치를 인식하도록 요청합니다. (IP Location)
-/// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
-/// warning:
-/// 테스트 용도로만 사용하셔야 합니다. 테스트를 위해 포그라운드 상태에서만 작동됩니다. !!! 메인 쓰레드에서만 사용가능합니다.
-///
-/// returns:
-/// PlengiResponse.Result: PlengiResponse 객체의 Result
-+ (enum Result)manual_refreshPlace_ip_location SWIFT_WARN_UNUSED_RESULT;
++ (enum Result)initWithClientID:(NSString * _Nonnull)ID clientSecret:(NSString * _Nonnull)secret echoCode:(NSString * _Nullable)echoCode SWIFT_METHOD_FAMILY(none) SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("\nThis method will be deprecated loplat SDK v1.3.2\nPlease consider using `Plengi.initialize(clientID:clientSecret:)` API instead.\nOnce deprecated, this method will always return .FAIL.\n");
 @end
 
 @interface Plengi (SWIFT_EXTENSION(MiniPlengi))
@@ -1495,6 +1577,25 @@ enum Result : NSInteger;
 /// returns:
 /// PlengiResponse.Result: PlengiResponse 객체의 Result
 + (enum Result)enableAdNetwork:(BOOL)enableAd enableNoti:(BOOL)enableNoti SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
+/// 수동으로 현재 위치를 인식하도록 요청합니다.
+/// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
+/// warning:
+/// 테스트 용도로만 사용하셔야 합니다. 테스트를 위해 포그라운드 상태에서만 작동됩니다. !!! 메인 쓰레드에서만 사용가능합니다.
+///
+/// returns:
+/// PlengiResponse.Result: PlengiResponse 객체의 Result
++ (enum Result)manual_refreshPlace_foreground SWIFT_WARN_UNUSED_RESULT;
+/// 수동으로 현재 위치를 인식하도록 요청합니다. (IP Location)
+/// 성공한 경우 PlengiResponse.Result.SUCCESS / 문제가 발생했을 경우에는 PlengiResponse.Result.FAILED가 반환됩니다.
+/// warning:
+/// 테스트 용도로만 사용하셔야 합니다. 테스트를 위해 포그라운드 상태에서만 작동됩니다. !!! 메인 쓰레드에서만 사용가능합니다.
+///
+/// returns:
+/// PlengiResponse.Result: PlengiResponse 객체의 Result
++ (enum Result)manual_refreshPlace_ip_location SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @interface Plengi (SWIFT_EXTENSION(MiniPlengi))
@@ -1550,9 +1651,32 @@ enum Result : NSInteger;
 ///   </li>
 /// </ul>
 + (void)requestAlwaysLocationAuthorization;
-/// 추적 권한을 요청합니다.
-/// iOS 14.5부터 IDFA(광고아이디)를 사용하기 위하여 유저가 권한을 부여해야 합니다.
+/// 추적 권한을 요청합니다. (handler)
+/// <ul>
+///   <li>
+///     IDFA = 광고 아이디
+///   </li>
+///   <li>
+///     iOS 14.5 미만 : IDFA 자유 접근
+///   </li>
+///   <li>
+///     iOS 14.5 이상 : IDFA를 사용하기 위하여 유저에게 권한 획득 필수
+///   </li>
+/// </ul>
 + (void)requestTrackingAuthorizationWithCompletion:(void (^ _Nonnull)(void))completion;
+/// 추적 권한을 요청합니다. (async/await)
+/// <ul>
+///   <li>
+///     IDFA = 광고 아이디
+///   </li>
+///   <li>
+///     iOS 14.5 미만 : IDFA 자유 접근
+///   </li>
+///   <li>
+///     iOS 14.5 이상 : IDFA를 사용하기 위하여 유저에게 권한 획득 필수
+///   </li>
+/// </ul>
++ (void)requestTrackingAuthorizationWithCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
 /// SDK의 버전을 전달합니다.
 ///
 /// returns:
@@ -1609,12 +1733,6 @@ enum Result : NSInteger;
 /// returns:
 /// PlengiResponse.Result: PlengiResponse 객체의 Result
 + (enum Result)getCurrentLocationInfoWithCompletion:(void (^ _Nonnull)(PlengiResponse * _Nonnull))completion SWIFT_WARN_UNUSED_RESULT;
-@end
-
-@interface Plengi (SWIFT_EXTENSION(MiniPlengi))
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isLogViewNeeded;)
-+ (BOOL)isLogViewNeeded SWIFT_WARN_UNUSED_RESULT;
-+ (void)setIsLogViewNeeded:(BOOL)value;
 @end
 
 enum ResponseType : NSInteger;
@@ -1699,6 +1817,60 @@ typedef SWIFT_ENUM(NSInteger, TestModeStatus, open) {
   TestModeStatusGKE_RELEASE_SERVER = 100,
   TestModeStatusGKE_STAGING_SERVER = 101,
 };
+
+@class UserStatusTransitionGPSPoint;
+/// 상태 전환 판정에 사용된 좌표의 역할과 값을 보존하는 객체입니다.
+SWIFT_CLASS("_TtC10MiniPlengi38UserStatusTransitionDecisionCoordinate")
+@interface UserStatusTransitionDecisionCoordinate : NSObject <NSSecureCoding>
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL supportsSecureCoding;)
++ (BOOL)supportsSecureCoding SWIFT_WARN_UNUSED_RESULT;
++ (void)setSupportsSecureCoding:(BOOL)value;
+@property (nonatomic, readonly, copy) NSString * _Nonnull roleCode;
+@property (nonatomic, readonly, copy) NSString * _Nonnull roleText;
+@property (nonatomic, readonly, strong) UserStatusTransitionGPSPoint * _Nonnull point;
+- (nonnull instancetype)initWithRoleCode:(NSString * _Nonnull)roleCode roleText:(NSString * _Nonnull)roleText point:(UserStatusTransitionGPSPoint * _Nonnull)point OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+/// 상태 전환 시점의 판정 근거와 GPS 타임라인을 로그 payload로 보존하는 객체입니다.
+SWIFT_CLASS("_TtC10MiniPlengi28UserStatusTransitionGPSPoint")
+@interface UserStatusTransitionGPSPoint : NSObject <NSSecureCoding>
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL supportsSecureCoding;)
++ (BOOL)supportsSecureCoding SWIFT_WARN_UNUSED_RESULT;
++ (void)setSupportsSecureCoding:(BOOL)value;
+@property (nonatomic, readonly) double latitude;
+@property (nonatomic, readonly) double longitude;
+@property (nonatomic, readonly) int64_t timestampMillis;
+@property (nonatomic, readonly) double accuracy;
+- (nonnull instancetype)initWithLatitude:(double)latitude longitude:(double)longitude timestampMillis:(int64_t)timestampMillis accuracy:(double)accuracy OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+/// 상태 전환 시점의 reason과 GPS 판단 근거를 함께 저장하는 로그 payload입니다.
+SWIFT_CLASS("_TtC10MiniPlengi30UserStatusTransitionLogPayload")
+@interface UserStatusTransitionLogPayload : NSObject <NSSecureCoding>
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL supportsSecureCoding;)
++ (BOOL)supportsSecureCoding SWIFT_WARN_UNUSED_RESULT;
++ (void)setSupportsSecureCoding:(BOOL)value;
+@property (nonatomic, readonly) NSInteger fromStatusRawValue;
+@property (nonatomic, readonly) NSInteger toStatusRawValue;
+@property (nonatomic, readonly, copy) NSString * _Nonnull reasonCode;
+@property (nonatomic, readonly, copy) NSString * _Nonnull reasonText;
+@property (nonatomic, readonly) int64_t loggedAtMillis;
+@property (nonatomic, readonly) NSInteger queueCountOriginal;
+@property (nonatomic, readonly, copy) NSArray<UserStatusTransitionGPSPoint *> * _Nonnull timeline;
+@property (nonatomic, readonly, copy) NSArray<UserStatusTransitionDecisionCoordinate *> * _Nonnull decisionCoordinates;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
 
 #endif
 #if __has_attribute(external_source_symbol)

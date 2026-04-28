@@ -4,69 +4,57 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>ClientLog.storyboardc/Info.plist</key>
-		<data>
-		iIFKCSjeh5TtdggtxyrLFdIZwH4=
-		</data>
-		<key>ClientLog.storyboardc/UINavigationController-3Iw-dC-gV5.nib</key>
-		<data>
-		LhSqG9ycbFtmStR8ujIKWoqDyOU=
-		</data>
-		<key>ClientLog.storyboardc/XoV-UC-UVQ-view-pZZ-uM-a6L.nib</key>
-		<data>
-		LLOdXC/pN0iCoPX+ThWaRKP5n6w=
-		</data>
 		<key>Headers/MiniPlengi-Swift.h</key>
 		<data>
-		q2m5IUakBvmPRqve5QNooQKsUNY=
+		ZCquwZGj9Q15rxu2pPIe7E1AAVc=
 		</data>
 		<key>Headers/MiniPlengi.h</key>
 		<data>
-		jXIsGq0a9+RkOy48vPOy4JyiTRQ=
+		1wbpxAQ6fGFq5m5kFOp7o5bY9LQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mkvWre3NIEAOEeqlIgYCBWKuSV4=
+		yKx3Omluh6SBeRWIvqGLU29tSgQ=
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		DKcK/eFDlQwdISdf7M7VzzcuYUo=
+		JhknltVjzeyjSHqN6gfA+nEP75Y=
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		mC5PQl0YEwZmIMo5B9FK2FS662M=
+		kXaBU/yZlkTWedbxiMaHglo5uu4=
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		QlLJ8MVSUf4/7pDqWZO0FoWF+jM=
+		W3uxtIZhzJHaeN2O95kJjzT7Zdk=
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		mC5PQl0YEwZmIMo5B9FK2FS662M=
+		kXaBU/yZlkTWedbxiMaHglo5uu4=
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		frci/CjMcKQMvt8wRE6yNu4DCJQ=
+		77a2bSMzgUxLnUO8mXzOawI+DkI=
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		DKcK/eFDlQwdISdf7M7VzzcuYUo=
+		JhknltVjzeyjSHqN6gfA+nEP75Y=
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		S0IZAkt0B6yp8U6ZU0FQgIgsTho=
+		AyJfF+Qlxv4q5IqYWnA6RuxKOAY=
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		1AWE8GOx1RmwyZFe8Ni3xJHqTM4=
+		4Y3odTRDsnz8qml62/ZUtX54kGU=
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		S0IZAkt0B6yp8U6ZU0FQgIgsTho=
+		AyJfF+Qlxv4q5IqYWnA6RuxKOAY=
 		</data>
 		<key>Modules/MiniPlengi.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		brodrnNtPfjMV1H4O956u/Q97uI=
+		VOICl7NxTcBywSxF4TIHhqv9Sjw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -82,7 +70,7 @@
 		</data>
 		<key>loplatActivityRecognition.mlmodelc/coremldata.bin</key>
 		<data>
-		z2awcS1pgD/84cs7xHAE3Hht7wI=
+		VvuwYdeHf1oYTnm4Xcfj0PiPALs=
 		</data>
 		<key>loplatActivityRecognition.mlmodelc/metadata.json</key>
 		<data>
@@ -111,109 +99,88 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>ClientLog.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Sil+vVxZAgjVDkEJfL4ut1uFe0uKXe8/ywJAkUV+1+g=
-			</data>
-		</dict>
-		<key>ClientLog.storyboardc/UINavigationController-3Iw-dC-gV5.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9vY12Mc+zKrWKbEO+JydzNlJ4jfzy8XQARaFT6rJ08w=
-			</data>
-		</dict>
-		<key>ClientLog.storyboardc/XoV-UC-UVQ-view-pZZ-uM-a6L.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gSPE48Arge4xQjxHM+jxKCMQnbKl55/Rm0vS99sHrvc=
-			</data>
-		</dict>
 		<key>Headers/MiniPlengi-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wIrtF7vYgx2CSxGsuA737XTGL+EpOogiR5Td2MUkGdk=
+			Dq5uzUqqiznlIagsOinK2sN/aLJguSmHMpLyec/sjAU=
 			</data>
 		</dict>
 		<key>Headers/MiniPlengi.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yodUAUUjKxo5vh0G+2pbtBzXOg2ZEJmD7QWKEq8pW6Q=
+			9QO5Q3OFBGZRjMR4CdsLL5oYX9sD5NxuxbKheqq2+3I=
 			</data>
 		</dict>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FKETOtzlugJwi4mqgjnV/9R6LW8yxeA//ZHwI3j4vCU=
+			esoqdfZxQQeax+fMq38rcLwRH8rs28RKVIZXFFW2Z/c=
 			</data>
 		</dict>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6FQi3tXqSXuEapD8BnD6mpKsUvxBC+XHi1Q5ip6hjVs=
+			JI7lHssjlXvkhlUxt2i/ddsexD504vZcQ23RBjrKE5U=
 			</data>
 		</dict>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G2c5XcUNu+VcPN8dHALQ90GDIRlIurDG649ZbkoB6T4=
+			UeTn84CeF1NRVMiT9tS2l9n+KUjEXd3KqfrveYe/6Xc=
 			</data>
 		</dict>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6FQi3tXqSXuEapD8BnD6mpKsUvxBC+XHi1Q5ip6hjVs=
+			JI7lHssjlXvkhlUxt2i/ddsexD504vZcQ23RBjrKE5U=
 			</data>
 		</dict>
 		<key>Modules/MiniPlengi.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ShMDRFQepySDUt016jliJzpEDgv4lhdBhrSfo+mZr4A=
+			YDfkgORGuZW6qZ/QGB1fKoos3WlufzJPVUo1/PtmLQs=
 			</data>
 		</dict>
 		<key>Modules/MiniPlengi.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FKETOtzlugJwi4mqgjnV/9R6LW8yxeA//ZHwI3j4vCU=
+			esoqdfZxQQeax+fMq38rcLwRH8rs28RKVIZXFFW2Z/c=
 			</data>
 		</dict>
 		<key>Modules/MiniPlengi.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wmYR1QoNW51sMH216DdakI3vYnM0yZ0n+XIkG9mLz5M=
+			DDOVu8byemmuSO7LBE0pmjVtBXdWwEtq4klpUZR/KeQ=
 			</data>
 		</dict>
 		<key>Modules/MiniPlengi.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lzH0Dds3DTXceNu3POZKnQw+foPS1iyA4K9tciS/jqw=
+			qlxivNSFLzULvEYxe1CFtS813ADK56W6nlV6wye57eY=
 			</data>
 		</dict>
 		<key>Modules/MiniPlengi.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wmYR1QoNW51sMH216DdakI3vYnM0yZ0n+XIkG9mLz5M=
+			DDOVu8byemmuSO7LBE0pmjVtBXdWwEtq4klpUZR/KeQ=
 			</data>
 		</dict>
 		<key>Modules/MiniPlengi.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uok8nCT4gF13FHA+pCd4+rg5GkTPmfEjLCYfvBat7hQ=
+			znOD1aekUMFhSPwh2GmFjeuJeopQ00comwDeQ42NN80=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -241,7 +208,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			neu4PGAydrt2CvZUHFR6qoKbb//vtfwFiplrS2PE04g=
+			PJh7Qu/p28DHVKfgSAZgrzQe3LpKw/11HFsgK43DBAM=
 			</data>
 		</dict>
 		<key>loplatActivityRecognition.mlmodelc/metadata.json</key>
