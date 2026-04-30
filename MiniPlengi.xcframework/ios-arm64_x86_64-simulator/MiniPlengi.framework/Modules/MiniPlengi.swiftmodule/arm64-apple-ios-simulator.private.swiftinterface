@@ -13,6 +13,7 @@ import Compression
 import CoreLocation
 import CoreML
 import CoreMotion
+import DeveloperToolsSupport
 import Foundation
 import MessageUI
 @_exported import MiniPlengi
@@ -274,10 +275,12 @@ public protocol LogUpdateDelegate : AnyObject {
 extension MiniPlengi.Advertisement {
   public func adSend(phoneNumber: Swift.String)
 }
-public enum TestConfig {
-  public static var showsFloatingButton: Swift.Bool {
-    get
-    set
+extension MiniPlengi.Plengi {
+  public enum TestConfig {
+    public static var showsFloatingButton: Swift.Bool {
+      get
+      set
+    }
   }
 }
 @objc public enum CarDetectionResult : Swift.Int {

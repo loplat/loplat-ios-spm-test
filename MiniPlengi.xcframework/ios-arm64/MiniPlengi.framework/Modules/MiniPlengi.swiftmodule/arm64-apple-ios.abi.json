@@ -4917,6 +4917,123 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "TypeDecl",
+            "name": "TestConfig",
+            "printedName": "TestConfig",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "showsFloatingButton",
+                "printedName": "showsFloatingButton",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10MiniPlengi0B0C10TestConfigO19showsFloatingButtonSbvpZ",
+                "mangledName": "$s10MiniPlengi0B0C10TestConfigO19showsFloatingButtonSbvpZ",
+                "moduleName": "MiniPlengi",
+                "static": true,
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10MiniPlengi0B0C10TestConfigO19showsFloatingButtonSbvgZ",
+                    "mangledName": "$s10MiniPlengi0B0C10TestConfigO19showsFloatingButtonSbvgZ",
+                    "moduleName": "MiniPlengi",
+                    "static": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10MiniPlengi0B0C10TestConfigO19showsFloatingButtonSbvsZ",
+                    "mangledName": "$s10MiniPlengi0B0C10TestConfigO19showsFloatingButtonSbvsZ",
+                    "moduleName": "MiniPlengi",
+                    "static": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10MiniPlengi0B0C10TestConfigO19showsFloatingButtonSbvMZ",
+                    "mangledName": "$s10MiniPlengi0B0C10TestConfigO19showsFloatingButtonSbvMZ",
+                    "moduleName": "MiniPlengi",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:10MiniPlengi0B0C10TestConfigO",
+            "mangledName": "$s10MiniPlengi0B0C10TestConfigO",
+            "moduleName": "MiniPlengi",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "getCurrentLocationInfo",
             "printedName": "getCurrentLocationInfo(completionHandler:)",
@@ -13353,122 +13470,6 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "MiniPlengi"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "TestConfig",
-        "printedName": "TestConfig",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "showsFloatingButton",
-            "printedName": "showsFloatingButton",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10MiniPlengi10TestConfigO19showsFloatingButtonSbvpZ",
-            "mangledName": "$s10MiniPlengi10TestConfigO19showsFloatingButtonSbvpZ",
-            "moduleName": "MiniPlengi",
-            "static": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi10TestConfigO19showsFloatingButtonSbvgZ",
-                "mangledName": "$s10MiniPlengi10TestConfigO19showsFloatingButtonSbvgZ",
-                "moduleName": "MiniPlengi",
-                "static": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi10TestConfigO19showsFloatingButtonSbvsZ",
-                "mangledName": "$s10MiniPlengi10TestConfigO19showsFloatingButtonSbvsZ",
-                "moduleName": "MiniPlengi",
-                "static": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MiniPlengi10TestConfigO19showsFloatingButtonSbvMZ",
-                "mangledName": "$s10MiniPlengi10TestConfigO19showsFloatingButtonSbvMZ",
-                "moduleName": "MiniPlengi",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:10MiniPlengi10TestConfigO",
-        "mangledName": "$s10MiniPlengi10TestConfigO",
-        "moduleName": "MiniPlengi",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
       },
       {
         "kind": "Import",
@@ -25213,6 +25214,34 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "MiniPlengi"
+      },
+      {
         "kind": "TypeDecl",
         "name": "Optional",
         "printedName": "Optional",
@@ -33531,6 +33560,20 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/soohyeonlee\/Documents\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Testing\/SDKStatus\/SDKStatusSnapshot.swift",
+      "kind": "BooleanLiteral",
+      "offset": 887,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/soohyeonlee\/Documents\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Testing\/SDKStatus\/SDKStatusSnapshot.swift",
+      "kind": "BooleanLiteral",
+      "offset": 933,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/soohyeonlee\/Documents\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Testing\/Notification\/TestNotificationMessageBuilder.swift",
       "kind": "StringLiteral",
       "offset": 298,
@@ -33543,20 +33586,6 @@
       "offset": 338,
       "length": 10,
       "value": "\"HH:mm:ss\""
-    },
-    {
-      "filePath": "\/Users\/soohyeonlee\/Documents\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Testing\/Report\/TestReportBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 472,
-      "length": 7,
-      "value": "\"ko_KR\""
-    },
-    {
-      "filePath": "\/Users\/soohyeonlee\/Documents\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Testing\/Report\/TestReportBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 512,
-      "length": 21,
-      "value": "\"yyyy-MM-dd HH:mm:ss\""
     },
     {
       "filePath": "\/Users\/soohyeonlee\/Documents\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Testing\/SDKStatus\/SDKStatusSettingsView.swift",
@@ -36697,21 +36726,42 @@
     {
       "filePath": "\/Users\/soohyeonlee\/Documents\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Testing\/Floating\/TestFloatingButtonController.swift",
       "kind": "StringLiteral",
-      "offset": 262,
+      "offset": 272,
       "length": 43,
       "value": "\"loplat.test.sdkStatusNavigationController\""
     },
     {
       "filePath": "\/Users\/soohyeonlee\/Documents\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Testing\/Floating\/TestFloatingButtonController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 357,
+      "length": 2,
+      "value": "56"
+    },
+    {
+      "filePath": "\/Users\/soohyeonlee\/Documents\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Testing\/Floating\/TestFloatingButtonController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 416,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/soohyeonlee\/Documents\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Testing\/Floating\/TestFloatingButtonController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 461,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/soohyeonlee\/Documents\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Testing\/Floating\/TestFloatingButtonController.swift",
       "kind": "BooleanLiteral",
-      "offset": 399,
+      "offset": 557,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/soohyeonlee\/Documents\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Testing\/Floating\/TestFloatingButtonController.swift",
       "kind": "Array",
-      "offset": 547,
+      "offset": 843,
       "length": 2,
       "value": "[]"
     },
@@ -36865,7 +36915,7 @@
     {
       "filePath": "\/Users\/soohyeonlee\/Documents\/loplat\/loplat-ios-sdk_v2\/PlaceEngine\/PlaceEngine\/Plengi.Interface.swift",
       "kind": "BooleanLiteral",
-      "offset": 7836,
+      "offset": 7874,
       "length": 4,
       "value": "true"
     },
@@ -38310,6 +38360,13 @@
       "offset": 757,
       "length": 65,
       "value": "[\"acceleration_x\", \"acceleration_y\", \"acceleration_z\", \"stateIn\"]"
+    },
+    {
+      "filePath": "\/Users\/soohyeonlee\/Library\/Developer\/Xcode\/DerivedData\/MiniPlengi-fxsazgiyynxniofyerywoaovtbpr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Release-MiniPlengi Test (Swift 5.1)\/IntermediateBuildFilesPath\/MiniPlengi.build\/Release-iphoneos\/Release-MiniPlengi Test (Swift 5.1).build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 734,
+      "length": 13,
+      "value": "\"logo_symbol\""
     }
   ]
 }
