@@ -218,6 +218,10 @@ extension MiniPlengi.Plengi {
   public static func setLongStay()
 }
 extension MiniPlengi.Plengi {
+  public static var shouldPersistLogs: Swift.Bool {
+    get
+    set
+  }
   public static func shareLogToClient()
   #if compiler(>=5.3) && $NonescapableTypes
   public static func fetchLogs(page: Swift.Int? = nil, id: Swift.Int? = nil, searchKeyWord: Swift.String? = nil, completion: @escaping (_ log: [(displayContent: Swift.String, time: Swift.Int64, payload: Foundation.Data?, logType: MiniPlengi.LogType)], _ id: Swift.Int?) -> Swift.Void)
@@ -328,7 +332,11 @@ extension MiniPlengi.Advertisement {
   public func adSend(phoneNumber: Swift.String)
 }
 extension MiniPlengi.Plengi {
-  public enum TestConfig {
+  public enum TestAssistant {
+    public static var enable: Swift.Bool {
+      get
+      set
+    }
     public static var showsFloatingButton: Swift.Bool {
       get
       set
